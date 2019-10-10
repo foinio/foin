@@ -1,6 +1,11 @@
-#ifndef TRANSACTIONRECORD_H
-#define TRANSACTIONRECORD_H
+// Copyright (c) 2011-2014 The Bitcoin Core developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
+#ifndef BITCOIN_QT_TRANSACTIONRECORD_H
+#define BITCOIN_QT_TRANSACTIONRECORD_H
+
+#include "amount.h"
 #include "uint256.h"
 
 #include <QList>
@@ -15,9 +20,16 @@ class TransactionStatus
 {
 public:
     TransactionStatus():
-        countsForBalance(false), sortKey(""),
-        matures_in(0), status(Offline), depth(0), open_for(0), cur_num_blocks(-1)
-    { }
+        countsForBalance(false),
+        sortKey(""),
+        matures_in(0),
+        status(Offline),
+        depth(0),
+        open_for(0),
+        cur_num_blocks(-1),
+        cur_num_conflicts(-1)
+    {
+    }
 
     enum Status {
         Confirmed,          /**< Have 6 or more confirmations (normal tx) or fully mature (mined tx) **/
@@ -28,6 +40,7 @@ public:
         Unconfirmed,        /**< Not yet mined into a block **/
         Confirming,         /**< Confirmed, but waiting for the recommended number of confirmations **/
         Conflicted,         /**< Conflicts with other transaction or mempool **/
+        Abandoned,          /**< Abandoned from the wallet **/
         /// Generated (mined) transactions
         Immature,           /**< Mined but waiting for maturity */
         MaturesWarning,     /**< Transaction will likely not mature because no nodes have confirmed */
@@ -47,14 +60,17 @@ public:
     /** @name Reported status
        @{*/
     Status status;
-    int64_t depth;
-    int64_t open_for; /**< Timestamp if status==OpenUntilDate, otherwise number
-                       of additional blocks that need to be mined before
-                       finalization */
+    qint64 depth;
+    qint64 open_for; /**< Timestamp if status==OpenUntilDate, otherwise number
+                      of additional blocks that need to be mined before
+                      finalization */
     /**@}*/
 
     /** Current number of blocks (to know whether cached status is still valid) */
     int cur_num_blocks;
+
+    /** Number of conflicts received into wallet as of last status update */
+    int64_t cur_num_conflicts;
 };
 
 /** UI model for a transaction. A core transaction can be represented by multiple UI transactions if it has
@@ -75,22 +91,22 @@ public:
     };
 
     /** Number of confirmation recommended for accepting a transaction */
-    static const int RecommendedNumConfirmations = 3;
+    static const int RecommendedNumConfirmations = 10;
 
     TransactionRecord():
             hash(), time(0), type(Other), address(""), debit(0), credit(0), idx(0)
     {
     }
 
-    TransactionRecord(uint256 hash, int64_t time):
+    TransactionRecord(uint256 hash, qint64 time):
             hash(hash), time(time), type(Other), address(""), debit(0),
             credit(0), idx(0)
     {
     }
 
-    TransactionRecord(uint256 hash, int64_t time,
+    TransactionRecord(uint256 hash, qint64 time,
                 Type type, const std::string &address,
-                int64_t debit, int64_t credit):
+                const CAmount& debit, const CAmount& credit):
             hash(hash), time(time), type(type), address(address), debit(debit), credit(credit),
             idx(0)
     {
@@ -107,8 +123,8 @@ public:
     qint64 time;
     Type type;
     std::string address;
-    qint64 debit;
-    qint64 credit;
+    CAmount debit;
+    CAmount credit;
     /**@}*/
 
     /** Subtransaction index, for sort key */
@@ -117,11 +133,14 @@ public:
     /** Status: can change with block chain update */
     TransactionStatus status;
 
+    /** Whether the transaction was sent/received with a watch-only address */
+    bool involvesWatchAddress;
+
     /** Return the unique identifier for this transaction (part) */
     QString getTxID() const;
 
-    /** Format subtransaction id */
-    static QString formatSubTxId(const uint256 &hash, int vout);
+    /** Return the output index of the subtransaction  */
+    int getOutputIndex() const;
 
     /** Update status from core wallet tx.
      */
@@ -129,7 +148,7 @@ public:
 
     /** Return whether a status update is needed.
      */
-    bool statusUpdateNeeded();
+    bool statusUpdateNeeded(int64_t nConflictsReceived);
 };
 
-#endif // TRANSACTIONRECORD_H
+#endif // BITCOIN_QT_TRANSACTIONRECORD_H

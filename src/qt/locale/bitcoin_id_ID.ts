@@ -1,153 +1,110 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="id_ID" version="2.1">
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Foin</source>
-        <translation>Tentang Foin</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;Foin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Foin&lt;/b&gt; versi</translation>
-    </message>
-    <message>
-        <location line="+41"/>
-        <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The BlackCoin developers
-Copyright © 2014 The BlackCoin developers</source>
-        <translation>Copyright © 2009-2014 para pengembang Bitcoin
-Copyright © 2012-2014 para pengembang BlackCoin
-Copyright © 2014 para pengembang Foin</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+<TS language="id_ID" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Buku Alamat</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>Klik-kanan untuk mengubah alamat atau label</translation>
     </message>
     <message>
-        <location line="+22"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Klik dua-kali untuk mengubah alamat atau label</translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>Create a new address</source>
         <translation>Buat alamat baru</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>&amp;New</source>
+        <translation>&amp;Baru</translation>
+    </message>
+    <message>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>Salin alamat yang dipilih ke clipboard</translation>
     </message>
     <message>
-        <location line="-7"/>
-        <source>&amp;New Address</source>
-        <translation>&amp;Alamat Baru</translation>
+        <source>&amp;Copy</source>
+        <translation>&amp;Menyalin</translation>
     </message>
     <message>
-        <location line="-43"/>
-        <source>These are your Foin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Ini adalah alamat Foin Anda untuk menerima pembayaran. Anda dapat memberikan alamat yang berbeda untuk setiap pengirim, sehingga Anda dapat melacak siapa yang membayar Anda.</translation>
+        <source>C&amp;lose</source>
+        <translation>T&amp;utup</translation>
     </message>
     <message>
-        <location line="+53"/>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Salin Alamat</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Unjukkan &amp;Kode QR</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Sign a message to prove you own a Foin address</source>
-        <translation>Masukan  pesan untuk membuktikan bahwa anda telah mempunyai adress Foin</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>Sign &amp; Pesan</translation>
-    </message>
-    <message>
-        <location line="+17"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>Menghapus alamat yang saat ini dipilih dari daftar yang tersedia</translation>
+        <translation>Hapus alamat yang sementara dipilih dari daftar</translation>
     </message>
     <message>
-        <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Foin address</source>
-        <translation type="unfinished"/>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Ekspor data dalam tab sekarang ke sebuah berkas</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation type="unfinished"/>
+        <source>&amp;Export</source>
+        <translation>&amp;Ekspor</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>&amp;Delete</source>
         <translation>&amp;Hapus</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+66"/>
-        <source>Copy &amp;Label</source>
-        <translation>Salin &amp;Label</translation>
+        <source>Choose the address to send coins to</source>
+        <translation>Pilih alamat untuk mengirim koin</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Choose the address to receive coins with</source>
+        <translation>Piih alamat untuk menerima koin</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>&amp;Pilih</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Alamat-alamat pengirim</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Alamat-alamat penerima</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ini adalah alamat- alamat Foin Anda untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ini adalah alamat- alamat Foin Anda untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerima yang baru setiap melakukan transaksi.</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Salin Alamat</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Label</source>
+        <translation>Salin&amp; Label</translation>
+    </message>
+    <message>
         <source>&amp;Edit</source>
         <translation>&amp;Ubah</translation>
     </message>
     <message>
-        <location line="+248"/>
-        <source>Export Address Book Data</source>
-        <translation type="unfinished"/>
+        <source>Export Address List</source>
+        <translation>Ekspor Daftar Alamat</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>File CSV (*.csv)</translation>
+        <translation>File yang berformat(*.csv)</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation type="unfinished"/>
+        <source>Exporting Failed</source>
+        <translation>Mengekspor Gagal</translation>
     </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Penulisan data ke file gagal %1</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+145"/>
         <source>Label</source>
         <translation>Label</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
         <translation>Alamat</translation>
     </message>
     <message>
-        <location line="+36"/>
         <source>(no label)</source>
         <translation>(tidak ada label)</translation>
     </message>
@@ -155,1084 +112,862 @@ This product includes software developed by the OpenSSL Project for use in the O
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
         <translation>Dialog Kata kunci</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>Masukkan kata kunci</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>Kata kunci baru</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>Ulangi kata kunci baru</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation type="unfinished"/>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Masukan kata sandi baru ke dompet.&lt;br/&gt;Mohon gunakan kata sandi &lt;b&gt;sepuluh karakter acak atau lebih&lt;/b&gt;, atau &lt;b&gt; delapan atau lebih beberapa kata &lt;/​​b&gt;.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Hanya untuk staking</translation>
-    </message>
-    <message>
-        <location filename="../askpassphrasedialog.cpp" line="+38"/>
         <source>Encrypt wallet</source>
-        <translation>Meng-enkripsikan dompet</translation>
+        <translation>Enkripsi dompet</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Operasi ini memerlukan kata kunci dompet Anda untuk membuka dompet ini.</translation>
+        <translation>Operasi ini memerlukan kata sandi dompet Anda untuk membuka dompet.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Unlock wallet</source>
         <translation>Buka dompet</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Operasi ini memerlukan kata kunci dompet Anda untuk mendekripsi dompet ini.</translation>
+        <translation>Operasi ini memerlukan kata sandi dompet Anda untuk mendekripsikan dompet.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Men-dekripsikan dompet</translation>
+        <translation>Dekripsi dompet</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Ubah kata kunci</translation>
+        <translation>Ganti kata sandi</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Masukkan kata kunci lama dan baru ke dompet ini.</translation>
+        <source>Enter the old passphrase and new passphrase to the wallet.</source>
+        <translation>Masukkan kata sandi lama dan kata sandi baru ke dompet.</translation>
     </message>
     <message>
-        <location line="+45"/>
         <source>Confirm wallet encryption</source>
-        <translation>Menkonfirmasi enkripsi dompet</translation>
+        <translation>Konfirmasi pengenkripsian dompet</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation type="unfinished"/>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <translation>Peringatan: Jika Anda enkripsi dompet Anda dan lupa kata sandi anda, Anda akan &lt;b&gt;KEHILANGAN SEMUA BITCOIN ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Apakah Anda yakin untuk mengenkripsi dompet Anda?</translation>
+        <translation>Apakah Anda yakin ingin enkripsi dompet Anda?</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+103"/>
-        <location line="+24"/>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Peringatan: tombol Caps Lock aktif!</translation>
-    </message>
-    <message>
-        <location line="-133"/>
-        <location line="+60"/>
         <source>Wallet encrypted</source>
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <location line="-140"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation type="unfinished"/>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 sekarang akan ditutup untuk menyelesaikan proses enkripsi. Ingatlah bahwa mengenkripsi dompet Anda tidak dapat sepenuhnya melindungi komputer Anda dari pencurian malware yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>Foin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Foin akan ditutup untuk menyelesaikan proses enkripsi. Ingat bahwa dompet Anda tidak bisa di lindungi dengan enkripsi sepenuhny dari pencurian melalui infeksi malware di komputer Anda.</translation>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>PENTING: Backup sebelumnya yang Anda buat dari file dompet Anda harus diganti dengan file dompet terenkripsi yang baru dibuat. Demi keamanan, backup file dompet sebelumnya yang tidak dienkripsi sebelumnya akan menjadi tidak berguna begitu Anda mulai menggunakan dompet terenkripsi yang baru.</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <location line="+7"/>
-        <location line="+44"/>
-        <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>Enkripsi dompet gagal</translation>
+        <translation>Pengenkripsian dompet gagal</translation>
     </message>
     <message>
-        <location line="-56"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Enkripsi dompet gagal karena kesalahan internal. Dompet Anda tidak dienkripsi.</translation>
+        <translation>Pengenkripsian dompet gagal karena kesalahan internal. Dompet Anda tidak dienkripsi.</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+50"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>Kata kunci yang dimasukkan tidak cocok.</translation>
+        <translation>Kata sandi yang dimasukkan tidak cocok.</translation>
     </message>
     <message>
-        <location line="-38"/>
         <source>Wallet unlock failed</source>
-        <translation>Gagal buka dompet</translation>
+        <translation>Membuka dompet gagal</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+12"/>
-        <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Kata kunci yang dimasukkan untuk dekripsi dompet tidak cocok.</translation>
+        <translation>Kata sandi yang dimasukkan untuk dekripsi dompet salah.</translation>
     </message>
     <message>
-        <location line="-20"/>
         <source>Wallet decryption failed</source>
         <translation>Dekripsi dompet gagal</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Passphrase dompet telah berhasil diubah.</translation>
+        <translation>Kata sandi berhasil diganti.</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Peringatan: Tombol Caps Lock aktif!</translation>
+    </message>
+</context>
+<context>
+    <name>BanTableModel</name>
+    <message>
+        <source>IP/Netmask</source>
+        <translation>IP/Netmask</translation>
+    </message>
+    <message>
+        <source>Banned Until</source>
+        <translation>Di banned sampai</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+297"/>
         <source>Sign &amp;message...</source>
         <translation>Pesan &amp;penanda...</translation>
     </message>
     <message>
-        <location line="-64"/>
-        <source>Show general overview of wallet</source>
-        <translation>Tampilkan kilasan umum dari dompet</translation>
+        <source>Synchronizing with network...</source>
+        <translation>Sinkronisasi dengan jaringan...</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <source>&amp;Overview</source>
+        <translation>&amp;Kilasan</translation>
+    </message>
+    <message>
+        <source>Node</source>
+        <translation>Node</translation>
+    </message>
+    <message>
+        <source>Show general overview of wallet</source>
+        <translation>Tampilkan gambaran umum dompet Anda</translation>
+    </message>
+    <message>
         <source>&amp;Transactions</source>
         <translation>&amp;Transaksi</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>Jelajah sejarah transaksi</translation>
+        <translation>Lihat riwayat transaksi</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Address Book</source>
-        <translation>&amp;Buku Alamat</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Mengedit daftar alamat-alamat dan label</translation>
-    </message>
-    <message>
-        <location line="-18"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Tampilkan daftar alamat untuk menerima pembayaran</translation>
-    </message>
-    <message>
-        <location line="+34"/>
         <source>E&amp;xit</source>
         <translation>K&amp;eluar</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
         <translation>Keluar dari aplikasi</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Show information about Foin</source>
-        <translation>Tunjukkan informasi tentang Foin</translation>
+        <source>&amp;About %1</source>
+        <translation>&amp;Tentang%1</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Show information about %1</source>
+        <translation>Tampilkan informasi perihal %1</translation>
+    </message>
+    <message>
         <source>About &amp;Qt</source>
         <translation>Mengenai &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
         <translation>Tampilkan informasi mengenai Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
         <translation>&amp;Pilihan...</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>%Enkripsi Dompet...</translation>
+        <source>Modify configuration options for %1</source>
+        <translation>Pengubahan opsi konfigurasi untuk %1</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>&amp;Encrypt Wallet...</source>
+        <translation>&amp;Enkripsi Dompet...</translation>
+    </message>
+    <message>
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;Cadangkan Dompet...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
         <translation>&amp;Ubah Kata Kunci...</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>&amp;Export...</source>
-        <translation>&amp;Ekspor...</translation>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Alamat-alamat untuk mengirim...</translation>
     </message>
     <message>
-        <location line="-55"/>
-        <source>Send coins to a Foin address</source>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Alamat-alamat untuk menerima...</translation>
+    </message>
+    <message>
+        <source>Open &amp;URI...</source>
+        <translation>Buka &amp;URI</translation>
+    </message>
+    <message>
+        <source>Click to disable network activity.</source>
+        <translation>Klik untuk menonaktifkan aktivitas jaringan.</translation>
+    </message>
+    <message>
+        <source>Network activity disabled.</source>
+        <translation>Aktivitas jaringan dinonaktifkan.</translation>
+    </message>
+    <message>
+        <source>Click to enable network activity again.</source>
+        <translation>Klik untuk mengaktifkan aktivitas jaringan lagi.</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>Menyinkronkan Header (%1%) ...</translation>
+    </message>
+    <message>
+        <source>Reindexing blocks on disk...</source>
+        <translation>Mengindex ulang blok di dalam disk...</translation>
+    </message>
+    <message>
+        <source>Send coins to a Bitcoin address</source>
         <translation>Kirim koin ke alamat Foin</translation>
     </message>
     <message>
-        <location line="+39"/>
-        <source>Modify configuration options for Foin</source>
-        <translation>Memodifikasi opsi aturan untuk Foin</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Mengekspor data dari tab saat ini ke dalam file</translation>
-    </message>
-    <message>
-        <location line="-13"/>
-        <source>Encrypt or decrypt wallet</source>
-        <translation>Mengenkripsi atau mendekripsi dompet</translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Backup wallet to another location</source>
         <translation>Cadangkan dompet ke lokasi lain</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Ubah kata kunci yang digunakan untuk enkripsi dompet</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>&amp;Debug window</source>
         <translation>&amp;Jendela Debug</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
         <translation>Buka konsol debug dan diagnosa</translation>
     </message>
     <message>
-        <location line="-5"/>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verifikasi pesan...</translation>
     </message>
     <message>
-        <location line="-214"/>
-        <location line="+555"/>
-        <source>Foin</source>
-        <translation>Foin (CoinHitam)</translation>
+        <source>Bitcoin</source>
+        <translation>Foin</translation>
     </message>
     <message>
-        <location line="-555"/>
         <source>Wallet</source>
         <translation>Dompet</translation>
     </message>
     <message>
-        <location line="+193"/>
-        <source>&amp;About Foin</source>
-        <translation>&amp;Tentang Foin</translation>
+        <source>&amp;Send</source>
+        <translation>&amp;Kirim</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <source>&amp;Receive</source>
+        <translation>&amp;Menerima</translation>
+    </message>
+    <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Tunjukkan / Sembunyikan</translation>
+        <translation>&amp;Tampilkan / Sembunyikan</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Unlock wallet</source>
-        <translation>Buka Dompet</translation>
+        <source>Show or hide the main Window</source>
+        <translation>Tampilkan atau sembunyikan jendela utama</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>&amp;Lock Wallet</source>
-        <translation>&amp;Kunci Dompet</translation>
+        <source>Encrypt the private keys that belong to your wallet</source>
+        <translation>Enkripsi private key yang dimiliki dompet Anda</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Lock wallet</source>
-        <translation>Kunci dompet</translation>
+        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <translation>Tanda tangani sebuah pesan menggunakan alamat Foin Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat Foin tertentu</translation>
+    </message>
+    <message>
         <source>&amp;File</source>
         <translation>&amp;Berkas</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>&amp;Settings</source>
         <translation>&amp;Pengaturan</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>&amp;Help</source>
         <translation>&amp;Bantuan</translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>Tabs toolbar</source>
         <translation>Baris tab</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <location line="+9"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <translation>Permintaan pembayaran (membuat kode QR dan foin: URIs)</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <location line="+58"/>
-        <source>Foin client</source>
-        <translation>Klien Foin</translation>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>Tampilkan daftar alamat dan label yang terkirim</translation>
+    </message>
+    <message>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>Tampilkan daftar alamat dan label yang diterima</translation>
+    </message>
+    <message>
+        <source>Open a bitcoin: URI or payment request</source>
+        <translation>Buka URI foin: atau permintaan pembayaran</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>&amp;pilihan Command-line</translation>
     </message>
     <message numerus="yes">
-        <location line="+70"/>
-        <source>%n active connection(s) to Foin network</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n koneksi aktif ke jaringan Foin</numerusform></translation>
     </message>
     <message>
-        <location line="+488"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation type="unfinished"/>
+        <source>Indexing blocks on disk...</source>
+        <translation>Pengindeksan blok pada disk ...</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-812"/>
-        <source>&amp;Dashboard</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>&amp;Receive</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>&amp;Send</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Buka Dompet</translation>
-    </message>
-    <message>
-        <location line="+277"/>
-        <source>Up to date</source>
-        <translation>Terbaru</translation>
-    </message>
-    <message>
-        <location line="+43"/>
-        <source>Catching up...</source>
-        <translation>Menyusul...</translation>
-    </message>
-    <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Sent transaction</source>
-        <translation>Transaksi terkirim</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Incoming transaction</source>
-        <translation>Transaksi diterima</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation>Tanggal: %1
-Jumlah: %2
-Jenis: %3
-Alamat: %4
-</translation>
-    </message>
-    <message>
-        <location line="+100"/>
-        <location line="+15"/>
-        <source>URI handling</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-15"/>
-        <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Foin address or malformed URI parameters.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Wallet is &lt;b&gt;not encrypted&lt;/b&gt;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Dompet saat ini &lt;b&gt;terenkripsi&lt;/b&gt; dan &lt;b&gt;terbuka&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Dompet saat ini &lt;b&gt;terenkripsi&lt;/b&gt; dan &lt;b&gt;terkunci&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+24"/>
-        <source>Backup Wallet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Wallet Data (*.dat)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Backup Failed</source>
-        <translation>Back-up Gagal</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation type="unfinished"/>
+        <source>Processing blocks on disk...</source>
+        <translation>Memproses blok pada disk ...</translation>
     </message>
     <message numerus="yes">
-        <location line="+91"/>
-        <source>%n second(s)</source>
-        <translation><numerusform>%n detik</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n menit</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="-429"/>
-        <location line="+433"/>
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n jam</numerusform></translation>
+        <source>Processed %n block(s) of transaction history.</source>
+        <translation><numerusform>%n blok dari riwayat transaksi diproses.</numerusform></translation>
     </message>
     <message>
-        <location line="-456"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+27"/>
-        <location line="+433"/>
-        <source>%n day(s)</source>
-        <translation><numerusform>%n hari</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="-429"/>
-        <location line="+6"/>
-        <source>%n week(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>%1 and %2</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+0"/>
-        <source>%n year(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+5"/>
         <source>%1 behind</source>
-        <translation type="unfinished"/>
+        <translation>kurang %1</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"/>
+        <translation>Blok terakhir yang diterima %1 lalu.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
+        <translation>Transaksi setelah ini belum akan terlihat.</translation>
     </message>
     <message>
-        <location line="+23"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Terjadi sebuah kesalahan</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+69"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+324"/>
-        <source>Not staking</source>
-        <translation>Lagi tidak staking</translation>
-    </message>
-    <message>
-        <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Foin can no longer continue safely and will quit.</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-<context>
-    <name>ClientModel</name>
-    <message>
-        <location filename="../clientmodel.cpp" line="+119"/>
-        <source>Network Alert</source>
-        <translation>Notifikasi Jaringan</translation>
-    </message>
-</context>
-<context>
-    <name>CoinControlDialog</name>
-    <message>
-        <location filename="../forms/coincontroldialog.ui" line="+14"/>
-        <source>Coin Control</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>Quantity:</source>
-        <translation>Jumlah:</translation>
-    </message>
-    <message>
-        <location line="+32"/>
-        <source>Bytes:</source>
-        <translation>Bytes:</translation>
-    </message>
-    <message>
-        <location line="+48"/>
-        <source>Amount:</source>
-        <translation>Jumlah:</translation>
-    </message>
-    <message>
-        <location line="+48"/>
-        <source>Fee:</source>
-        <translation>Biaya:</translation>
-    </message>
-    <message>
-        <location line="+35"/>
-        <source>Low Output:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../coincontroldialog.cpp" line="+493"/>
-        <source>no</source>
-        <translation>tidak</translation>
-    </message>
-    <message>
-        <location filename="../forms/coincontroldialog.ui" line="+51"/>
-        <source>After Fee:</source>
-        <translation>Setelah biaya:</translation>
-    </message>
-    <message>
-        <location line="+35"/>
-        <source>Change:</source>
-        <translation>Perubahan:</translation>
-    </message>
-    <message>
-        <location line="+69"/>
-        <source>(un)select all</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Tree mode</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>List mode</source>
-        <translation>mode Daftar</translation>
-    </message>
-    <message>
-        <location line="+45"/>
-        <source>Amount</source>
-        <translation>Jumlah</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Label</source>
-        <translation>Label</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Address</source>
-        <translation>Alamat</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Date</source>
-        <translation>Tanggal</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Confirmations</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Confirmed</source>
-        <translation>Terkonfirmasi</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Priority</source>
-        <translation>Prioritas</translation>
-    </message>
-    <message>
-        <location filename="../coincontroldialog.cpp" line="-456"/>
-        <source>Copy address</source>
-        <translation>Salin alamat</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy label</source>
-        <translation>Salin label</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <location line="+26"/>
-        <source>Copy amount</source>
-        <translation>Salin jumlah</translation>
-    </message>
-    <message>
-        <location line="-25"/>
-        <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+24"/>
-        <source>Copy quantity</source>
-        <translation>Salikan jumlah</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Copy fee</source>
-        <translation>Salinkan Biaya</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy after fee</source>
-        <translation>Salinkan setelah biaya</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy bytes</source>
-        <translation>Salinkan bytes</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy low output</source>
-        <translation>Salinkan output rendah</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy change</source>
-        <translation>Salinkan perubahan</translation>
-    </message>
-    <message>
-        <location line="+423"/>
-        <source>DUST</source>
-        <translation>DUST</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>yes</source>
-        <translation>ya</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>This label turns red, if the transaction size is bigger than 10000 bytes.
-
- This means a fee of at least %1 per kb is required.
-
- Can vary +/- 1 Byte per input.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This label turns red, if any recipient receives an amount smaller than %1.
-
- This means a fee of at least %2 is required. 
-
- Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This label turns red, if the change is smaller than %1.
-
- This means a fee of at least %2 is required.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+35"/>
-        <location line="+58"/>
-        <source>(no label)</source>
-        <translation>(tidak ada label)</translation>
-    </message>
-    <message>
-        <location line="-9"/>
-        <source>change from %1 (%2)</source>
-        <translation>perubahan dari %1 (%2)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>(change)</source>
-        <translation>(perubahan)</translation>
-    </message>
-</context>
-<context>
-    <name>EditAddressDialog</name>
-    <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
-        <source>Edit Address</source>
-        <translation>Ubah Alamat</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>&amp;Label</source>
-        <translation>&amp;Label</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>&amp;Address</source>
-        <translation>&amp;Alamat</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation>Alamat menerima baru</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>New sending address</source>
-        <translation>Alamat mengirim baru</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Edit receiving address</source>
-        <translation>Ubah alamat menerima</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Edit sending address</source>
-        <translation>Ubah alamat mengirim</translation>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Alamat yang dimasukkan &quot;%1&quot; sudah ada di dalam buku alamat.</translation>
-    </message>
-    <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Foin address.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Could not unlock wallet.</source>
-        <translation>Tidak dapat membuka dompet.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>New key generation failed.</source>
-        <translation>Pembuatan kunci baru gagal.</translation>
-    </message>
-</context>
-<context>
-    <name>GUIUtil::HelpMessageBox</name>
-    <message>
-        <location filename="../guiutil.cpp" line="+426"/>
-        <location line="+12"/>
-        <source>Foin-Qt</source>
-        <translation>Foin-Qt</translation>
-    </message>
-    <message>
-        <location line="-12"/>
-        <source>version</source>
-        <translation>versi</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Usage:</source>
-        <translation>Penggunaan:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>command-line options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-<context>
-    <name>OptionsDialog</name>
-    <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
-        <source>Options</source>
-        <translation>Pilihan</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>&amp;Main</source>
-        <translation>&amp;Utama</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Bayar &amp;biaya transaksi</translation>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>Reserve</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>Automatically start Foin after logging in to the system.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Start Foin on system login</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+21"/>
-        <source>&amp;Network</source>
-        <translation>&amp;Jaringan</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Automatically open the Foin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Map port using &amp;UPnP</source>
-        <translation>Petakan port dengan &amp;UPnP</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Proxy &amp;IP:</source>
-        <translation>IP Proxy:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>&amp;Port:</source>
-        <translation>&amp;Port:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Port proxy (cth. 9050)</translation>
-    </message>
-    <message>
-        <location line="-57"/>
-        <source>Connect to the Foin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS5 proxy:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+90"/>
-        <source>&amp;Window</source>
-        <translation>&amp;Jendela</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Hanya tampilkan ikon tray setelah meminilisasi jendela</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Meminilisasi ke tray daripada taskbar</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>M&amp;inimize on close</source>
-        <translation>M&amp;eminilisasi saat tutup</translation>
-    </message>
-    <message>
-        <location line="+21"/>
-        <source>&amp;Display</source>
-        <translation>&amp;Tampilan</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>User Interface &amp;language:</source>
-        <translation>&amp;Bahasa Antarmuka Pengguna:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Foin.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Unit untuk menunjukkan jumlah:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Whether to show coin control features or not.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Display coin &amp;control features (experts only!)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Use bits visual theme (requires restart)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;OK</source>
-        <translation>&amp;YA</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Batal</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+47"/>
-        <source>default</source>
-        <translation>standar</translation>
-    </message>
-    <message>
-        <location line="+147"/>
-        <location line="+9"/>
         <source>Warning</source>
         <translation>Peringatan</translation>
     </message>
     <message>
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting Foin.</source>
-        <translation type="unfinished"/>
+        <source>Information</source>
+        <translation>Informasi</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <source>Up to date</source>
+        <translation>Terbaru</translation>
+    </message>
+    <message>
+        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Foin yang memungkinkan</translation>
+    </message>
+    <message>
+        <source>%1 client</source>
+        <translation>%1 klien</translation>
+    </message>
+    <message>
+        <source>Connecting to peers...</source>
+        <translation>Menghubungkan ke peer...</translation>
+    </message>
+    <message>
+        <source>Catching up...</source>
+        <translation>Menyusul...</translation>
+    </message>
+    <message>
+        <source>Date: %1
+</source>
+        <translation>Tanggal: %1
+</translation>
+    </message>
+    <message>
+        <source>Amount: %1
+</source>
+        <translation>Jumlah: %1
+</translation>
+    </message>
+    <message>
+        <source>Type: %1
+</source>
+        <translation>Tipe: %1
+</translation>
+    </message>
+    <message>
+        <source>Label: %1
+</source>
+        <translation>Label: %1
+</translation>
+    </message>
+    <message>
+        <source>Address: %1
+</source>
+        <translation>Alamat: %1
+</translation>
+    </message>
+    <message>
+        <source>Sent transaction</source>
+        <translation>Transaksi terkirim</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>Transaksi diterima</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>Dompet saat ini &lt;b&gt;terenkripsi&lt;/b&gt; dan &lt;b&gt;terbuka&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>Dompet saat ini &lt;b&gt;terenkripsi&lt;/b&gt; dan &lt;b&gt;terkunci&lt;/b&gt;</translation>
+    </message>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <source>Coin Selection</source>
+        <translation>Pemilihan Koin</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Kuantitas:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Bytes:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Jumlah:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Biaya:</translation>
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>Dust:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>Dengan Biaya:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Kembalian:</translation>
+    </message>
+    <message>
+        <source>(un)select all</source>
+        <translation>(Tidak)memilih semua</translation>
+    </message>
+    <message>
+        <source>Tree mode</source>
+        <translation>Tree mode</translation>
+    </message>
+    <message>
+        <source>List mode</source>
+        <translation>Mode daftar</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Jumlah</translation>
+    </message>
+    <message>
+        <source>Received with label</source>
+        <translation>Diterima dengan label</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>Diterima dengan alamat</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Tanggal</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation>Konfirmasi</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Terkonfirmasi</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Salin alamat</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Salin label</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Salin biaya</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(tidak ada label)</translation>
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+        <source>Edit Address</source>
+        <translation>Ubah Alamat</translation>
+    </message>
+    <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Label</translation>
+    </message>
+    <message>
+        <source>The label associated with this address list entry</source>
+        <translation>Label yang terkait dengan daftar alamat</translation>
+    </message>
+    <message>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>Alamat yang terkait dengan daftar alamat. Hanya dapat diubah untuk alamat pengirim.</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Alamat</translation>
+    </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>Sebuah data direktori baru telah dibuat.</translation>
+    </message>
+    <message>
+        <source>name</source>
+        <translation>nama</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Direktori masih ada. Tambahlah %1 apabila Anda ingin membuat direktori baru disini.</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Sudah ada path, dan itu bukan direktori.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>Tidak bisa membuat direktori data disini.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>version</source>
+        <translation>versi</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Pilihan Command-line</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Penggunaan:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>pilihan command-line</translation>
+    </message>
+    <message>
+        <source>UI Options:</source>
+        <translation>Pilihan UI:</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>Pilih direktori data saat memulai (default: %u)</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Pilih bahasa, contoh "id_ID" (default: system locale)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Start minimized</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Pilih sertifikat root SSL untuk permintaan pembayaran {default: -system-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>Tampilkan layar kilat saat memulai (default: %u)</translation>
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Selamat Datang</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>Gunakan direktori data default.</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>Gunakan direktori pilihan Anda:</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>Kesalahan: Direktori data "%1" tidak dapat dibuat.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Kesalahan</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>%n GB ruang kosong tersedia.</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(dari %n GB yang dibutuhkan)</numerusform></translation>
+    </message>
+</context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Formulir</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Waktu blok terakhir</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Buka URI</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Buka permintaan pembayaran dari URI atau data</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Pilih data permintaan pembayaran</translation>
+    </message>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Pilihan</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Utama</translation>
+    </message>
+    <message>
+        <source>Size of &amp;database cache</source>
+        <translation>Ukuran cache &amp;database</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Jumlah script &amp;verification threads</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside</source>
+        <translation>Terima koneksi dari luar</translation>
+    </message>
+    <message>
+        <source>Allow incoming connections</source>
+        <translation>Perbolehkan koneksi masuk</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>Alamat IP proxy (cth. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
+        <translation>Minimalisasi aplikasi ketika jendela ditutup. Ketika pilihan ini dipilih, aplikasi akan menutup seluruhnya jika anda memilih Keluar di menu yang tersedia.</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>URL pihak ketika (misalnya sebuah block explorer) yang mumcul dalam tab transaksi sebagai konteks menu. %s dalam URL diganti dengan kode transaksi. URL dipisahkan dengan tanda vertikal |.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>URL transaksi pihak ketiga</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Pilihan command-line yang aktif menimpa diatas opsi: </translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>Kembalikan semua pengaturan ke awal.</translation>
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>&amp;Reset Pilihan</translation>
+    </message>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;Jaringan</translation>
+    </message>
+    <message>
+        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+        <translation>(0 = auto, &lt;0 = leave that many cores free)</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>D&amp;ompet</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>Ahli</translation>
+    </message>
+    <message>
+        <source>Enable coin &amp;control features</source>
+        <translation>Perbolehkan fitur &amp;pengaturan koin</translation>
+    </message>
+    <message>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>Jika Anda menonaktifkan perubahan saldo untuk transaksi yang belum dikonfirmasi, perubahan dari transaksi tidak dapat dilakukan sampai transaksi memiliki setidaknya satu konfirmasi. Hal ini juga mempengaruhi bagaimana saldo Anda dihitung.</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
+    </message>
+    <message>
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client Foin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+    </message>
+    <message>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Petakan port dengan &amp;UPnP</translation>
+    </message>
+    <message>
+        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <translation>Hubungkan ke jaringan Foin melalui SOCKS5 proxy.</translation>
+    </message>
+    <message>
+        <source>Proxy &amp;IP:</source>
+        <translation>IP Proxy:</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;Port:</translation>
+    </message>
+    <message>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>Port proxy (cth. 9050)</translation>
+    </message>
+    <message>
+        <source>IPv4</source>
+        <translation>IPv4</translation>
+    </message>
+    <message>
+        <source>IPv6</source>
+        <translation>IPv6</translation>
+    </message>
+    <message>
+        <source>Tor</source>
+        <translation>Tor</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Jendela</translation>
+    </message>
+    <message>
+        <source>Show only a tray icon after minimizing the window.</source>
+        <translation>Hanya tampilkan ikon tray setelah meminilisasi jendela</translation>
+    </message>
+    <message>
+        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <translation>&amp;Meminilisasi ke tray daripada taskbar</translation>
+    </message>
+    <message>
+        <source>M&amp;inimize on close</source>
+        <translation>M&amp;eminilisasi saat tutup</translation>
+    </message>
+    <message>
+        <source>&amp;Display</source>
+        <translation>&amp;Tampilan</translation>
+    </message>
+    <message>
+        <source>User Interface &amp;language:</source>
+        <translation>&amp;Bahasa Antarmuka Pengguna:</translation>
+    </message>
+    <message>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>&amp;Unit untuk menunjukkan nilai:</translation>
+    </message>
+    <message>
+        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <translation>Pilihan standar unit yang ingin ditampilkan pada layar aplikasi dan saat mengirim koin.</translation>
+    </message>
+    <message>
+        <source>Whether to show coin control features or not.</source>
+        <translation>Ingin menunjukkan cara pengaturan koin atau tidak.</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;YA</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Batal</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>standar</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>tidak satupun</translation>
+    </message>
+    <message>
+        <source>Confirm options reset</source>
+        <translation>Memastikan reset pilihan</translation>
+    </message>
+    <message>
+        <source>Client restart required to activate changes.</source>
+        <translation>Restart klien diperlukan untuk mengaktifkan perubahan.</translation>
+    </message>
+    <message>
+        <source>Client will be shut down. Do you want to proceed?</source>
+        <translation>Klien akan dimatikan, apakah anda hendak melanjutkan?</translation>
+    </message>
+    <message>
+        <source>This change would require a client restart.</source>
+        <translation>Perubahan ini akan memerlukan restart klien</translation>
+    </message>
+    <message>
         <source>The supplied proxy address is invalid.</source>
         <translation>Alamat proxy yang diisi tidak valid.</translation>
     </message>
@@ -1240,1991 +975,897 @@ Alamat: %4
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Formulir</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Foin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished"/>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Foin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
     </message>
     <message>
-        <location line="-173"/>
-        <source>Stake:</source>
-        <translation>Stake:</translation>
+        <source>Available:</source>
+        <translation>Tersedia:</translation>
     </message>
     <message>
-        <location line="+32"/>
-        <source>Unconfirmed:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-113"/>
-        <source>Wallet</source>
-        <translation>Dompet</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Spendable:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+16"/>
         <source>Your current spendable balance</source>
-        <translation type="unfinished"/>
+        <translation>Jumlah yang Anda bisa keluarkan sekarang</translation>
     </message>
     <message>
-        <location line="+80"/>
+        <source>Pending:</source>
+        <translation>Ditunda</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>Jumlah keseluruhan transaksi yang belum dikonfirmasi, dan belum saatnya dihitung sebagai pengeluaran saldo yang telah dibelanjakan.</translation>
+    </message>
+    <message>
         <source>Immature:</source>
-        <translation type="unfinished"/>
+        <translation>Terlalu Muda:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished"/>
+        <translation>Saldo ditambang yang masih terlalu muda</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <source>Balances</source>
+        <translation>Saldo:</translation>
+    </message>
+    <message>
         <source>Total:</source>
-        <translation>Total:</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Your current total balance</source>
-        <translation>Total saldo anda saat ini</translation>
-    </message>
-    <message>
-        <location line="+50"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Transaksi sebelumnya&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="-118"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-32"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation>tidak tersinkron</translation>
-    </message>
-</context>
-<context>
-    <name>PaymentServer</name>
-    <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start foin: click-to-pay handler</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
-<context>
-    <name>QRCodeDialog</name>
-    <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>Permintaan Pembayaran</translation>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Amount:</source>
         <translation>Jumlah:</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>Label:</translation>
+        <source>Your current total balance</source>
+        <translation>Jumlah saldo Anda sekarang</translation>
     </message>
-    <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>Pesan:</translation>
-    </message>
-    <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>&amp;Simpan Sebagai...</translation>
-    </message>
-    <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Save QR Code</source>
-        <translation>Simpan Code QR</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation>Gambar PNG (*.png)</translation>
-    </message>
-</context>
+    </context>
 <context>
-    <name>RPCConsole</name>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation>Nama Klien</translation>
+        <source>User Agent</source>
+        <translation>Agen Pengguna</translation>
+    </message>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>Nilai</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
+        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <translation>Masukkan alamat Foin (contoh %1)</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 Jam</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 menit</translation>
+    </message>
+    <message>
         <source>N/A</source>
         <translation>T/S</translation>
     </message>
     <message>
-        <location line="-194"/>
+        <source>%1 and %2</source>
+        <translation>%1 dan %2</translation>
+    </message>
+    </context>
+<context>
+    <name>QObject::QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>N/A</source>
+        <translation>T/S</translation>
+    </message>
+    <message>
         <source>Client version</source>
         <translation>Versi Klien</translation>
     </message>
     <message>
-        <location line="-45"/>
         <source>&amp;Information</source>
         <translation>&amp;Informasi</translation>
     </message>
     <message>
-        <location line="+68"/>
-        <source>Using OpenSSL version</source>
-        <translation>Menggunakan versi OpenSSL</translation>
+        <source>Debug window</source>
+        <translation>Jendela debug</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <source>General</source>
+        <translation>Umum</translation>
+    </message>
+    <message>
         <source>Startup time</source>
         <translation>Waktu nyala</translation>
     </message>
     <message>
-        <location line="+29"/>
         <source>Network</source>
         <translation>Jaringan</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Name</source>
+        <translation>Nama</translation>
+    </message>
+    <message>
         <source>Number of connections</source>
         <translation>Jumlah hubungan</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Block chain</source>
         <translation>Rantai blok</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Current number of blocks</source>
         <translation>Jumlah blok terkini</translation>
     </message>
     <message>
-        <location line="+197"/>
-        <source>&amp;Network Traffic</source>
-        <translation type="unfinished"/>
+        <source>Sent</source>
+        <translation>Terkirim</translation>
     </message>
     <message>
-        <location line="+52"/>
-        <source>&amp;Clear</source>
-        <translation type="unfinished"/>
+        <source>Version</source>
+        <translation>Versi</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Totals</source>
-        <translation type="unfinished"/>
+        <source>User Agent</source>
+        <translation>Agen Pengguna
+
+</translation>
     </message>
     <message>
-        <location line="+64"/>
-        <location filename="../rpcconsole.cpp" line="+352"/>
-        <source>In:</source>
-        <translation type="unfinished"/>
+        <source>Services</source>
+        <translation>Layanan</translation>
     </message>
     <message>
-        <location line="+80"/>
-        <location filename="../rpcconsole.cpp" line="+1"/>
-        <source>Out:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-383"/>
         <source>Last block time</source>
         <translation>Waktu blok terakhir</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>&amp;Open</source>
         <translation>&amp;Buka</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show the Foin-Qt help message to get a list with possible Foin command-line options.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Show</source>
-        <translation>&amp;Tunjukkan</translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>&amp;Console</source>
         <translation>&amp;Konsol</translation>
     </message>
     <message>
-        <location line="-237"/>
-        <source>Build date</source>
-        <translation>Tanggal pembuatan</translation>
+        <source>&amp;Network Traffic</source>
+        <translation>Kemacetan &amp;Jaringan </translation>
     </message>
     <message>
-        <location line="-104"/>
-        <source>Foin - Debug window</source>
-        <translation type="unfinished"/>
+        <source>&amp;Clear</source>
+        <translation>&amp;Kosongkan</translation>
     </message>
     <message>
-        <location line="+25"/>
-        <source>Foin Core</source>
-        <translation>Inti Foin</translation>
+        <source>Totals</source>
+        <translation>Total</translation>
     </message>
     <message>
-        <location line="+256"/>
+        <source>In:</source>
+        <translation>Masuk:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Keluar:</translation>
+    </message>
+    <message>
         <source>Debug log file</source>
-        <translation type="unfinished"/>
+        <translation>Berkas catatan debug</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Open the Foin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+102"/>
         <source>Clear console</source>
         <translation>Bersihkan konsol</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the Foin RPC console.</source>
-        <translation type="unfinished"/>
+        <source>1 &amp;hour</source>
+        <translation>1 &amp;jam</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>1 &amp;day</source>
+        <translation>1 &amp;hari</translation>
+    </message>
+    <message>
+        <source>1 &amp;week</source>
+        <translation>1 &amp;minggu</translation>
+    </message>
+    <message>
+        <source>1 &amp;year</source>
+        <translation>1 &amp;tahun</translation>
+    </message>
+    <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Gunakan panah keatas dan kebawah untuk menampilkan sejarah, dan &lt;b&gt;Ctrl-L&lt;/b&gt; untuk bersihkan layar.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Ketik &lt;b&gt;help&lt;/b&gt; untuk menampilkan perintah tersedia.</translation>
     </message>
     <message>
-        <location line="+134"/>
         <source>%1 B</source>
-        <translation type="unfinished"/>
+        <translation>%1 B</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>%1 KB</source>
-        <translation type="unfinished"/>
+        <translation>%1 KB</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>%1 MB</source>
-        <translation type="unfinished"/>
+        <translation>%1 MB</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>%1 GB</source>
-        <translation type="unfinished"/>
+        <translation>%1 GB</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>%1 m</source>
-        <translation type="unfinished"/>
+        <source>Yes</source>
+        <translation>Ya</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>%1 h</source>
-        <translation type="unfinished"/>
+        <source>No</source>
+        <translation>Tidak</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>%1 h %2 m</source>
-        <translation type="unfinished"/>
+        <source>Unknown</source>
+        <translation>Tidak diketahui</translation>
     </message>
 </context>
 <context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Nilai:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Label:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;Pesan:</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>Gunakan lagi alamat penerima yang ada (tidak disarankan)</translation>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address.</source>
+        <translation>Label opsional untuk mengasosiasikan dengan alamat penerima baru.</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>Gunakan form ini untuk meminta pembayaran. Semua bidang adalah &lt;b&gt;opsional&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>Nilai permintaan opsional. Biarkan ini kosong atau nol bila tidak meminta nilai tertentu.</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Hapus informasi dari form.</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Hapus</translation>
+    </message>
+    <message>
+        <source>Requested payments history</source>
+        <translation>Riwayat pembayaran yang diminta Anda</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>&amp;Minta pembayaran</translation>
+    </message>
+    <message>
+        <source>Show the selected request (does the same as double clicking an entry)</source>
+        <translation>Menunjukkan permintaan yang dipilih (sama dengan tekan pilihan dua kali)</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Menunjukkan</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>Menghapus informasi terpilih dari daftar</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Menghapus</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Salin label</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>Kode QR</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URI</source>
+        <translation>Salin &amp;URI</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>Salin &amp;Alamat</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Simpan Gambaran...</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Alamat</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Jumlah</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(tidak ada label)</translation>
+    </message>
+    </context>
+<context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+179"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
         <source>Send Coins</source>
         <translation>Kirim Koin</translation>
     </message>
     <message>
-        <location line="+76"/>
         <source>Coin Control Features</source>
-        <translation type="unfinished"/>
+        <translation>Cara Pengaturan Koin</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>Inputs...</source>
-        <translation type="unfinished"/>
+        <translation>Masukan...</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>automatically selected</source>
-        <translation type="unfinished"/>
+        <translation>Pemilihan otomatis</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Insufficient funds!</source>
-        <translation>Jumlah dana dibutuhkan tidak mencukupi!</translation>
+        <translation>Saldo tidak mencukupi!</translation>
     </message>
     <message>
-        <location line="+77"/>
         <source>Quantity:</source>
-        <translation>Jumlah:</translation>
+        <translation>Kuantitas:</translation>
     </message>
     <message>
-        <location line="+22"/>
-        <location line="+35"/>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <location line="-19"/>
         <source>Bytes:</source>
         <translation>Bytes:</translation>
     </message>
     <message>
-        <location line="+51"/>
         <source>Amount:</source>
-        <translation>Jumlah:</translation>
+        <translation>Nilai:</translation>
     </message>
     <message>
-        <location line="+54"/>
         <source>Fee:</source>
         <translation>Biaya:</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Low Output:</source>
-        <translation>Output Rendah:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>no</source>
-        <translation>tidak</translation>
-    </message>
-    <message>
-        <location line="+32"/>
         <source>After Fee:</source>
-        <translation>Setelah Biaya:</translation>
+        <translation>Dengan Biaya:</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Change</source>
-        <translation>Perubahan</translation>
+        <source>Change:</source>
+        <translation>Uang Kembali:</translation>
     </message>
     <message>
-        <location line="+50"/>
-        <source>custom change address</source>
-        <translation type="unfinished"/>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>Jiki ini dipilih, tetapi alamat pengembalian uang kosong atau salah, uang kembali akan dikirim ke alamat yang baru dibuat.</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <source>Custom change address</source>
+        <translation>Alamat uang kembali yang kustom</translation>
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>Biaya Transaksi:</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>Disarankan</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>normal</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>cepat</translation>
+    </message>
+    <message>
         <source>Send to multiple recipients at once</source>
         <translation>Kirim ke beberapa penerima sekaligus</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation type="unfinished"/>
+        <translation>Tambahlah &amp;Penerima</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Remove all transaction fields</source>
-        <translation type="unfinished"/>
+        <source>Clear all fields of the form.</source>
+        <translation>Hapus informasi dari form.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Dust:</source>
+        <translation>Dust:</translation>
+    </message>
+    <message>
         <source>Clear &amp;All</source>
-        <translation>Hapus %Semua</translation>
+        <translation>Hapus &amp;Semua</translation>
     </message>
     <message>
-        <location line="+24"/>
         <source>Balance:</source>
         <translation>Saldo:</translation>
     </message>
     <message>
-        <location line="+47"/>
         <source>Confirm the send action</source>
         <translation>Konfirmasi aksi pengiriman</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>S&amp;end</source>
-        <translation type="unfinished"/>
+        <translation>K&amp;irim</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a Foin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>Copy quantity</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy amount</source>
-        <translation>Salin jumlah</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Copy fee</source>
-        <translation type="unfinished"/>
+        <translation>Salin biaya</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Copy after fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy bytes</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy low output</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy change</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+85"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Confirm send coins</source>
-        <translation>Konfirmasi pengiriman koin</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount to pay must be larger than 0.</source>
-        <translation>Jumlah yang dibayar harus lebih besar dari 0.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The amount exceeds your balance.</source>
-        <translation>Jumlah melebihi saldo Anda.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Kelebihan total saldo Anda ketika biaya transaksi %1 ditambahkan.</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Ditemukan alamat ganda, hanya dapat mengirim ke tiap alamat sekali per operasi pengiriman.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+241"/>
-        <source>WARNING: Invalid Foin address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+13"/>
         <source>(no label)</source>
         <translation>(tidak ada label)</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>WARNING: unknown change address</source>
-        <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
-        <source>Form</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>A&amp;mount:</source>
         <translation>J&amp;umlah:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Pay &amp;To:</source>
         <translation>Kirim &amp;Ke:</translation>
     </message>
     <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Masukkan label bagi alamat ini untuk menambahkannya ke buku alamat Anda</translation>
-    </message>
-    <message>
-        <location line="-78"/>
         <source>&amp;Label:</source>
         <translation>&amp;Label:</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Choose address from address book</source>
-        <translation type="unfinished"/>
+        <source>Choose previously used address</source>
+        <translation>Pilih alamat yang telah digunakan sebelumnya</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>This is a normal payment.</source>
+        <translation>Ini adalah pembayaran normal</translation>
+    </message>
+    <message>
         <source>Alt+A</source>
         <translation>Alt+J</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Paste address from clipboard</source>
         <translation>Tempel alamat dari salinan</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation type="unfinished"/>
+        <source>Remove this entry</source>
+        <translation>Hapus masukan ini</translation>
     </message>
     <message>
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Foin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation type="unfinished"/>
+        <source>Message:</source>
+        <translation>Pesan:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>Masukkan label untuk alamat ini untuk dimasukan dalam daftar alamat yang pernah digunakan</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>Kirim Ke:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>Catatan Peringatan:</translation>
+    </message>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Kamu tidak dapat mematikan komputer sebelum jendela ini tertutup sendiri.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished"/>
+        <translation>Tanda Tangan / Verifikasi sebuah Pesan</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <location line="+124"/>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Tandakan Pesan</translation>
     </message>
     <message>
-        <location line="-118"/>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished"/>
+        <source>Choose previously used address</source>
+        <translation>Pilih alamat yang telah digunakan sebelumnya</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+203"/>
-        <source>Choose an address from the address book</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-193"/>
-        <location line="+203"/>
         <source>Alt+A</source>
-        <translation>Alt+J</translation>
+        <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-193"/>
         <source>Paste address from clipboard</source>
         <translation>Tempel alamat dari salinan</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished"/>
+        <translation>Masukan pesan yang ingin ditandai disini</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <source>Signature</source>
+        <translation>Tanda Tangan</translation>
+    </message>
+    <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished"/>
+        <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>Sign the message to prove you own this Foin address</source>
-        <translation type="unfinished"/>
+        <source>Sign the message to prove you own this Bitcoin address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Foin ini</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <source>Sign &amp;Message</source>
+        <translation>Tandakan &amp;Pesan</translation>
+    </message>
+    <message>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished"/>
+        <translation>Hapus semua bidang penanda pesan</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>Hapus %Semua</translation>
+        <translation>Hapus &amp;Semua</translation>
     </message>
     <message>
-        <location line="-87"/>
-        <location line="+70"/>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Verifikasi Pesan</translation>
     </message>
     <message>
-        <location line="-64"/>
-        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation type="unfinished"/>
+        <source>Verify &amp;Message</source>
+        <translation>Verifikasi &amp;Pesan</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Foin address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+17"/>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished"/>
+        <translation>Hapus semua bidang verifikasi pesan</translation>
     </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a Foin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter Foin signature</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+85"/>
-        <location line="+81"/>
-        <source>The entered address is invalid.</source>
-        <translation>Alamat yang dimasukkan tidak sesuai.</translation>
-    </message>
-    <message>
-        <location line="-81"/>
-        <location line="+8"/>
-        <location line="+73"/>
-        <location line="+8"/>
-        <source>Please check the address and try again.</source>
-        <translation>Silahkan periksa alamat dan coba lagi.</translation>
-    </message>
-    <message>
-        <location line="-81"/>
-        <location line="+81"/>
-        <source>The entered address does not refer to a key.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-73"/>
-        <source>Wallet unlock was cancelled.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Private key for the entered address is not available.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Message signing failed.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Message signed.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>The signature could not be decoded.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <location line="+13"/>
-        <source>Please check the signature and try again.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The signature did not match the message digest.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Message verification failed.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Message verified.</source>
-        <translation type="unfinished"/>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
     </message>
 </context>
 <context>
     <name>TrafficGraphWidget</name>
     <message>
-        <location filename="../trafficgraphwidget.cpp" line="+75"/>
         <source>KB/s</source>
-        <translation type="unfinished"/>
+        <translation>KB/s</translation>
     </message>
 </context>
 <context>
     <name>TransactionDesc</name>
     <message>
-        <location filename="../transactiondesc.cpp" line="+25"/>
-        <source>Open until %1</source>
-        <translation>Buka hingga %1</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>conflicted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1/offline</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1/unconfirmed</source>
-        <translation>%1/tidak terkonfirmasi</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 confirmations</source>
-        <translation>%1 konfirmasi</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>Status</source>
-        <translation>Status</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Date</source>
-        <translation>Tanggal</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Source</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Generated</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <location line="+13"/>
-        <source>From</source>
-        <translation>Dari</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <location line="+19"/>
-        <location line="+58"/>
-        <source>To</source>
-        <translation>Untuk</translation>
-    </message>
-    <message>
-        <location line="-74"/>
-        <location line="+2"/>
-        <source>own address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>label</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+34"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
-        <source>Credit</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="-102"/>
-        <source>matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>not accepted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
-        <source>Debit</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-39"/>
-        <source>Transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Net amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Message</source>
-        <translation>Pesan:</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Comment</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Transaction ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Debug information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Transaction</source>
-        <translation>Transaksi</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Inputs</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+21"/>
         <source>Amount</source>
         <translation>Jumlah</translation>
     </message>
-    <message>
-        <location line="+1"/>
-        <source>true</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>false</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-202"/>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, belum berhasil disiarkan</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-36"/>
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+67"/>
-        <source>unknown</source>
-        <translation>tidak diketahui</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
-        <source>Transaction details</source>
-        <translation>Rincian transaksi</translation>
-    </message>
-    <message>
-        <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
         <translation>Jendela ini menampilkan deskripsi rinci dari transaksi tersebut</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+231"/>
-        <source>Date</source>
-        <translation>Tanggal</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Type</source>
-        <translation>Jenis</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Alamat</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Amount</source>
-        <translation>Jumlah</translation>
-    </message>
-    <message>
-        <location line="+52"/>
-        <source>Open until %1</source>
-        <translation>Buka hingga %1</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>Terkonfirmasi (%1 konfirmasi)</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-15"/>
-        <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Offline</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Unconfirmed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Conflicted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Blok ini tidak diterima oleh node lainnya dan kemungkinan tidak akan diterima!</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated but not accepted</source>
-        <translation>Terbuat tetapi tidak diterima</translation>
-    </message>
-    <message>
-        <location line="+42"/>
-        <source>Received with</source>
-        <translation>Diterima dengan</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Received from</source>
-        <translation>Diterima dari</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sent to</source>
-        <translation>Terkirim ke</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Payment to yourself</source>
-        <translation>Pembayaran ke Anda sendiri</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Mined</source>
-        <translation>Tertambang</translation>
-    </message>
-    <message>
-        <location line="+38"/>
-        <source>(n/a)</source>
-        <translation>(t/s)</translation>
-    </message>
-    <message>
-        <location line="+194"/>
-        <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Status transaksi. Arahkan ke bagian ini untuk menampilkan jumlah konfrimasi.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Date and time that the transaction was received.</source>
-        <translation>Tanggal dan waktu transaksi tersebut diterima.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Type of transaction.</source>
-        <translation>Jenis transaksi.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Destination address of transaction.</source>
-        <translation>Alamat tujuan dari transaksi.</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Amount removed from or added to balance.</source>
-        <translation>Jumlah terbuang dari atau ditambahkan ke saldo.</translation>
-    </message>
-</context>
-<context>
-    <name>TransactionView</name>
-    <message>
-        <location filename="../transactionview.cpp" line="+54"/>
-        <location line="+17"/>
-        <source>All</source>
-        <translation>Semua</translation>
-    </message>
-    <message>
-        <location line="-16"/>
-        <source>Today</source>
-        <translation>Hari ini</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This week</source>
-        <translation>Minggu ini</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This month</source>
-        <translation>Bulan ini</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Last month</source>
-        <translation>Bulan kemarin</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This year</source>
-        <translation>Tahun ini</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Range...</source>
-        <translation>Jarak...</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Received with</source>
-        <translation>DIterima dengan</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Sent to</source>
-        <translation>Terkirim ke</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>To yourself</source>
-        <translation>Ke Anda sendiri</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Mined</source>
-        <translation>Ditambang</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Other</source>
-        <translation>Lainnya</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Enter address or label to search</source>
-        <translation>Masukkan alamat atau label untuk mencari</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Min amount</source>
-        <translation>Jumlah min</translation>
-    </message>
-    <message>
-        <location line="+34"/>
-        <source>Copy address</source>
-        <translation>Salin alamat</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy label</source>
-        <translation>Salin label</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy amount</source>
-        <translation>Salin jumlah</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Edit label</source>
-        <translation>Ubah label</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Show transaction details</source>
-        <translation>Tampilkan rincian transaksi</translation>
-    </message>
-    <message>
-        <location line="+138"/>
-        <source>Export Transaction Data</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Comma separated file (*.csv)</source>
-        <translation>Berkas CSV (*.csv)</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Confirmed</source>
-        <translation>Terkonfirmasi</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Date</source>
-        <translation>Tanggal</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Type</source>
-        <translation>Jenis</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Label</source>
         <translation>Label</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>(no label)</source>
+        <translation>(tidak ada label)</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>Copy address</source>
+        <translation>Salin alamat</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Salin label</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Berkas yang berformat(*.csv)</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
         <source>Address</source>
         <translation>Alamat</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation>Jumlah</translation>
+        <source>Exporting Failed</source>
+        <translation>Mengekspor Gagal</translation>
     </message>
-    <message>
-        <location line="+1"/>
-        <source>ID</source>
-        <translation>ID</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+100"/>
-        <source>Range:</source>
-        <translation>Jarak:</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>to</source>
-        <translation>ke</translation>
-    </message>
-</context>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
 <context>
     <name>WalletModel</name>
-    <message>
-        <location filename="../walletmodel.cpp" line="+212"/>
-        <source>Sending...</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>Foin version</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Usage:</source>
-        <translation>Penggunaan:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send command to -server or foind</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>List commands</source>
-        <translation>Daftar perintah</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Get help for a command</source>
-        <translation>Dapatkan bantuan untuk perintah</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Options:</source>
         <translation>Pilihan:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Specify configuration file (default: foin.conf)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Specify pid file (default: foind.pid)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Specify wallet file (within data directory)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-1"/>
         <source>Specify data directory</source>
         <translation>Tentukan direktori data</translation>
     </message>
     <message>
-        <location line="+163"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=foinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Foin Alert&quot; admin@foo.com
-</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-161"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Atur ukuran tembolok dalam megabyte (standar: 25)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 19534 or testnet: 29534)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Mengatur  hubungan paling banyak &lt;n&gt; ke peer (standar: 125)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Hubungkan ke node untuk menerima alamat peer, dan putuskan</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Specify your own public address</source>
         <translation>Tentukan alamat publik Anda sendiri</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Always query for peer addresses via DNS lookup (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Batas untuk memutuskan peer buruk (standar: 100)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Jumlah kedua untuk menjaga peer buruk dari hubung-ulang (standar: 86400)</translation>
-    </message>
-    <message>
-        <location line="+153"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-126"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 19575 or testnet: 29535)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-16"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Menerima perintah baris perintah dan JSON-RPC</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Berjalan dibelakang sebagai daemin dan menerima perintah</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use the test network</source>
-        <translation>Gunakan jaringan uji</translation>
+        <source>Bitcoin Core</source>
+        <translation>Foin More</translation>
     </message>
     <message>
-        <location line="-23"/>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation type="unfinished"/>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Jalankan perintah ketika perubahan transaksi dompet (%s di cmd digantikan oleh TxID)</translation>
     </message>
     <message>
-        <location line="+160"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-84"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Foin will not work properly.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-19"/>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-16"/>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
         <source>Block creation options:</source>
-        <translation type="unfinished"/>
+        <translation>Pilihan pembuatan blok:</translation>
     </message>
     <message>
-        <location line="-66"/>
-        <source>Connect only to the specified node(s)</source>
-        <translation type="unfinished"/>
+        <source>Connection options:</source>
+        <translation>Pilih koneksi:</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation type="unfinished"/>
+        <source>Corrupted block database detected</source>
+        <translation>Menemukan database blok yang rusak </translation>
     </message>
     <message>
-        <location line="+97"/>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"/>
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation>Jangan memuat dompet dan menonaktifkan panggilan dompet RPC</translation>
     </message>
     <message>
-        <location line="-2"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Apakah Anda ingin coba membangun kembali database blok sekarang?</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation type="unfinished"/>
+        <source>Error initializing block database</source>
+        <translation>Kesalahan menginisialisasi database blok</translation>
     </message>
     <message>
-        <location line="-85"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation type="unfinished"/>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation>Kesalahan menginisialisasi dompet pada database%s!</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation type="unfinished"/>
+        <source>Error loading block database</source>
+        <translation>Gagal memuat database blok</translation>
     </message>
     <message>
-        <location line="-16"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation type="unfinished"/>
+        <source>Error opening block database</source>
+        <translation>Menemukan masalah membukakan database blok</translation>
     </message>
     <message>
-        <location line="+30"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation type="unfinished"/>
+        <source>Error: Disk space is low!</source>
+        <translation>Gagal: Hard disk hampir terisi!</translation>
     </message>
     <message>
-        <location line="+36"/>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation type="unfinished"/>
+        <source>Importing...</source>
+        <translation>mengimpor...</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>Tidak bisa cari blok pertama, atau blok pertama salah. Salah direktori untuk jaringan?</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Alamat -onion salah: '%s'</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>Deskripsi berkas tidak tersedia dengan cukup.</translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>Atur ukuran maksimal untuk blok dalam byte (biasanya: %d)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Tentukan arsip dompet (dalam direktori data)</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Blok-blok sedang diverifikasi...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>Dompet sedang diverifikasi...</translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>Dompet %s ada diluar direktori data %s</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>Opsi dompet:</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>Hubungkan melalui proxy SOCKS5</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informasi</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>Opsi server RPC:</translation>
+    </message>
+    <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Kirim info lacak/debug ke konsol sebaliknya dari berkas debug.log</translation>
+        <translation>Kirim info jejak/debug ke konsol bukan berkas debug.log</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-33"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation type="unfinished"/>
+        <translation>Mengecilkan berkas debug.log saat klien berjalan  (Standar: 1 jika tidak -debug)</translation>
     </message>
     <message>
-        <location line="-41"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation type="unfinished"/>
+        <source>Signing transaction failed</source>
+        <translation>Tandatangani transaksi tergagal</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Transaction amount too small</source>
+        <translation>Nilai transaksi terlalu kecil</translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished"/>
+        <source>Transaction too large</source>
+        <translation>Transaksi terlalu besar</translation>
     </message>
     <message>
-        <location line="-25"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+45"/>
         <source>Username for JSON-RPC connections</source>
         <translation>Nama pengguna untuk hubungan JSON-RPC</translation>
     </message>
     <message>
-        <location line="+50"/>
-        <source>Verifying database integrity...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+43"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-15"/>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation>Peringatan</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Information</source>
-        <translation type="unfinished"/>
+        <source>Zapping all transactions from wallet...</source>
+        <translation>Setiap transaksi dalam dompet sedang di-'Zap'...</translation>
     </message>
     <message>
-        <location line="-7"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-23"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-55"/>
         <source>Password for JSON-RPC connections</source>
         <translation>Kata sandi untuk hubungan JSON-RPC</translation>
     </message>
     <message>
-        <location line="-47"/>
-        <source>Connect through SOCKS5 proxy</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>&lt;category&gt; can be:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Izinkan hubungan JSON-RPC dari alamat IP yang ditentukan</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Kirim perintah ke node berjalan pada &lt;ip&gt; (standar: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Wait for RPC server to start</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Menjalankan perintah ketika perubahan blok terbaik (%s dalam cmd digantikan oleh hash blok)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Require a confirmations for change (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Perbarui dompet ke format terbaru</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Kirim ukuran kolam kunci ke &lt;n&gt; (standar: 100)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Pindai ulang rantai-blok untuk transaksi dompet yang hilang</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Imports blocks from external blk000?.dat file</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Keep at most &lt;n&gt; MiB of unconnectable blocks in memory (default: %u)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Gunakan OpenSSL (https) untuk hubungan JSON-RPC</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Berkas sertifikat server (standar: server.cert)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Kunci pribadi server (standar: server.pem)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Initialization sanity check failed. Foin is shutting down.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+20"/>
-        <source>Error loading block database</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Eror: Dompet hanya di-buka hanya untuk staking, transaksi gagal dilaksanakan</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Error: Disk space is low!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-135"/>
-        <source>This help message</source>
-        <translation>Pesan bantuan ini</translation>
-    </message>
-    <message>
-        <location line="+100"/>
-        <source>Wallet %s resides outside data directory %s.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+46"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Tidak dapat mengikat ke %s dengan komputer ini (ikatan gagal %d, %s)</translation>
-    </message>
-    <message>
-        <location line="-136"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>Izinkan peninjauan DNS untuk -addnote, -seednode dan -connect</translation>
     </message>
     <message>
-        <location line="+121"/>
         <source>Loading addresses...</source>
         <translation>Memuat alamat...</translation>
     </message>
     <message>
-        <location line="-10"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Gagal memuat wallet.dat: Dompet rusak</translation>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Alamat -proxy salah: '%s'</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Foin</source>
-        <translation type="unfinished"/>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Jaringan tidak diketahui yang ditentukan dalam -onlynet: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Foin to complete</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error loading wallet.dat</source>
-        <translation>Gagal memuat wallet.dat</translation>
-    </message>
-    <message>
-        <location line="-15"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Alamat -proxy salah: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Jaringan tidak diketahui yang ditentukan dalam -onlynet: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Tidak dapat menyelesaikan alamat -bind: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Tidak dapat menyelesaikan alamat -externalip: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="-22"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Jumlah salah untuk -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+59"/>
-        <source>Sending...</source>
-        <translation>Mengirim...</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Invalid amount</source>
-        <translation>Jumlah salah</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Insufficient funds</source>
         <translation>Saldo tidak mencukupi</translation>
     </message>
     <message>
-        <location line="-41"/>
         <source>Loading block index...</source>
         <translation>Memuat indeks blok...</translation>
     </message>
     <message>
-        <location line="-105"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
         <translation>Tambahkan node untuk dihubungkan dan upaya untuk menjaga hubungan tetap terbuka</translation>
     </message>
     <message>
-        <location line="+131"/>
-        <source>Unable to bind to %s on this computer. Foin is probably already running.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-108"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>How many blocks to check at startup (default: 500, 0 = all)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Invalid amount for -mininput=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Foin is probably already running.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>Loading wallet...</source>
         <translation>Memuat dompet...</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Cannot downgrade wallet</source>
         <translation>Tidak dapat menurunkan versi dompet</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Cannot write default address</source>
         <translation>Tidak dapat menyimpan alamat standar</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Rescanning...</source>
         <translation>Memindai ulang...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Done loading</source>
         <translation>Memuat selesai</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <source>To use the %s option</source>
-        <translation>Gunakan pilihan %s</translation>
-    </message>
-    <message>
-        <location line="-27"/>
         <source>Error</source>
         <translation>Gagal</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Anda harus mengatur rpcpassword=&lt;kata sandi&gt; dalam berkas konfigurasi:
-%s
-Jika berkas tidak ada, buatlah dengan permisi berkas hanya-dapat-dibaca-oleh-pemilik.</translation>
     </message>
 </context>
 </TS>

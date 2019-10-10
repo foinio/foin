@@ -1,158 +1,114 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sk" version="2.1">
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Foin</source>
-        <translation>O Foin</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;Foin&lt;/b&gt; version</source>
-        <translation>Verzia &lt;b&gt;Foin&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+41"/>
-        <source>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The BlackCoin developers
-Copyright © 2014 The BlackCoin developers</source>
-        <translation>Copyright © 2009-2014 The Bitcoin developers
-Copyright © 2012-2014 The BlackCoin developers
-Copyright © 2014 The BlackCoin developers</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;) and cryptographic software written by Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) and UPnP software written by Thomas Bernard.</source>
-        <translation>
-Toto je experimentálny softvér. 
-
-Distribuovaný pod softvérovou licenciou MIT/X11, viď priložený súbor COPYING alebo &lt;a href=&quot;http://www.opensource.org/licenses/mit-license.php&quot;&gt;http://www.opensource.org/licenses/mit-license.php&lt;/a&gt;. 
-
-Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použitie v sade OpenSSL Toolkit  (&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;), šifrovací softvér, ktorý napísal Eric Young (&lt;a href=&quot;mailto:eay@cryptsoft.com&quot;&gt;eay@cryptsoft.com&lt;/a&gt;) a UPnP softvér ktorý napísal Thomas Bernard.</translation>
-    </message>
-</context>
+<TS language="sk" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>Adresár</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>Kliknutím pravým tlačidlom upraviť adresu alebo popis</translation>
     </message>
     <message>
-        <location line="+22"/>
-        <source>Double-click to edit address or label</source>
-        <translation>Dvojklikom editovať adresu alebo popis</translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>Create a new address</source>
         <translation>Vytvoriť novú adresu</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>&amp;New</source>
+        <translation>&amp;Nový</translation>
+    </message>
+    <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopírovať práve zvolenú adresu do systémovej schránky</translation>
+        <translation>Zkopírovať práve zvolenú adresu</translation>
     </message>
     <message>
-        <location line="-7"/>
-        <source>&amp;New Address</source>
-        <translation>&amp;Nová adresa</translation>
+        <source>&amp;Copy</source>
+        <translation>&amp;Kopírovať</translation>
     </message>
     <message>
-        <location line="-43"/>
-        <source>These are your Foin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše Foin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>C&amp;lose</source>
+        <translation>Zatvoriť</translation>
     </message>
     <message>
-        <location line="+53"/>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Kopírovať adresu</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show &amp;QR Code</source>
-        <translation>Ukáž &amp;QR kód</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Sign a message to prove you own a Foin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto Foin adresu</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation>Podpísať &amp;správu</translation>
-    </message>
-    <message>
-        <location line="+17"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>Vymazať aktuálne vybranú adresu zo zoznamu</translation>
+        <translation>Vymaž vybranú adresu zo zoznamu</translation>
     </message>
     <message>
-        <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Foin address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou Foin adresou</translation>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exportovať tento náhľad do súboru</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation>&amp;Overte správu</translation>
+        <source>&amp;Export</source>
+        <translation>&amp;Exportovať...</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>&amp;Delete</source>
         <translation>&amp;Zmazať</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+66"/>
+        <source>Choose the address to send coins to</source>
+        <translation>Zvoľte adresu kam poslať mince</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Zvoľte adresu na ktorú chcete prijať mince</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>Vybrať</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Odosielajúce adresy</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Prijímajúce adresy</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše Foin adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše Foin adresy pre prijímanie platieb. Odporúča sa použiť vždy novú prijímaciu adresu pre každú transakciu.</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Kopírovať adresu</translation>
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
         <translation>Kopírovať &amp;popis</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>&amp;Edit</source>
         <translation>&amp;Upraviť</translation>
     </message>
     <message>
-        <location line="+248"/>
-        <source>Export Address Book Data</source>
-        <translation>Exportovať dáta z adresára</translation>
+        <source>Export Address List</source>
+        <translation>Exportovať zoznam adries</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Čiarkou oddelený súbor (*.csv)</translation>
+        <translation>Čiarkou oddelovaný súbor (*.csv)</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>Chyba pri exporte</translation>
+        <source>Exporting Failed</source>
+        <translation>Export zlyhal</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Nie je možné zapísať do súboru %1.</translation>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>Nastala chyba pri pokuse uložiť zoznam adries do %1. Skúste znovu.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+145"/>
         <source>Label</source>
         <translation>Popis</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
         <translation>Adresa</translation>
     </message>
     <message>
-        <location line="+36"/>
         <source>(no label)</source>
         <translation>(bez popisu)</translation>
     </message>
@@ -160,791 +116,581 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
         <translation>Dialóg hesla</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>Zadajte heslo</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>Nové heslo</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>Zopakujte nové heslo</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Slúži na vypnutie trivial sendmoney keď je ohrozený OS účet. Neposkytuje žiadnu skutočnú istotu.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>For staking only</source>
-        <translation>Len pre stávkovanie</translation>
-    </message>
-    <message>
-        <location filename="../askpassphrasedialog.cpp" line="+38"/>
-        <source>Encrypt wallet</source>
-        <translation>Zašifrovať peňaženku</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Táto operácia potrebuje heslo k vašej peňaženke aby ju mohla odomknúť.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Unlock wallet</source>
-        <translation>Odomknúť peňaženku</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Táto operácia potrebuje heslo k vašej peňaženke na dešifrovanie peňaženky.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Decrypt wallet</source>
-        <translation>Dešifrovať peňaženku</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Change passphrase</source>
-        <translation>Zmena hesla</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Zadajte staré a nové heslo k peňaženke.</translation>
-    </message>
-    <message>
-        <location line="+45"/>
-        <source>Confirm wallet encryption</source>
-        <translation>Potvrďte zašifrovanie peňaženky</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje MINCE&lt;/b&gt;!</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Ste si istí, že si želáte zašifrovať peňaženku?</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>DÔLEŽITÉ: Všetky predchádzajúce zálohy vašej peňaženky, ktoré ste vykonali by mali byť nahradené novo vytvorenou, zašifrovanou peňaženkou. Z bezpečnostných dôvodov bude predchádzajúca záloha nezašifrovanej peňaženky k ničomu, akonáhle začnete používať novú, zašifrovanú peňaženku.</translation>
-    </message>
-    <message>
-        <location line="+103"/>
-        <location line="+24"/>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation>Upozornenie: Máte zapnutý Caps Lock!</translation>
-    </message>
-    <message>
-        <location line="-133"/>
-        <location line="+60"/>
-        <source>Wallet encrypted</source>
-        <translation>Peňaženka zašifrovaná</translation>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Zadajte nové heslo k peňaženke.&lt;br/&gt;Prosím použite heslo s dĺžkou &lt;b&gt;desať alebo viac náhodných znakov&lt;/b&gt;, prípadne &lt;b&gt;osem alebo viac slov&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>Foin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Foin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
+        <source>Encrypt wallet</source>
+        <translation>Zašifrovať peňaženku</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <location line="+7"/>
-        <location line="+44"/>
-        <location line="+6"/>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Táto operácia potrebuje heslo k vašej peňaženke aby ju mohla odomknúť.</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Odomknúť peňaženku</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Táto operácia potrebuje heslo k vašej peňaženke na dešifrovanie peňaženky.</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Dešifrovať peňaženku</translation>
+    </message>
+    <message>
+        <source>Change passphrase</source>
+        <translation>Zmena hesla</translation>
+    </message>
+    <message>
+        <source>Enter the old passphrase and new passphrase to the wallet.</source>
+        <translation>Zadajte staré heslo a nové heslo k peňaženke.</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Potvrďte zašifrovanie peňaženky</translation>
+    </message>
+    <message>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE BITCOINY&lt;/b&gt;!</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Ste si istí, že si želáte zašifrovať peňaženku?</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Peňaženka zašifrovaná</translation>
+    </message>
+    <message>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 sa teraz zavrie, aby sa ukončil proces šifrovania. Zašifrovanie peňaženky neochráni úplne pred krádežou foinov škodlivými programami, ktoré prenikli do vášho počítača.</translation>
+    </message>
+    <message>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>DÔLEŽITÉ: Všetky predchádzajúce zálohy vašej peňaženky, ktoré ste vykonali by mali byť nahradené novo vytvorenou, zašifrovanou peňaženkou. Z bezpečnostných dôvodov bude predchádzajúca záloha nezašifrovanej peňaženky k ničomu, akonáhle začnete používať novú, zašifrovanú peňaženku.</translation>
+    </message>
+    <message>
         <source>Wallet encryption failed</source>
         <translation>Šifrovanie peňaženky zlyhalo</translation>
     </message>
     <message>
-        <location line="-56"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Šifrovanie peňaženky zlyhalo kôli internej chybe. Vaša peňaženka nebola zašifrovaná.</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+50"/>
         <source>The supplied passphrases do not match.</source>
         <translation>Zadané heslá nesúhlasia.</translation>
     </message>
     <message>
-        <location line="-38"/>
         <source>Wallet unlock failed</source>
         <translation>Odomykanie peňaženky zlyhalo</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+12"/>
-        <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Zadané heslo pre dešifrovanie peňaženky bolo nesprávne.</translation>
     </message>
     <message>
-        <location line="-20"/>
         <source>Wallet decryption failed</source>
         <translation>Zlyhalo šifrovanie peňaženky.</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Heslo k peňaženke bolo úspešne zmenené.</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Upozornenie: Máte zapnutý Caps Lock!</translation>
+    </message>
+</context>
+<context>
+    <name>BanTableModel</name>
+    <message>
+        <source>IP/Netmask</source>
+        <translation>IP/Maska stiete</translation>
+    </message>
+    <message>
+        <source>Banned Until</source>
+        <translation>Blokovaný do</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+297"/>
         <source>Sign &amp;message...</source>
         <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-        <location line="-64"/>
+        <source>Synchronizing with network...</source>
+        <translation>Synchronizácia so sieťou...</translation>
+    </message>
+    <message>
+        <source>&amp;Overview</source>
+        <translation>&amp;Prehľad</translation>
+    </message>
+    <message>
+        <source>Node</source>
+        <translation>Uzol</translation>
+    </message>
+    <message>
         <source>Show general overview of wallet</source>
         <translation>Zobraziť celkový prehľad o peňaženke</translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>&amp;Transactions</source>
         <translation>&amp;Transakcie</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
         <translation>Prechádzať históriu transakcií</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>&amp;Address Book</source>
-        <translation>&amp;Adresár</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>Úprava zoznamu uložených adries a popisov</translation>
-    </message>
-    <message>
-        <location line="-18"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>Zobraziť zoznam adries pre príjem platieb</translation>
-    </message>
-    <message>
-        <location line="+34"/>
         <source>E&amp;xit</source>
-        <translation>&amp;Ukončiť</translation>
+        <translation>U&amp;končiť</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
         <translation>Ukončiť program</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Show information about Foin</source>
-        <translation>Zobraziť informácie o Foin</translation>
+        <source>&amp;About %1</source>
+        <translation>&amp;O %1</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Show information about %1</source>
+        <translation>Ukázať informácie o %1</translation>
+    </message>
+    <message>
         <source>About &amp;Qt</source>
         <translation>O &amp;Qt</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
         <translation>Zobrazit informácie o Qt</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
         <translation>&amp;Možnosti...</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Zašifrovať peňaženku...</translation>
+        <source>Modify configuration options for %1</source>
+        <translation>Upraviť nastavenia pre %1</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>&amp;Encrypt Wallet...</source>
+        <translation>&amp;Zašifrovať Peňaženku...</translation>
+    </message>
+    <message>
         <source>&amp;Backup Wallet...</source>
         <translation>&amp;Zálohovať peňaženku...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Zmena hesla...</translation>
+        <translation>&amp;Zmena Hesla...</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>&amp;Export...</source>
-        <translation>&amp;Export...</translation>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Odosielajúce adresy ...</translation>
     </message>
     <message>
-        <location line="-55"/>
-        <source>Send coins to a Foin address</source>
-        <translation>Poslať mince na Foin adresu</translation>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Prijímajúce adresy...</translation>
     </message>
     <message>
-        <location line="+39"/>
-        <source>Modify configuration options for Foin</source>
-        <translation>Upraviť možnosti konfigurácie pre Foin</translation>
+        <source>Open &amp;URI...</source>
+        <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Exportovať dáta v aktuálnej karte do súboru</translation>
+        <source>Click to disable network activity.</source>
+        <translation>Kliknite pre zakázanie sieťovej aktivity.</translation>
     </message>
     <message>
-        <location line="-13"/>
-        <source>Encrypt or decrypt wallet</source>
-        <translation>Zašifrovať alebo dešifrovať peňaženku</translation>
+        <source>Network activity disabled.</source>
+        <translation>Sieťová aktivita zakázaná.</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Click to enable network activity again.</source>
+        <translation>Kliknite pre povolenie sieťovej aktivity.</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>Synchronizujú sa hlavičky (%1%)...</translation>
+    </message>
+    <message>
+        <source>Reindexing blocks on disk...</source>
+        <translation>Preindexúvam bloky na disku...</translation>
+    </message>
+    <message>
+        <source>Send coins to a Bitcoin address</source>
+        <translation>Poslať foins na adresu</translation>
+    </message>
+    <message>
         <source>Backup wallet to another location</source>
         <translation>Zálohovať peňaženku na iné miesto</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Zmeniť heslo použité na šifrovanie peňaženky</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>&amp;Debug window</source>
-        <translation>&amp;Ladiace okno</translation>
+        <translation>&amp;Okno pre ladenie</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
         <translation>Otvor konzolu pre ladenie a diagnostiku</translation>
     </message>
     <message>
-        <location line="-5"/>
         <source>&amp;Verify message...</source>
-        <translation>Overiť správu</translation>
+        <translation>O&amp;veriť správu...</translation>
     </message>
     <message>
-        <location line="-214"/>
-        <location line="+555"/>
-        <source>Foin</source>
+        <source>Bitcoin</source>
         <translation>Foin</translation>
     </message>
     <message>
-        <location line="-555"/>
         <source>Wallet</source>
         <translation>Peňaženka</translation>
     </message>
     <message>
-        <location line="+193"/>
-        <source>&amp;About Foin</source>
-        <translation>&amp;O Foin</translation>
+        <source>&amp;Send</source>
+        <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>&amp;Show / Hide</source>
-        <translation>Zobraziť / skryť</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Unlock wallet</source>
-        <translation>Odomknúť peňaženku</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>&amp;Lock Wallet</source>
-        <translation>&amp;Zamknúť peňaženku</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Lock wallet</source>
-        <translation>Zamknúť peňaženku</translation>
-    </message>
-    <message>
-        <location line="+32"/>
-        <source>&amp;File</source>
-        <translation>&amp;Súbor</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>&amp;Settings</source>
-        <translation>&amp;Nastavenia</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>&amp;Help</source>
-        <translation>&amp;Pomoc</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>Tabs toolbar</source>
-        <translation>Lišta záložiek</translation>
-    </message>
-    <message>
-        <location line="+46"/>
-        <location line="+9"/>
-        <source>[testnet]</source>
-        <translation>[testovacia sieť]</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <location line="+58"/>
-        <source>Foin client</source>
-        <translation>Foin klient</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+70"/>
-        <source>%n active connection(s) to Foin network</source>
-        <translation><numerusform>%n aktívne spojenie s Foin sieťov</numerusform><numerusform>%n aktívnych spojení s Foin sieťov</numerusform><numerusform>%n aktívnych spojení s Foin sieťou</numerusform></translation>
-    </message>
-    <message>
-        <location line="+488"/>
-        <source>Staking.&lt;br&gt;Your weight is %1&lt;br&gt;Network weight is %2&lt;br&gt;Expected time to earn reward is %3</source>
-        <translation>Stávkovanie.&lt;br&gt;Vaša váha je %1&lt;br&gt;Váha siete je %2&lt;br&gt;Odhadovaný čas pre získanie odmeny je %3</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Not staking because wallet is locked</source>
-        <translation>Nestávkujem pretože peňaženka je zamknutá</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Not staking because wallet is offline</source>
-        <translation>Nestávkujem pretože peňaženka je offline</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Not staking because wallet is syncing</source>
-        <translation>Nestávkujem pretože peňaženka sa synchronizuje</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Not staking because you don&apos;t have mature coins</source>
-        <translation>Nestávkujem pretože nemáte dozreté mince</translation>
-    </message>
-    <message>
-        <location line="-812"/>
-        <source>&amp;Dashboard</source>
-        <translation>&amp;Dashboard</translation>
-    </message>
-    <message>
-        <location line="+6"/>
         <source>&amp;Receive</source>
         <translation>&amp;Prijať</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>&amp;Send</source>
-        <translation>&amp;Poslať</translation>
+        <source>&amp;Show / Hide</source>
+        <translation>Zobraziť / skryť</translation>
     </message>
     <message>
-        <location line="+49"/>
-        <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Odomknúť peňaženku...</translation>
+        <source>Show or hide the main Window</source>
+        <translation>Zobraziť alebo skryť hlavné okno</translation>
     </message>
     <message>
-        <location line="+277"/>
-        <source>Up to date</source>
-        <translation>Aktualizované</translation>
+        <source>Encrypt the private keys that belong to your wallet</source>
+        <translation>Zašifruj súkromné kľúče ktoré patria do vašej peňaženky</translation>
     </message>
     <message>
-        <location line="+43"/>
-        <source>Catching up...</source>
-        <translation>Sťahujem...</translation>
+        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <translation>Podpísať správu s vašou adresou Foin aby ste preukázali že ju vlastníte</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation>Potvrďte transakčný poplatok</translation>
+        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <translation>Overiť či správa bola podpísaná uvedenou Foin adresou</translation>
     </message>
     <message>
-        <location line="+27"/>
-        <source>Sent transaction</source>
-        <translation>Odoslané transakcie</translation>
+        <source>&amp;File</source>
+        <translation>&amp;Súbor</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Incoming transaction</source>
-        <translation>Prijaté transakcie</translation>
+        <source>&amp;Settings</source>
+        <translation>&amp;Nastavenia</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation>Dátum: %1
-Suma: %2
-Typ: %3
-Adresa: %4</translation>
+        <source>&amp;Help</source>
+        <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <location line="+100"/>
-        <location line="+15"/>
-        <source>URI handling</source>
-        <translation>URI manipulácia</translation>
+        <source>Tabs toolbar</source>
+        <translation>Lišta záložiek</translation>
     </message>
     <message>
-        <location line="-15"/>
-        <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Foin address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou Foin adresu alebo chybnými URI parametrami.</translation>
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a foin: URI)</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Wallet is &lt;b&gt;not encrypted&lt;/b&gt;</source>
-        <translation>Peňaženka &lt;b&gt;nie je zašifrovaná&lt;/b&gt;</translation>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>Zobraziť zoznam použitých adries odosielateľa a ich popisy</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt;</translation>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>Zobraziť zoznam použitých prijímacích adries a ich popisov</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
+        <source>Open a bitcoin: URI or payment request</source>
+        <translation>Otvoriť foin URI alebo výzvu k platbe</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Backup Wallet</source>
-        <translation>Zálohovanie peňaženky</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Wallet Data (*.dat)</source>
-        <translation>Dáta peňaženky (*.dat)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Backup Failed</source>
-        <translation>Zálohovanie zlyhalo</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>Došlo k chybe pri pokuse o uloženie dát peňaženky do nového umiestnenia.</translation>
+        <source>&amp;Command-line options</source>
+        <translation>Možnosti príkazového riadku</translation>
     </message>
     <message numerus="yes">
-        <location line="+91"/>
-        <source>%n second(s)</source>
-        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekúnd</numerusform><numerusform>%n sekúnd</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n minúta</numerusform><numerusform>%n minút</numerusform><numerusform>%n minút</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="-429"/>
-        <location line="+433"/>
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n hodina</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodín</numerusform></translation>
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n aktívne pripojenie do siete Foin</numerusform><numerusform>%n aktívne pripojenia do siete Foin</numerusform><numerusform>%n aktívnych pripojení do siete Foin</numerusform></translation>
     </message>
     <message>
-        <location line="-456"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation>Spracovaných %1 blokov transakčnej histórie.</translation>
-    </message>
-    <message numerus="yes">
-        <location line="+27"/>
-        <location line="+433"/>
-        <source>%n day(s)</source>
-        <translation><numerusform>%n deň</numerusform><numerusform>%n dni</numerusform><numerusform>%n dní</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="-429"/>
-        <location line="+6"/>
-        <source>%n week(s)</source>
-        <translation><numerusform>%n týždeň</numerusform><numerusform>%n týždne</numerusform><numerusform>%n týždňov</numerusform></translation>
+        <source>Indexing blocks on disk...</source>
+        <translation>Indexujem bloky na disku...</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>%1 and %2</source>
-        <translation>%1 a %2</translation>
+        <source>Processing blocks on disk...</source>
+        <translation>Spracovávam bloky na disku...</translation>
     </message>
     <message numerus="yes">
-        <location line="+0"/>
-        <source>%n year(s)</source>
-        <translation><numerusform>%n rok</numerusform><numerusform>%n roky</numerusform><numerusform>%n rokov</numerusform></translation>
+        <source>Processed %n block(s) of transaction history.</source>
+        <translation><numerusform>Spracovaných %n blok transakčnej histórie.</numerusform><numerusform>Spracovaných %n bloky transakčnej histórie.</numerusform><numerusform>Spracovaných %n blokov transakčnej histórie.</numerusform></translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>%1 behind</source>
         <translation>%1 pozadu</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Posledný prijatý blok bol vytvorený pred %1.</translation>
+        <translation>Posledný prijatý blok bol vygenerovaný pred: %1.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transakcie po tejto ešte nebudú viditeľné</translation>
+        <translation>Transakcie po tomto čase ešte nebudú viditeľné.</translation>
     </message>
     <message>
-        <location line="+23"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation>Varovanie</translation>
+        <translation>Upozornenie</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
         <translation>Informácia</translation>
     </message>
     <message>
-        <location line="+69"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Táto transakcia je nad veľkostný limit. Stále ju môžete poslať za poplatok %1, ktorý ide uzlom spracujúcim vaše transakcie, čím pomáhate podporovať sieť. Chcete zaplatiť poplatok?</translation>
+        <source>Up to date</source>
+        <translation>Aktualizovaný</translation>
     </message>
     <message>
-        <location line="+324"/>
-        <source>Not staking</source>
-        <translation>Nestávkuje sa</translation>
+        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Ukáž %1 zoznam možných nastavení Foinu pomocou príkazového riadku</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Foin can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. Foin už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>%1 client</source>
+        <translation>%1 klient</translation>
     </message>
-</context>
-<context>
-    <name>ClientModel</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+119"/>
-        <source>Network Alert</source>
-        <translation>Výstraha siete</translation>
+        <source>Connecting to peers...</source>
+        <translation>Pripája sa k partnerom...</translation>
+    </message>
+    <message>
+        <source>Catching up...</source>
+        <translation>Sťahujem...</translation>
+    </message>
+    <message>
+        <source>Date: %1
+</source>
+        <translation>Dátum: %1
+</translation>
+    </message>
+    <message>
+        <source>Amount: %1
+</source>
+        <translation>Suma: %1
+</translation>
+    </message>
+    <message>
+        <source>Type: %1
+</source>
+        <translation>Typ: %1
+</translation>
+    </message>
+    <message>
+        <source>Label: %1
+</source>
+        <translation>Popis: %1
+</translation>
+    </message>
+    <message>
+        <source>Address: %1
+</source>
+        <translation>Adresa: %1
+</translation>
+    </message>
+    <message>
+        <source>Sent transaction</source>
+        <translation>Odoslané transakcie</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>Prijatá transakcia</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
+        <translation>Vyskytla sa kritická chyba. Foin nemôže ďalej bezpečne pokračovať a ukončí sa.</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <location filename="../forms/coincontroldialog.ui" line="+14"/>
-        <source>Coin Control</source>
-        <translation>Kontrola mincí</translation>
+        <source>Coin Selection</source>
+        <translation>Výber mince</translation>
     </message>
     <message>
-        <location line="+31"/>
         <source>Quantity:</source>
         <translation>Množstvo:</translation>
     </message>
     <message>
-        <location line="+32"/>
         <source>Bytes:</source>
-        <translation>Bajty:</translation>
+        <translation>Bajtov:</translation>
     </message>
     <message>
-        <location line="+48"/>
         <source>Amount:</source>
         <translation>Suma:</translation>
     </message>
     <message>
-        <location line="+48"/>
         <source>Fee:</source>
         <translation>Poplatok:</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Low Output:</source>
-        <translation>Nízky výstup:</translation>
+        <source>Dust:</source>
+        <translation>Prach:</translation>
     </message>
     <message>
-        <location filename="../coincontroldialog.cpp" line="+493"/>
-        <source>no</source>
-        <translation>nie</translation>
-    </message>
-    <message>
-        <location filename="../forms/coincontroldialog.ui" line="+51"/>
         <source>After Fee:</source>
         <translation>Po poplatku:</translation>
     </message>
     <message>
-        <location line="+35"/>
         <source>Change:</source>
         <translation>Zmena:</translation>
     </message>
     <message>
-        <location line="+69"/>
         <source>(un)select all</source>
-        <translation>(Ne)označiť všetko</translation>
+        <translation>(ne)vybrať všetko</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Tree mode</source>
         <translation>Stromový režim</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>List mode</source>
         <translation>Zoznamový režim</translation>
     </message>
     <message>
-        <location line="+45"/>
         <source>Amount</source>
         <translation>Suma</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Label</source>
-        <translation>Menovka</translation>
+        <source>Received with label</source>
+        <translation>Prijaté s označením</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Address</source>
-        <translation>Adresa</translation>
+        <source>Received with address</source>
+        <translation>Prijaté s adresou</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Date</source>
         <translation>Dátum</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Confirmations</source>
         <translation>Potvrdenia</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Confirmed</source>
         <translation>Potvrdené</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Priority</source>
-        <translation>Priorita</translation>
-    </message>
-    <message>
-        <location filename="../coincontroldialog.cpp" line="-456"/>
         <source>Copy address</source>
         <translation>Kopírovať adresu</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy label</source>
         <translation>Kopírovať popis</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+26"/>
         <source>Copy amount</source>
         <translation>Kopírovať sumu</translation>
     </message>
     <message>
-        <location line="-25"/>
         <source>Copy transaction ID</source>
         <translation>Kopírovať ID transakcie</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <source>Lock unspent</source>
+        <translation>Uzamknúť neminuté</translation>
+    </message>
+    <message>
+        <source>Unlock unspent</source>
+        <translation>Odomknúť neminuté</translation>
+    </message>
+    <message>
         <source>Copy quantity</source>
         <translation>Kopírovať množstvo</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Copy fee</source>
         <translation>Kopírovať poplatok</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy after fee</source>
-        <translation>Kopírovať po poplatku</translation>
+        <translation>Kopírovať po poplatkoch</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy bytes</source>
         <translation>Kopírovať bajty</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Copy low output</source>
-        <translation>Kopírovať nízky výstup</translation>
+        <source>Copy dust</source>
+        <translation>Kopírovať prach</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy change</source>
         <translation>Kopírovať zmenu</translation>
     </message>
     <message>
-        <location line="+423"/>
-        <source>DUST</source>
-        <translation>PRACH</translation>
+        <source>(%1 locked)</source>
+        <translation>(%1 zamknutých)</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>yes</source>
         <translation>áno</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>This label turns red, if the transaction size is bigger than 10000 bytes.
-
- This means a fee of at least %1 per kb is required.
-
- Can vary +/- 1 Byte per input.</source>
-        <translation>Tento popis sčervená, v prípade, že veľkosť transakcie je väčšia ako 10000 bajtov.
-
- To znamená, že je potrebný poplatok vo výške najmenej %1 za kb.
-
-Môže sa líšiť +/- 1 bajt za vstup.</translation>
+        <source>no</source>
+        <translation>nie</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>This label turns red, if any recipient receives an amount smaller than %1.
-
- This means a fee of at least %2 is required. 
-
- Amounts below 0.546 times the minimum relay fee are shown as DUST.</source>
-        <translation>Tento popis sčervenie, ak príjemca dostane sumu menšiu ako %1.
-
-To znamená, že je potrebný poplatok aspoň %2.
-
-Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako PRACH.</translation>
+        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
+        <translation>Tento popis sčervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako súčasný limit pre "prach".</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>This label turns red, if the change is smaller than %1.
-
- This means a fee of at least %2 is required.</source>
-        <translation>Tento popis sčervenie, ak je zmena menšia než %1.
-
-To znamená, že je potrebný poplatok aspoň %2.</translation>
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>Môže sa líšiť o +/- %1 satoshi pre každý vstup.</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <location line="+58"/>
         <source>(no label)</source>
         <translation>(bez popisu)</translation>
     </message>
     <message>
-        <location line="-9"/>
         <source>change from %1 (%2)</source>
         <translation>zmena od %1 (%2)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>(change)</source>
         <translation>(zmena)</translation>
     </message>
@@ -952,301 +698,484 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
         <translation>Upraviť adresu</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
         <translation>&amp;Popis</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>Popis spojený s touto položkou v adresáry</translation>
+        <source>The label associated with this address list entry</source>
+        <translation>Popis tejto položký v zozname adries je prázdny</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>Adresa spojená s týmto záznamom v adresári. Možno upravovať len pre odosielajúce adresy.</translation>
+    </message>
+    <message>
         <source>&amp;Address</source>
         <translation>&amp;Adresa</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Adresa spojená s položkou v tomto adresári. Toto môže byť zmenené iba pre odosielané adresy.</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
         <translation>Nová adresa pre prijímanie</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>New sending address</source>
         <translation>Nová adresa pre odoslanie</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>Upraviť adresu pre prijímanie</translation>
+        <translation>Upraviť prijímajúcu adresu</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Upraviť adresu pre odosielanie</translation>
+        <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Zadaná adresa &quot;%1&quot; sa už nachádza v adresári.</translation>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>Vložená adresa "%1" nieje platnou adresou Foin.</translation>
     </message>
     <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Foin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou Foin adresou.</translation>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Vložená adresa "%1" sa už nachádza v adresári.</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Could not unlock wallet.</source>
         <translation>Nepodarilo sa odomknúť peňaženku.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>New key generation failed.</source>
         <translation>Generovanie nového kľúča zlyhalo.</translation>
     </message>
 </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>FreespaceChecker</name>
     <message>
-        <location filename="../guiutil.cpp" line="+426"/>
-        <location line="+12"/>
-        <source>Foin-Qt</source>
-        <translation>Foin-Qt</translation>
+        <source>A new data directory will be created.</source>
+        <translation>Bude vytvorený nový dátový adresár.</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <source>name</source>
+        <translation>názov</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Priečinok už existuje. Pridajte "%1" ak chcete vytvoriť nový priečinok tu.</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Cesta už existuje a nie je to adresár.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>Tu nemôžem vytvoriť dátový adresár.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
         <source>version</source>
         <translation>verzia</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+    <message>
+        <source>About %1</source>
+        <translation>O %1</translation>
+    </message>
+    <message>
+        <source>Command-line options</source>
+        <translation>Voľby príkazového riadku</translation>
+    </message>
+    <message>
         <source>Usage:</source>
         <translation>Použitie:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>command-line options</source>
-        <translation>možnosti príkazového riadka</translation>
+        <translation>voľby príkazového riadku</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation>Možnosti používateľského rozhrania</translation>
+        <source>UI Options:</source>
+        <translation>Možnosti používateľského rozhrania:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Nastavenie jazyka, napr &quot;de_DE&quot; (predvolené: miestne nastavenie systému)</translation>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>Vyberte dátový priečinok pri štarte (predvolené: %u)</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Nastavte jazyk, napríklad "de_DE" (predvolené: podľa systému)</translation>
+    </message>
+    <message>
         <source>Start minimized</source>
         <translation>Spustiť minimalizované</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation>Zobraziť úvodnú obrazovku pri štarte (predvolené: 1)</translation>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Nastaviť SSL root certifikáty pre vyžiadanie platby (predvolené: -system-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>Zobraziť uvítaciu obrazovku pri štarte (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Reset all settings changed in the GUI</source>
+        <translation>Zrušiť všetky zmeny v GUI</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Vitajte</translation>
+    </message>
+    <message>
+        <source>Welcome to %1.</source>
+        <translation>Vitajte v %1</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
+        <translation>Keďže toto je prvé spustenie programu, môžete si vybrať, kam %1 bude ukladať vaše údaje.</translation>
+    </message>
+    <message>
+        <source>%1 will download and store a copy of the Bitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 stiahne a uloží kópiu Foin block chain. Minimálne %2GB dát bude uložených v tejto zložke, a bude sa zväčšovať postupom času. Peňaženka bude taktiež uložená v tejto zložke.</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>Použiť predvolený dátový adresár</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>Použiť vlastný dátový adresár:</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>Chyba: Zadaný priečinok pre dáta "%1" nemôže byť vytvorený.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Chyba</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>%n GB voľného miesta</numerusform><numerusform>%n GB voľného miesta</numerusform><numerusform>%n GB voľného miesta</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(z %n GB potrebného)</numerusform><numerusform>(z %n GB potrebných)</numerusform><numerusform>(z %n GB potrebných)</numerusform></translation>
+    </message>
+</context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Forma</translation>
+    </message>
+    <message>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <translation>Nedávne transakcie nemusia byť ešte viditeľné preto môže byť zostatok vo vašej peňaženke nesprávny. Táto informácia bude správna keď sa dokončí synchronizovanie peňaženky so sieťou foin, ako je rozpísané nižšie.</translation>
+    </message>
+    <message>
+        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Pokus o minutie foinov, ktoré sú ovplyvnené ešte nezobrazenými transakciami, nebude sieťou akceptovaný.</translation>
+    </message>
+    <message>
+        <source>Number of blocks left</source>
+        <translation>Počet zostávajúcich blokov</translation>
+    </message>
+    <message>
+        <source>Unknown...</source>
+        <translation>Neznáme...</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Čas posledného bloku</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>Postup synchronizácie</translation>
+    </message>
+    <message>
+        <source>Progress increase per hour</source>
+        <translation>Prírastok postupu za hodinu</translation>
+    </message>
+    <message>
+        <source>calculating...</source>
+        <translation>počíta sa...</translation>
+    </message>
+    <message>
+        <source>Estimated time left until synced</source>
+        <translation>Odhadovaný čas do ukončenia synchronizácie</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Skryť</translation>
+    </message>
+    <message>
+        <source>Unknown. Syncing Headers (%1)...</source>
+        <translation>Neznámy. Synchronizujú sa hlavičky (%1)...</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Otvoriť URI</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Otvoriť požiadavku na zaplatenie z URI alebo súboru</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Vyberte súbor s výzvou k platbe</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>Vyberte ktorý súbor s výzvou na platbu otvoriť</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
         <translation>Možnosti</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>&amp;Main</source>
         <translation>&amp;Hlavné</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation>Voliteľný transakčný poplatok za kB, ktorý pomáha zaistiť, že vaše transakcie sú spracované rýchlo. Väčšina transakcií je 1 kB. Poplatok 0.01 je odporúčaný.</translation>
+        <source>Automatically start %1 after logging in to the system.</source>
+        <translation>Automaticky spustiť %1 pri spustení systému.</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation>Zaplatiť transakčné &amp;poplatky</translation>
+        <source>&amp;Start %1 on system login</source>
+        <translation>&amp;Spustiť %1 pri prihlásení</translation>
     </message>
     <message>
-        <location line="+31"/>
-        <source>Reserved amount does not participate in staking and is therefore spendable at any time.</source>
-        <translation>Rezervované množstvo sa nepodieľa na stávkovaní a preto je použiteľné kedykoľvek.</translation>
+        <source>Size of &amp;database cache</source>
+        <translation>Veľkosť vyrovnávacej pamäti &amp;databázy</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>Reserve</source>
-        <translation>Rezerva</translation>
+        <source>MB</source>
+        <translation>MB</translation>
     </message>
     <message>
-        <location line="+31"/>
-        <source>Automatically start Foin after logging in to the system.</source>
-        <translation>Automaticky spustiť Foin po prihlásení sa do systému.</translation>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Počet &amp;vlákien overujúcich skript</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Start Foin on system login</source>
-        <translation>&amp;Spustiť Foin pri prihlásení do systému</translation>
+        <source>Accept connections from outside</source>
+        <translation>Prijať spojenia zvonku</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <source>Allow incoming connections</source>
+        <translation>Povoliť prichádzajúce spojenia</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP adresy proxy (napr. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
+        <translation>Minimalizovať namiesto ukončenia aplikácie keď sa okno zavrie. Keď je zvolená táto možnosť, aplikácia sa zavrie len po zvolení Ukončiť v menu.</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>URL tretích strán (napr. prehliadač blockchain) ktoré sa zobrazujú v záložke transakcií ako položky kontextového menu. %s v URL je nahradené hash-om transakcie. Viaceré URL sú oddelené zvislou čiarou |.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>URL transakcií s tretími stranami</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Aktívne možnosti príkazového riadku ktoré prepíšu možnosti vyššie:</translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>Vynulovať všetky voľby klienta na predvolené.</translation>
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>Vynulovať voľby</translation>
+    </message>
+    <message>
         <source>&amp;Network</source>
-        <translation>Sieť</translation>
+        <translation>&amp;Sieť</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Automatically open the Foin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta Foin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+        <translation>(0 = auto, &lt;0 = nechať toľko jadier voľných)</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>W&amp;allet</source>
+        <translation>&amp;Peňaženka</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>Expert</translation>
+    </message>
+    <message>
+        <source>Enable coin &amp;control features</source>
+        <translation>Povoliť možnosti "&amp;coin control"</translation>
+    </message>
+    <message>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>Ak vypnete míňanie nepotvrdeného výdavku tak výdavok z transakcie bude možné použiť až keď daná transakcia bude mať aspoň jedno potvrdenie. Toto má vplyv aj na výpočet vášho zostatku.</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>Minúť nepotvrdený výdavok</translation>
+    </message>
+    <message>
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvorit port pre Foin na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+    </message>
+    <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapovať port pomocou &amp;UPnP</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť do siete Foin cez proxy server SOCKS5.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>&amp;Pripojiť cez proxy server SOCKS5 (predvolený proxy).</translation>
+    </message>
+    <message>
         <source>Proxy &amp;IP:</source>
         <translation>Proxy &amp;IP:</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>IP adresa proxy servera (napr. 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Port:</source>
         <translation>&amp;Port:</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
         <translation>Port proxy (napr. 9050)</translation>
     </message>
     <message>
-        <location line="-57"/>
-        <source>Connect to the Foin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojiť k sieti Foin cez SOCKS5 proxy (napr. pri pripojení cez Tor).</translation>
+        <source>Used for reaching peers via:</source>
+        <translation>Použité pre získavanie peerov cez:</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS5 proxy:</source>
-        <translation>&amp;Pripojenie cez SOCKS5 proxy:</translation>
+        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <translation>Zobrazuje, či je poskytované predvolené SOCKS5 proxy používané pre získavanie peerov cez tento typ siete.</translation>
     </message>
     <message>
-        <location line="+90"/>
+        <source>IPv4</source>
+        <translation>IPv4</translation>
+    </message>
+    <message>
+        <source>IPv6</source>
+        <translation>IPv6</translation>
+    </message>
+    <message>
+        <source>Tor</source>
+        <translation>Tor</translation>
+    </message>
+    <message>
+        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Pripojiť k Foinovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
+        <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor:</translation>
+    </message>
+    <message>
         <source>&amp;Window</source>
-        <translation>Okno</translation>
+        <translation>&amp;Okno</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>&amp;Hide the icon from the system tray.</source>
+        <translation>&amp;Skryť ikonu zo systémovej lišty.</translation>
+    </message>
+    <message>
+        <source>Hide tray icon</source>
+        <translation>Skryť ikonu v oblasti oznámení</translation>
+    </message>
+    <message>
         <source>Show only a tray icon after minimizing the window.</source>
         <translation>Zobraziť len ikonu na lište po minimalizovaní okna.</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>Minimalizovať na lištu namiesto panelu úloh</translation>
+        <translation>Zobraziť len ikonu na lište po minimalizovaní okna.</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimalizovať namiesto ukončenia aplikácie keď sa zatvorí okno. Keď je zvolená táto možnosť, aplikácia sa zatvorí len po zvolení Ukončiť v menu.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimalizovať pri zatvorení</translation>
+        <translation>M&amp;inimalizovať pri zavretí</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>&amp;Zobraznie</translation>
+        <translation>&amp;Zobrazenie</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>Jazyk používateľského rozhrania:</translation>
+        <translation>Jazyk užívateľského rozhrania:</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Foin.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní Foin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
+        <translation>Jazyk uživateľského rozhrania sa dá nastaviť tu. Toto nastavenie sa uplatní až po reštarte %1.</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;Zobrazovať hodnoty v jednotkách:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Vyberte si predvolené delenie jednotiek zobrazované v rozhraní a pri odosielaní mincí.</translation>
+        <translation>Zvoľte ako deliť foin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Whether to show coin control features or not.</source>
-        <translation>Či sa majú zobraziť funkcie kontroly mincí alebo nie.</translation>
+        <translation>Či zobrazovať možnosti "Coin control" alebo nie.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Display coin &amp;control features (experts only!)</source>
-        <translation>Zobraziť funkcie &amp;kontroly mincí (len pre odborníkov!)</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Use bits visual theme (requires restart)</source>
-        <translation>Použiť čiernu vizuálnu tému (vyžaduje reštart)</translation>
-    </message>
-    <message>
-        <location line="+71"/>
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Cancel</source>
         <translation>Zrušiť</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation>&amp;Použiť</translation>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+47"/>
         <source>default</source>
         <translation>predvolené</translation>
     </message>
     <message>
-        <location line="+147"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation>Upozornenie</translation>
+        <source>none</source>
+        <translation>žiadne</translation>
     </message>
     <message>
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting Foin.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní Foin.</translation>
+        <source>Confirm options reset</source>
+        <translation>Potvrdiť obnovenie možností</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <source>Client restart required to activate changes.</source>
+        <translation>Reštart klienta potrebný pre aktivovanie zmien.</translation>
+    </message>
+    <message>
+        <source>Client will be shut down. Do you want to proceed?</source>
+        <translation>Klient bude vypnutý, chcete pokračovať?</translation>
+    </message>
+    <message>
+        <source>This change would require a client restart.</source>
+        <translation>Táto zmena by vyžadovala reštart klienta.</translation>
+    </message>
+    <message>
         <source>The supplied proxy address is invalid.</source>
         <translation>Zadaná proxy adresa je neplatná.</translation>
     </message>
@@ -1254,830 +1183,1275 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>Forma</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Foin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou Foin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Foin po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
     </message>
     <message>
-        <location line="-173"/>
-        <source>Stake:</source>
-        <translation>V stávke:</translation>
+        <source>Watch-only:</source>
+        <translation>Iba sledované:</translation>
     </message>
     <message>
-        <location line="+32"/>
-        <source>Unconfirmed:</source>
-        <translation>Nepotvrdené:</translation>
+        <source>Available:</source>
+        <translation>Disponibilné:</translation>
     </message>
     <message>
-        <location line="-113"/>
-        <source>Wallet</source>
-        <translation>Peňaženka</translation>
-    </message>
-    <message>
-        <location line="+49"/>
-        <source>Spendable:</source>
-        <translation>Použiteľné:</translation>
-    </message>
-    <message>
-        <location line="+16"/>
         <source>Your current spendable balance</source>
-        <translation>Váš aktuálny použiteľný zostatok</translation>
+        <translation>Váš aktuálny disponibilný zostatok</translation>
     </message>
     <message>
-        <location line="+80"/>
+        <source>Pending:</source>
+        <translation>Čakajúce potvrdenie:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>Suma transakcií ktoré ešte neboli potvrdené a ešte sa nepočítajú do disponibilného zostatku</translation>
+    </message>
+    <message>
         <source>Immature:</source>
         <translation>Nezrelé:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>Vyťažený zostatok, ktorý nebol ešte dozretý</translation>
+        <translation>Vytvorený zostatok ktorý ešte nedosiahol zrelosť</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <source>Balances</source>
+        <translation>Stav účtu</translation>
+    </message>
+    <message>
         <source>Total:</source>
         <translation>Celkovo:</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>Your current total balance</source>
         <translation>Váš súčasný celkový zostatok</translation>
     </message>
     <message>
-        <location line="+50"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Nedávne transakcie&lt;/b&gt;</translation>
+        <source>Your current balance in watch-only addresses</source>
+        <translation>Váš celkový zostatok pre adresy ktoré sa iba sledujú</translation>
     </message>
     <message>
-        <location line="-118"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Súčet transakcií, ktoré neboli ešte potvrdené, a ešte nezapočítané do aktuálneho zostatku</translation>
+        <source>Spendable:</source>
+        <translation>Použiteľné:</translation>
     </message>
     <message>
-        <location line="-32"/>
-        <source>Total of coins that was staked, and do not yet count toward the current balance</source>
-        <translation>Súčet mincí, ktoré sú v stávke a ešte neboli započítané do aktuálneho zostatku</translation>
+        <source>Recent transactions</source>
+        <translation>Nedávne transakcie</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation>nezosynchronizované</translation>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>Nepotvrdené transakcie pre adresy ktoré sa iba sledujú</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>Vyťažená suma pre adresy ktoré sa iba sledujú ale ešte nie je dozretá</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>Aktuálny celkový zostatok pre adries ktoré sa iba sledujú</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start foin: click-to-pay handler</source>
-        <translation>Foin sa nedá spustiť: click-to-pay handler</translation>
+        <source>Payment request error</source>
+        <translation>Chyba pri vyžiadaní platby</translation>
+    </message>
+    <message>
+        <source>URI handling</source>
+        <translation>URI manipulácia</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>URL pre stiahnutie výzvy na zaplatenie je neplatné: %1</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Neplatná adresa platby %1</translation>
+    </message>
+    <message>
+        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Foin adresou alebo zle nastavenými vlastnosťami URI.</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Obsluha súboru s požiadavkou na platbu</translation>
+    </message>
+    <message>
+        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
+        <translation>Súbor s výzvou na zaplatenie sa nedá čítať! To môže byť spôsobené aj neplatným súborom s výzvou.</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>Požiadavka na platbu zamietnutá</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>Sieť požiadavky na platbu nie je zhodná so sieťou klienta.</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>Vypršala platnosť požiadavky na platbu.</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>Požiadavka na platbu nie je inicializovaná</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>Program nepodporuje neoverené platobné požiadavky na vlastné skripty.</translation>
+    </message>
+    <message>
+        <source>Invalid payment request.</source>
+        <translation>Chybná požiadavka na platbu.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Požadovaná suma platby %1 je príliš nízka (považovaná za prach).</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Vrátenie z  %1</translation>
+    </message>
+    <message>
+        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
+        <translation>Požiadavka na platbu %1 je príliš veľká (%2 bajtov, povolené je %3 bajtov).</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>Chyba komunikácie s %1: %2 </translation>
+    </message>
+    <message>
+        <source>Payment request cannot be parsed!</source>
+        <translation>Požiadavka na platbu nemôže byť analyzovaná!</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>Zlá odpoveď zo servera %1</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>Chyba požiadavky siete</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>Platba potvrdená</translation>
     </message>
 </context>
 <context>
-    <name>QRCodeDialog</name>
+    <name>PeerTableModel</name>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation>QR Code Dialóg</translation>
+        <source>User Agent</source>
+        <translation>Aplikácia</translation>
     </message>
     <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation>Vyžiadať Platbu</translation>
+        <source>Node/Service</source>
+        <translation>Uzol/Služba</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation>Čiastka:</translation>
+        <source>NodeId</source>
+        <translation>ID uzlu</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation>Popis:</translation>
+        <source>Ping</source>
+        <translation>Odozva</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>Suma</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation>Správa:</translation>
+        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <translation>Zadajte foin adresu (napr. %1)</translation>
     </message>
     <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation>&amp;Uložiť ako...</translation>
+        <source>%1 d</source>
+        <translation>%1 d</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>Chyba kódovania URI do QR Code.</translation>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
     </message>
     <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation>Zadaná suma je neplatná, prosím skontrolujte.</translation>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Výsledná URI príliš dlhá, skúste skrátiť text popisu / správy.</translation>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <source>None</source>
+        <translation>Žiadne</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>nie je k dispozícii</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 ms</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekundy</numerusform><numerusform>%n sekúnd</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation><numerusform>%n minúta</numerusform><numerusform>%n minúty</numerusform><numerusform>%n minút</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hodina</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodín</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n deň</numerusform><numerusform>%n dni</numerusform><numerusform>%n dní</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n týždeň</numerusform><numerusform>%n týždne</numerusform><numerusform>%n týždňov</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation> %1 a  %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n rok</numerusform><numerusform>%n roky</numerusform><numerusform>%n rokov</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 didn't yet exit safely...</source>
+        <translation>%1 ešte nebol bezpečne ukončený...</translation>
+    </message>
+</context>
+<context>
+    <name>QObject::QObject</name>
+    <message>
+        <source>Error: %1</source>
+        <translation>Chyba: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>Uložiť obrázok...</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>Kopírovať obrázok</translation>
+    </message>
+    <message>
         <source>Save QR Code</source>
         <translation>Uložiť QR Code</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation>PNG Obrázky (*.png)</translation>
+        <source>PNG Image (*.png)</source>
+        <translation>PNG obrázok (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation>Meno klienta</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
         <source>N/A</source>
         <translation>nie je k dispozícii</translation>
     </message>
     <message>
-        <location line="-194"/>
         <source>Client version</source>
         <translation>Verzia klienta</translation>
     </message>
     <message>
-        <location line="-45"/>
         <source>&amp;Information</source>
-        <translation>&amp;Informácie</translation>
+        <translation>&amp;Informácia</translation>
     </message>
     <message>
-        <location line="+68"/>
-        <source>Using OpenSSL version</source>
-        <translation>Používa OpenSSL verziu</translation>
+        <source>Debug window</source>
+        <translation>Okno pre ladenie</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <source>General</source>
+        <translation>Všeobecné</translation>
+    </message>
+    <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>Používa verziu BerkeleyDB</translation>
+    </message>
+    <message>
+        <source>Datadir</source>
+        <translation>Priečinok s dátami</translation>
+    </message>
+    <message>
         <source>Startup time</source>
         <translation>Čas spustenia</translation>
     </message>
     <message>
-        <location line="+29"/>
         <source>Network</source>
         <translation>Sieť</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Name</source>
+        <translation>Názov</translation>
+    </message>
+    <message>
         <source>Number of connections</source>
         <translation>Počet pripojení</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation>Na testovacej sieti</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Block chain</source>
         <translation>Reťazec blokov</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Current number of blocks</source>
         <translation>Aktuálny počet blokov</translation>
     </message>
     <message>
-        <location line="+197"/>
-        <source>&amp;Network Traffic</source>
-        <translation>&amp;Sieťové prenosy</translation>
+        <source>Memory Pool</source>
+        <translation>Pamäť Poolu</translation>
     </message>
     <message>
-        <location line="+52"/>
-        <source>&amp;Clear</source>
-        <translation>Vymazať</translation>
+        <source>Current number of transactions</source>
+        <translation>Aktuálny počet transakcií</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Totals</source>
-        <translation>Súčty</translation>
+        <source>Memory usage</source>
+        <translation>Využitie pamäte</translation>
     </message>
     <message>
-        <location line="+64"/>
-        <location filename="../rpcconsole.cpp" line="+352"/>
-        <source>In:</source>
-        <translation>Vstup:</translation>
+        <source>Received</source>
+        <translation>Prijaté</translation>
     </message>
     <message>
-        <location line="+80"/>
-        <location filename="../rpcconsole.cpp" line="+1"/>
-        <source>Out:</source>
-        <translation>Výstup:</translation>
+        <source>Sent</source>
+        <translation>Odoslané</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <source>&amp;Peers</source>
+        <translation>&amp;Partneri</translation>
+    </message>
+    <message>
+        <source>Banned peers</source>
+        <translation>Zablokované spojenia</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>Vyberte počítač pre zobrazenie podrobností.</translation>
+    </message>
+    <message>
+        <source>Whitelisted</source>
+        <translation>Povolené</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>Smer</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>Verzia</translation>
+    </message>
+    <message>
+        <source>Starting Block</source>
+        <translation>Počiatočný blok</translation>
+    </message>
+    <message>
+        <source>Synced Headers</source>
+        <translation>Synchronizované hlavičky
+</translation>
+    </message>
+    <message>
+        <source>Synced Blocks</source>
+        <translation>Synchronizované bloky</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>Aplikácia</translation>
+    </message>
+    <message>
+        <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvoriť %1 ladiaci výpis z aktuálnej zložky. Pre veľké súbory to môže chvíľu trvať.</translation>
+    </message>
+    <message>
+        <source>Decrease font size</source>
+        <translation>Zmenšiť písmo</translation>
+    </message>
+    <message>
+        <source>Increase font size</source>
+        <translation>Zväčšiť písmo</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>Služby</translation>
+    </message>
+    <message>
+        <source>Ban Score</source>
+        <translation>Skóre zákazu</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>Dĺžka spojenia</translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>Posledné odoslanie</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>Posledné prijatie</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Čas odozvy</translation>
+    </message>
+    <message>
+        <source>The duration of a currently outstanding ping.</source>
+        <translation>Trvanie aktuálnej požiadavky na odozvu.</translation>
+    </message>
+    <message>
+        <source>Ping Wait</source>
+        <translation>Čakanie na odozvu</translation>
+    </message>
+    <message>
+        <source>Min Ping</source>
+        <translation>Minimálna odozva</translation>
+    </message>
+    <message>
+        <source>Time Offset</source>
+        <translation>Časový posun</translation>
+    </message>
+    <message>
         <source>Last block time</source>
         <translation>Čas posledného bloku</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>&amp;Open</source>
         <translation>&amp;Otvoriť</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation>Možnosti príkazového riadka</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show the Foin-Qt help message to get a list with possible Foin command-line options.</source>
-        <translation>Zobraziť Foin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku Foin.</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Show</source>
-        <translation>&amp;Zobraziť</translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>&amp;Console</source>
         <translation>&amp;Konzola</translation>
     </message>
     <message>
-        <location line="-237"/>
-        <source>Build date</source>
-        <translation>Dátum zostavenia</translation>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;Sieťová prevádzka</translation>
     </message>
     <message>
-        <location line="-104"/>
-        <source>Foin - Debug window</source>
-        <translation>Foin - Ladiace okno</translation>
+        <source>&amp;Clear</source>
+        <translation>&amp;Vyčistiť</translation>
     </message>
     <message>
-        <location line="+25"/>
-        <source>Foin Core</source>
-        <translation>Jadro Foin</translation>
+        <source>Totals</source>
+        <translation>Celkovo:</translation>
     </message>
     <message>
-        <location line="+256"/>
+        <source>In:</source>
+        <translation>Dnu:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Von:</translation>
+    </message>
+    <message>
         <source>Debug log file</source>
-        <translation>Súbor denníka ladenia</translation>
+        <translation>Súbor záznamu ladenia</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Open the Foin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte Foin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
-    </message>
-    <message>
-        <location line="+102"/>
         <source>Clear console</source>
         <translation>Vymazať konzolu</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the Foin RPC console.</source>
-        <translation>Vitajte v konzole Foin RPC.</translation>
+        <source>1 &amp;hour</source>
+        <translation>1 &amp;hodinu</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>1 &amp;day</source>
+        <translation>1 &amp;deň</translation>
+    </message>
+    <message>
+        <source>1 &amp;week</source>
+        <translation>1 &amp;týždeň</translation>
+    </message>
+    <message>
+        <source>1 &amp;year</source>
+        <translation>1 &amp;rok</translation>
+    </message>
+    <message>
+        <source>&amp;Disconnect</source>
+        <translation>&amp;Odpojiť</translation>
+    </message>
+    <message>
+        <source>Ban for</source>
+        <translation>Zakázať na</translation>
+    </message>
+    <message>
+        <source>&amp;Unban</source>
+        <translation>&amp;Zrušiť zákaz</translation>
+    </message>
+    <message>
+        <source>Welcome to the %1 RPC console.</source>
+        <translation>Vitajte v %1 RPC konzole</translation>
+    </message>
+    <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Použite šípky hore a dole pre navigáciu históriou, a &lt;b&gt; Ctrl-L &lt;/ b&gt; pre vymazanie obrazovky.</translation>
+        <translation>Použi šípky hore a dolu pre navigáciu históriou a &lt;b&gt;Ctrl-L&lt;/b&gt; pre vyčistenie obrazovky.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Zadajte &lt;b&gt;help&lt;/b&gt; pre prehľad dostupných príkazov.</translation>
+        <translation>Napíš &lt;b&gt;help&lt;/b&gt; pre prehľad dostupných príkazov.</translation>
     </message>
     <message>
-        <location line="+134"/>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
+        <translation>VAROVANIE: Podvodníci sú aktívni a môžu nabádať používateľov napísať sem príkazy, pomocou ktorých ukradnú ich obsah peňaženky. Nepoužívajte túto konzolu ak nerozumiete presne účinkom príkazov.</translation>
+    </message>
+    <message>
+        <source>Network activity disabled</source>
+        <translation>Sieťová aktivita zakázaná</translation>
+    </message>
+    <message>
         <source>%1 B</source>
         <translation>%1 B</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>%1 KB</source>
         <translation>%1 KB</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>%1 MB</source>
         <translation>%1 MB</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>%1 GB</source>
         <translation>%1 GB</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
+        <source>(node id: %1)</source>
+        <translation>(ID uzlu: %1)</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>%1 h</source>
-        <translation>%1 h</translation>
+        <source>via %1</source>
+        <translation>cez %1</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>%1 h %2 m</source>
-        <translation>%1 h %2 m</translation>
+        <source>never</source>
+        <translation>nikdy</translation>
+    </message>
+    <message>
+        <source>Inbound</source>
+        <translation>Prichádzajúce</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>Odchádzajúce</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>Áno</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>Nie</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>neznámy</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Suma:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Popis:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;Správa:</translation>
+    </message>
+    <message>
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>Znovu použiť jednu z už použitých adries pre prijímanie. Znovu používanie adries je sporná otázka bezpečnosti aj súkromia. Používajte to len v prípade ak znovu generujete výzvu na zaplatenie ktorú ste už vyrobili v minulosti.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Foin.</translation>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address.</source>
+        <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>Použite tento formulár pre vyžiadanie platby. Všetky polia sú &lt;b&gt;voliteľné&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>Voliteľná požadovaná suma. Nechajte prázdne alebo nulu ak nepožadujete určitú sumu.</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Vyčistiť všetky polia formulára.</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Vyčistiť</translation>
+    </message>
+    <message>
+        <source>Requested payments history</source>
+        <translation>História vyžiadaných platieb</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>Vyžiadať platbu</translation>
+    </message>
+    <message>
+        <source>Show the selected request (does the same as double clicking an entry)</source>
+        <translation>Zobraz zvolenú požiadavku (urobí to isté ako dvoj-klik na záznam)</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Zobraziť</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>Odstrániť zvolené záznamy zo zoznamu</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Odstrániť</translation>
+    </message>
+    <message>
+        <source>Copy URI</source>
+        <translation>Kopírovať URI</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopírovať popis</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Kopírovať správu</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopírovať sumu</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>QR kód</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URI</source>
+        <translation>Kopírovať &amp;URI</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>Kopírovať adresu</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>Uložiť obrázok...</translation>
+    </message>
+    <message>
+        <source>Request payment to %1</source>
+        <translation>Vyžiadať platbu pre %1</translation>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation>Informácia o platbe</translation>
+    </message>
+    <message>
+        <source>URI</source>
+        <translation>URI</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Suma</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Popis</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Správa</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>Výsledné URI je príliš dlhé, skúste skrátiť text pre popis alebo správu.</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>Chyba kódovania URI do QR Code.</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Dátum</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Popis</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Správa</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(bez popisu)</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>(žiadna správa)</translation>
+    </message>
+    <message>
+        <source>(no amount requested)</source>
+        <translation>(nepožadovaná žiadna suma)</translation>
+    </message>
+    <message>
+        <source>Requested</source>
+        <translation>Požadované</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+179"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Poslať mince</translation>
+        <translation>Poslať Foins</translation>
     </message>
     <message>
-        <location line="+76"/>
         <source>Coin Control Features</source>
-        <translation>Funkcie kontroly mincí</translation>
+        <translation>Možnosti "Coin Control"</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>Inputs...</source>
         <translation>Vstupy...</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>automatically selected</source>
         <translation>automaticky vybrané</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Insufficient funds!</source>
         <translation>Nedostatok prostriedkov!</translation>
     </message>
     <message>
-        <location line="+77"/>
         <source>Quantity:</source>
         <translation>Množstvo:</translation>
     </message>
     <message>
-        <location line="+22"/>
-        <location line="+35"/>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <location line="-19"/>
         <source>Bytes:</source>
         <translation>Bajtov:</translation>
     </message>
     <message>
-        <location line="+51"/>
         <source>Amount:</source>
         <translation>Suma:</translation>
     </message>
     <message>
-        <location line="+54"/>
         <source>Fee:</source>
         <translation>Poplatok:</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Low Output:</source>
-        <translation>Nízky výstup:</translation>
-    </message>
-    <message>
-        <location line="+19"/>
-        <source>no</source>
-        <translation>nie</translation>
-    </message>
-    <message>
-        <location line="+32"/>
         <source>After Fee:</source>
-        <translation>Po poplatkoch:</translation>
+        <translation>Po poplatku:</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Change</source>
-        <translation>Zmeniť</translation>
+        <source>Change:</source>
+        <translation>Zmena:</translation>
     </message>
     <message>
-        <location line="+50"/>
-        <source>custom change address</source>
-        <translation>vlastná zmena adresy</translation>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>Ak aktivované ale adresa pre výdavok je prázdna alebo neplatná, výdavok bude poslaný na novovytvorenú adresu.</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <source>Custom change address</source>
+        <translation>Vlastná adresa zmeny</translation>
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>Poplatok za transakciu:</translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation>Zvoliť...</translation>
+    </message>
+    <message>
+        <source>collapse fee-settings</source>
+        <translation>zbaliť nastavenia poplatkov</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>za kilobajt</translation>
+    </message>
+    <message>
+        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ak je poplatok nastavený na 1000 satoshi a transakcia je veľká len 250 bajtov, potom "za kilobajt" zaplatí poplatok 250 satoshi, ale "spolu aspoň" zaplatí 1000 satoshi. Pre transakcie väčšie ako kilobajt platia oba spôsoby za každý kilobajt.</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Skryť</translation>
+    </message>
+    <message>
+        <source>total at least</source>
+        <translation>spolu aspoň</translation>
+    </message>
+    <message>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <translation>Zaplatenie len minimálneho poplatku je v poriadku, pokiaľ existuje menej transakcií ako miesta v blokoch. Uvedomte si však, že ak bude vyšší dopyt po transakciách ako dokáže sieť spracovať, môže byť vaša transakcia odsúvaná a nepotvrdená donekonečna.</translation>
+    </message>
+    <message>
+        <source>(read the tooltip)</source>
+        <translation>(prečítajte si nápovedu pod kurzorom)</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>Odporúčaný:</translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>Vlastný:</translation>
+    </message>
+    <message>
+        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+        <translation>(Automatický poplatok ešte nebol vypočítaný. Toto zvyčajne trvá niekoľko blokov...)</translation>
+    </message>
+    <message>
+        <source>normal</source>
+        <translation>normálne</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>rýchle</translation>
+    </message>
+    <message>
         <source>Send to multiple recipients at once</source>
         <translation>Poslať viacerým príjemcom naraz</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Add &amp;Recipient</source>
         <translation>&amp;Pridať príjemcu</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Remove all transaction fields</source>
-        <translation>Odstráňte všetky transakčné polia</translation>
+        <source>Clear all fields of the form.</source>
+        <translation>Vyčistiť všetky polia formulára.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Dust:</source>
+        <translation>Prach:</translation>
+    </message>
+    <message>
+        <source>Confirmation time target:</source>
+        <translation>Cieľový čas potvrdenia:</translation>
+    </message>
+    <message>
         <source>Clear &amp;All</source>
-        <translation>Zmazať &amp;všetko</translation>
+        <translation>&amp;Zmazať všetko</translation>
     </message>
     <message>
-        <location line="+24"/>
         <source>Balance:</source>
         <translation>Zostatok:</translation>
     </message>
     <message>
-        <location line="+47"/>
         <source>Confirm the send action</source>
         <translation>Potvrďte odoslanie</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>S&amp;end</source>
         <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a Foin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Foin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>Copy quantity</source>
         <translation>Kopírovať množstvo</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy amount</source>
         <translation>Kopírovať sumu</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy fee</source>
         <translation>Kopírovať poplatok</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy after fee</source>
         <translation>Kopírovať po poplatkoch</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy bytes</source>
         <translation>Kopírovať bajty</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Copy low output</source>
-        <translation>Kopírovať nízky výstup</translation>
+        <source>Copy dust</source>
+        <translation>Kopírovať prach</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy change</source>
         <translation>Kopírovať zmenu</translation>
     </message>
     <message>
-        <location line="+85"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; do %2 (%3)</translation>
+        <source>%1 to %2</source>
+        <translation>%1 do %2</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <source>Are you sure you want to send?</source>
+        <translation>Určite chcete odoslať transakciu?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>pridané ako poplatok za transakciu</translation>
+    </message>
+    <message>
+        <source>Total Amount %1</source>
+        <translation>Celková suma %1</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>alebo</translation>
+    </message>
+    <message>
         <source>Confirm send coins</source>
-        <translation>Potvrdiť odoslanie mincí</translation>
+        <translation>Potvrďte odoslanie mincí</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation>Ste si istý, že chcete poslať %1?</translation>
+        <source>The recipient address is not valid. Please recheck.</source>
+        <translation>Adresa príjemcu je neplatná. Prosím, overte ju.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation>a</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation>Adresa príjemcu je neplatná, overte ju prosím.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
         <translation>Suma na úhradu musí byť väčšia ako 0.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>The amount exceeds your balance.</source>
         <translation>Suma je vyššia ako Váš zostatok.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
         <translation>Celková suma prevyšuje Váš zostatok ak sú započítané aj transakčné poplatky %1.</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Objavený duplikát adresy, na každú adresu je možné poslať len raz v jednej odchádzajúcej transakcii.</translation>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>Našla sa duplicitná adresa: každá adresa by sa mala použiť len raz.</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation>Chyba: Vytvorenie transakcie zlyhalo!</translation>
+        <source>Transaction creation failed!</source>
+        <translation>Vytvorenie transakcie zlyhalo!</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Chyba: Transakcia bola zamietnutá. To môže nastať, ak niektoré z mincí vo vašej peňaženke sa už použili, ako napríklad, ak ste použili kópiu wallet.dat a mince boli použité v kópii, ale neboli označené tu ako použité.</translation>
+        <source>The transaction was rejected with the following reason: %1</source>
+        <translation>Transakcia bola odmietnutá z nasledujúceho dôvodu: %1</translation>
     </message>
     <message>
-        <location line="+241"/>
-        <source>WARNING: Invalid Foin address</source>
-        <translation>UPOZORNENIE: Neplatná Foin adresa</translation>
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>Poplatok vyšší ako %1 sa považuje za neprimerane vysoký.</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <source>Payment request expired.</source>
+        <translation>Vypršala platnosť požiadavky na platbu.</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n block(s)</source>
+        <translation><numerusform>%n blok</numerusform><numerusform>%n bloky</numerusform><numerusform>%n blokov</numerusform></translation>
+    </message>
+    <message>
+        <source>Pay only the required fee of %1</source>
+        <translation>Zaplatiť iba požadovaný poplatok %1</translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Odhadovaný začiatok potvrdzovania po %n bloku.</numerusform><numerusform>Odhadovaný začiatok potvrdzovania po %n blokoch.</numerusform><numerusform>Odhadovaný začiatok potvrdzovania po %n blokoch.</numerusform></translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Bitcoin address</source>
+        <translation>Varovanie: Neplatná Foin adresa</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>UPOZORNENIE: Neznáma zmena adresy</translation>
+    </message>
+    <message>
+        <source>Confirm custom change address</source>
+        <translation>Potvrďte zmenu adresy</translation>
+    </message>
+    <message>
+        <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
+        <translation>Zadaná adresa nie je súčasťou tejto peňaženky. Časť alebo všetky peniaze z peňaženky môžu byť odoslané na túto adresu. Ste si istý?</translation>
+    </message>
+    <message>
         <source>(no label)</source>
         <translation>(bez popisu)</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>WARNING: unknown change address</source>
-        <translation>UPOZORNENIE: Neznáma zmena adresy</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
-        <source>Form</source>
-        <translation>Formulár</translation>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>A&amp;mount:</source>
         <translation>Su&amp;ma:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Pay &amp;To:</source>
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Adresa pre poslanie platby (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation>Vložte popis pre túto adresu aby sa pridala do adresára</translation>
-    </message>
-    <message>
-        <location line="-78"/>
         <source>&amp;Label:</source>
         <translation>&amp;Popis:</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Choose address from address book</source>
-        <translation>Vybrať adresu z adresára</translation>
+        <source>Choose previously used address</source>
+        <translation>Vybrať predtým použitú adresu</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>This is a normal payment.</source>
+        <translation>Toto je normálna platba.</translation>
+    </message>
+    <message>
+        <source>The Bitcoin address to send the payment to</source>
+        <translation>Zvoľte adresu kam poslať platbu</translation>
+    </message>
+    <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Paste address from clipboard</source>
         <translation>Vložiť adresu zo schránky</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation>Odstrániť tohto príjemcu</translation>
+        <source>Remove this entry</source>
+        <translation>Odstrániť túto položku</translation>
     </message>
     <message>
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Foin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Foin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej foinov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
+    </message>
+    <message>
+        <source>S&amp;ubtract fee from amount</source>
+        <translation>Odpočítať poplatok od s&amp;umy</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Správa:</translation>
+    </message>
+    <message>
+        <source>This is an unauthenticated payment request.</source>
+        <translation>Toto je neoverená výzva k platbe.</translation>
+    </message>
+    <message>
+        <source>This is an authenticated payment request.</source>
+        <translation>Toto je overená výzva k platbe.</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
+    </message>
+    <message>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>Správa ktorá bola pripojená k foin: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Foin.</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>Platba pre:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>Poznámka:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Zadajte popis pre túto adresu pre pridanie do adresára</translation>
+    </message>
+</context>
+<context>
+    <name>SendConfirmationDialog</name>
+    <message>
+        <source>Yes</source>
+        <translation>áno</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>%1 is shutting down...</source>
+        <translation>%1 sa vypína...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Nevypínajte počítač kým toto okno nezmizne.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Podpisy - Prihlásiť sa / Overiť správu</translation>
+        <translation>Podpisy - Podpísať / Overiť správu</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <location line="+124"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Podpísať správu</translation>
+        <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <location line="-118"/>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Môžete podpísať správy svojimi adresami a dokázať tak, že ich vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu &quot;phishing&quot; Vás môžu lákať k ich podpísaniu. Podpisujete iba plne detailné vyhlásenia s ktorými súhlasíte.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Môžete podpísať správy svojou adresou a dokázať, že viete prijímať mince zaslané na túto adresu. Buďte však opatrní a podpíšte len podrobné prehlásenia, s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k podpísaniu nejasných alebo príliš všeobecných tvrdení čím prevezmú vašu identitu.</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Adresa na podpísanie správy (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The Bitcoin address to sign the message with</source>
+        <translation>Foin adresa pre podpísanie správy s</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+203"/>
-        <source>Choose an address from the address book</source>
-        <translation>Vyberte adresu z adresára</translation>
+        <source>Choose previously used address</source>
+        <translation>Vybrať predtým použitú adresu</translation>
     </message>
     <message>
-        <location line="-193"/>
-        <location line="+203"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-193"/>
         <source>Paste address from clipboard</source>
         <translation>Vložiť adresu zo schránky</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
         <translation>Sem vložte správu ktorú chcete podpísať</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <source>Signature</source>
+        <translation>Podpis</translation>
+    </message>
+    <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Skopírujte aktuálny podpis do schránky</translation>
+        <translation>Kopírovať tento podpis do systémovej schránky</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>Sign the message to prove you own this Foin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto Foin adresu</translation>
+        <source>Sign the message to prove you own this Bitcoin address</source>
+        <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <source>Sign &amp;Message</source>
+        <translation>Podpísať &amp;správu</translation>
+    </message>
+    <message>
         <source>Reset all sign message fields</source>
-        <translation>Obnoviť všetky polia podpísania správy</translation>
+        <translation>Vynulovať všetky polia podpisu správy</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>Zmazať &amp;všetko</translation>
+        <translation>&amp;Zmazať všetko</translation>
     </message>
     <message>
-        <location line="-87"/>
-        <location line="+70"/>
         <source>&amp;Verify Message</source>
-        <translation>Overiť správu...</translation>
+        <translation>O&amp;veriť správu...</translation>
     </message>
     <message>
-        <location line="-64"/>
-        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Zadajte podpisovú adresu správy (uistite sa že presne kopírujete konce riadkov, medzier, tabulátorov, atď.) a podpis nižšie pre overenie správy. Dávajte pozor, aby ste nedali viac do podpisu, než to, čo je v podpísanej správe samotnej, aby ste sa vyhli oklamaniu útokom typu man-in-the-middle.</translation>
+        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <translation>Vložte adresu príjemcu, správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odrážky, atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu MITM útokom. Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Adresa správy bola podpísaná (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>The Bitcoin address the message was signed with</source>
+        <translation>Adresa Foin, ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Foin address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou Foin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <translation>Overím správy sa uistiť že bola podpísaná označenou Foin adresou</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <source>Verify &amp;Message</source>
+        <translation>&amp;Overiť správu</translation>
+    </message>
+    <message>
         <source>Reset all verify message fields</source>
-        <translation>Obnoviť všetky polia pre overenie správy</translation>
+        <translation>Obnoviť všetky polia v overiť správu</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a Foin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Foin adresu (napr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Kliknite "Podpísať správu" pre vytvorenie podpisu</translation>
     </message>
     <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Kliknite &quot;Podpísať správu&quot; pre získanie podpisu</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter Foin signature</source>
-        <translation>Zadajte Foin podpis</translation>
-    </message>
-    <message>
-        <location line="+85"/>
-        <location line="+81"/>
         <source>The entered address is invalid.</source>
         <translation>Zadaná adresa je neplatná.</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+8"/>
-        <location line="+73"/>
-        <location line="+8"/>
         <source>Please check the address and try again.</source>
         <translation>Prosím skontrolujte adresu a skúste znova.</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+81"/>
         <source>The entered address does not refer to a key.</source>
-        <translation>Zadaná adresa sa nevzťahuje na kľúč.</translation>
+        <translation>Vložená adresa nezodpovedá žiadnemu kľúču.</translation>
     </message>
     <message>
-        <location line="-73"/>
         <source>Wallet unlock was cancelled.</source>
         <translation>Odomknutie peňaženky bolo zrušené.</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
-        <translation>Súkromný kľúč k zadanej adrese nie je k dispozícii.</translation>
+        <translation>Súkromný kľúč pre zadanú adresu nieje k dispozícii.</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Message signing failed.</source>
         <translation>Podpísanie správy zlyhalo.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Message signed.</source>
         <translation>Správa podpísaná.</translation>
     </message>
     <message>
-        <location line="+59"/>
         <source>The signature could not be decoded.</source>
         <translation>Podpis nie je možné dekódovať.</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <location line="+13"/>
         <source>Please check the signature and try again.</source>
         <translation>Prosím skontrolujte podpis a skúste znova.</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>The signature did not match the message digest.</source>
-        <translation>Podpis nezodpovedá súhrnu správy.</translation>
+        <translation>Podpis sa nezhoduje so zhrnutím správy.</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Message verification failed.</source>
         <translation>Overenie správy zlyhalo.</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Message verified.</source>
         <translation>Správa overená.</translation>
     </message>
 </context>
 <context>
+    <name>SplashScreen</name>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testovacia sieť]</translation>
+    </message>
+</context>
+<context>
     <name>TrafficGraphWidget</name>
     <message>
-        <location filename="../trafficgraphwidget.cpp" line="+75"/>
         <source>KB/s</source>
         <translation>KB/s</translation>
     </message>
@@ -2085,319 +2459,260 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
 <context>
     <name>TransactionDesc</name>
     <message>
-        <location filename="../transactiondesc.cpp" line="+25"/>
         <source>Open until %1</source>
         <translation>Otvorené do %1</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>conflicted</source>
-        <translation>v rozpore</translation>
+        <source>conflicted with a transaction with %1 confirmations</source>
+        <translation>koliduje s transakciou s %1 potvrdeniami</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>%1/offline</source>
         <translation>%1/offline</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>0/unconfirmed, %1</source>
+        <translation>0/nepotvrdené, %1</translation>
+    </message>
+    <message>
         <source>%1/unconfirmed</source>
         <translation>%1/nepotvrdené</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>%1 confirmations</source>
         <translation>%1 potvrdení</translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>Status</source>
         <translation>Stav</translation>
     </message>
-    <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, vysielanie cez %n uzol</numerusform><numerusform>, vysielanie cez %n uzlov</numerusform><numerusform>, vysielanie cez %n uzlov</numerusform></translation>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, ešte nebola úspešne odoslaná</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Date</source>
         <translation>Dátum</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Source</source>
         <translation>Zdroj</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Generated</source>
         <translation>Vygenerované</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <location line="+13"/>
         <source>From</source>
         <translation>Od</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+19"/>
-        <location line="+58"/>
-        <source>To</source>
-        <translation>Pre</translation>
+        <source>unknown</source>
+        <translation>neznámy</translation>
     </message>
     <message>
-        <location line="-74"/>
-        <location line="+2"/>
+        <source>To</source>
+        <translation>do</translation>
+    </message>
+    <message>
         <source>own address</source>
         <translation>vlastná adresa</translation>
     </message>
     <message>
-        <location line="-2"/>
+        <source>watch-only</source>
+        <translation>Iba sledovanie</translation>
+    </message>
+    <message>
         <source>label</source>
         <translation>popis</translation>
     </message>
     <message>
-        <location line="+34"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
         <source>Credit</source>
         <translation>Kredit</translation>
     </message>
-    <message numerus="yes">
-        <location line="-102"/>
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>dozreje o ďalší %n blok</numerusform><numerusform>dozreje o ďalších %n blokov</numerusform><numerusform>dozreje o ďalších %n blokov</numerusform></translation>
-    </message>
     <message>
-        <location line="+2"/>
         <source>not accepted</source>
         <translation>neprijaté</translation>
     </message>
     <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
         <source>Debit</source>
         <translation>Debet</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <source>Total debit</source>
+        <translation>Celkový debet</translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation>Celkový kredit</translation>
+    </message>
+    <message>
         <source>Transaction fee</source>
         <translation>Transakčný poplatok</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>Net amount</source>
-        <translation>Čiastka netto</translation>
+        <translation>Suma netto</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Message</source>
         <translation>Správa</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Comment</source>
         <translation>Komentár</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transaction ID</source>
         <translation>ID transakcie</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Generované mince musia zrieť 120 blokov pred tým, než môžu byť použité. Keď sa vygeneroval tento blok, bol vysielaný do siete, kde má byť pridaný do reťazca blokov. Ak sa nepodarí dostať ho do reťazca blokov, jeho stav sa zmení na &quot;Neprijatý&quot;, a nebude použiteľný. Toto sa môže občas stať, ak iný uzol generuje blok v priebehu niekoľkých sekúnd pred Vami.</translation>
+        <source>Transaction total size</source>
+        <translation>Celková veľkosť transakcie</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Merchant</source>
+        <translation>Kupec</translation>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Vytvorené coins musia dospieť %1 blokov kým môžu byť minuté. Keď vytvoríte tento blok, bude rozoslaný do siete aby bol akceptovaný do reťaze blokov. Ak sa nedostane reťaze, jeho stav sa zmení na "zamietnutý" a nebude sa dať minúť. Toto sa môže občas stať ak iná nóda vytvorí blok približne v tom istom čase.</translation>
+    </message>
+    <message>
         <source>Debug information</source>
         <translation>Ladiace informácie</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Transaction</source>
         <translation>Transakcie</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Inputs</source>
         <translation>Vstupy</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Amount</source>
         <translation>Suma</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>true</source>
         <translation>pravda</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>false</source>
         <translation>nepravda</translation>
-    </message>
-    <message>
-        <location line="-202"/>
-        <source>, has not been successfully broadcast yet</source>
-        <translation>, ešte nebola úspešne odoslaná</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-36"/>
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otvorené pre %n ďalší blok</numerusform><numerusform>Otvorené pre %n ďalšie bloky</numerusform><numerusform>Otvorené pre %n ďalších blokov</numerusform></translation>
-    </message>
-    <message>
-        <location line="+67"/>
-        <source>unknown</source>
-        <translation>neznámy</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
-        <source>Transaction details</source>
-        <translation>Detaily transakcie</translation>
-    </message>
-    <message>
-        <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
         <translation>Táto časť obrazovky zobrazuje detailný popis transakcie</translation>
+    </message>
+    <message>
+        <source>Details for %1</source>
+        <translation>Podrobnosti pre %1</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+231"/>
         <source>Date</source>
         <translation>Dátum</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Adresa</translation>
+        <source>Label</source>
+        <translation>Popis</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Amount</source>
-        <translation>Hodnota</translation>
-    </message>
-    <message>
-        <location line="+52"/>
         <source>Open until %1</source>
         <translation>Otvorené do %1</translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>Confirmed (%1 confirmations)</source>
-        <translation>Potvrdené (%1 potvrdení)</translation>
-    </message>
-    <message numerus="yes">
-        <location line="-15"/>
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otvoriť pre %n ďalší blok</numerusform><numerusform>Otvoriť pre %n ďalšie bloky</numerusform><numerusform>Otvoriť pre %n ďalšie bloky</numerusform></translation>
-    </message>
-    <message>
-        <location line="+6"/>
         <source>Offline</source>
         <translation>Offline</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Unconfirmed</source>
         <translation>Nepotvrdené</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Potvrdzujem (%1 z %2 doporučených potvrdení)</translation>
+        <translation>Potvrdzujem (%1 z %2 odporúčaných potvrdení)</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Potvrdené (%1 potvrdení)</translation>
+    </message>
+    <message>
         <source>Conflicted</source>
         <translation>V rozpore</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Nezrelé (%1 potvrdení, bude k dispozícii po %2)</translation>
+        <translation>Nezrelé (%1 potvrdení, bude dostupné po %2)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
         <translation>Ten blok nebol prijatý žiadnym iným uzlom a pravdepodobne nebude akceptovaný!</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Generated but not accepted</source>
         <translation>Vypočítané ale neakceptované</translation>
     </message>
     <message>
-        <location line="+42"/>
         <source>Received with</source>
         <translation>Prijaté s</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Received from</source>
-        <translation>Prijaté od:</translation>
+        <translation>Prijaté od</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sent to</source>
         <translation>Odoslané na</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Payment to yourself</source>
         <translation>Platba sebe samému</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Mined</source>
         <translation>Vyťažené</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <source>watch-only</source>
+        <translation>Iba sledovanie</translation>
+    </message>
+    <message>
         <source>(n/a)</source>
         <translation>(n/a)</translation>
     </message>
     <message>
-        <location line="+194"/>
-        <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Status transakcie. Presuňte myš nad toto pole a zobrazí sa počet potvrdení.</translation>
+        <source>(no label)</source>
+        <translation>(bez popisu)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Stav transakcie. Prejdite ponad toto pole pre zobrazenie počtu potvrdení.</translation>
+    </message>
+    <message>
         <source>Date and time that the transaction was received.</source>
         <translation>Dátum a čas prijatia transakcie.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Type of transaction.</source>
         <translation>Typ transakcie.</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Destination address of transaction.</source>
-        <translation>Cieľová adresa transakcie.</translation>
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation>Či je v tejto transakcii adresy iba na sledovanie.</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
         <translation>Suma pridaná alebo odobraná k zostatku.</translation>
     </message>
@@ -2405,850 +2720,947 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+54"/>
-        <location line="+17"/>
         <source>All</source>
-        <translation>Všetko</translation>
+        <translation>Všetky</translation>
     </message>
     <message>
-        <location line="-16"/>
         <source>Today</source>
         <translation>Dnes</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This week</source>
         <translation>Tento týždeň</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This month</source>
         <translation>Tento mesiac</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Last month</source>
         <translation>Minulý mesiac</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This year</source>
         <translation>Tento rok</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Range...</source>
         <translation>Rozsah...</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Received with</source>
         <translation>Prijaté s</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Sent to</source>
         <translation>Odoslané na</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>To yourself</source>
-        <translation>Sebe samému</translation>
+        <translation>Ku mne</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Mined</source>
         <translation>Vyťažené</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Other</source>
         <translation>Iné</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Vložte adresu alebo popis pre vyhľadávanie</translation>
+        <translation>Zadajte adresu alebo popis pre hľadanie</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Min amount</source>
-        <translation>Min. množstvo</translation>
+        <translation>Minimálna suma</translation>
     </message>
     <message>
-        <location line="+34"/>
         <source>Copy address</source>
         <translation>Kopírovať adresu</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy label</source>
         <translation>Kopírovať popis</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy amount</source>
         <translation>Kopírovať sumu</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy transaction ID</source>
         <translation>Kopírovať ID transakcie</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Edit label</source>
-        <translation>Editovať popis</translation>
+        <source>Copy raw transaction</source>
+        <translation>Skopírovať neupravenú transakciu</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Copy full transaction details</source>
+        <translation>Kopírovať všetky podrobnosti o transakcii</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>Upraviť popis</translation>
+    </message>
+    <message>
         <source>Show transaction details</source>
         <translation>Zobraziť podrobnosti transakcie</translation>
     </message>
     <message>
-        <location line="+138"/>
-        <source>Export Transaction Data</source>
-        <translation>Export transakčných údajov</translation>
+        <source>Export Transaction History</source>
+        <translation>Exportovať históriu transakcií</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Čiarkou oddelovaný súbor (*.csv)</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Confirmed</source>
         <translation>Potvrdené</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Watch-only</source>
+        <translation>Iba sledovanie</translation>
+    </message>
+    <message>
         <source>Date</source>
         <translation>Dátum</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Label</source>
         <translation>Popis</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Address</source>
         <translation>Adresa</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation>Suma</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation>Chyba pri exporte</translation>
+        <source>Exporting Failed</source>
+        <translation>Export zlyhal</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>Nemožno zapisovať do súboru %1.</translation>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>Vyskytla sa chyba pri pokuse o uloženie histórie transakcií do %1.</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <source>Exporting Successful</source>
+        <translation>Export úspešný</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>História transakciá bola úspešne uložená do %1.</translation>
+    </message>
+    <message>
         <source>Range:</source>
         <translation>Rozsah:</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>to</source>
         <translation>do</translation>
     </message>
 </context>
 <context>
+    <name>UnitDisplayStatusBarControl</name>
+    <message>
+        <source>Unit to show amounts in. Click to select another unit.</source>
+        <translation>Jednotka pre zobrazovanie súm. Kliknite pre zvolenie inej jednotky.</translation>
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    <message>
+        <source>No wallet has been loaded.</source>
+        <translation>Nie je načítaná peňaženka.</translation>
+    </message>
+</context>
+<context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+212"/>
-        <source>Sending...</source>
-        <translation>Posielam...</translation>
+        <source>Send Coins</source>
+        <translation>Poslať mince</translation>
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Exportovať...</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exportovať dáta v aktuálnej karte do súboru</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Zálohovanie peňaženky</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Dáta peňaženky (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>Zálohovanie zlyhalo</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>Vyskytla sa chyba pri pokuse o uloženie dát peňaženky do %1.</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>Záloha úspešná</translation>
+    </message>
+    <message>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>Dáta peňaženky boli úspešne uložené do %1.</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>Foin version</source>
-        <translation>Verzia Foin</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Usage:</source>
-        <translation>Použitie:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send command to -server or foind</source>
-        <translation>Pošli príkaz na -server alebo foind</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>List commands</source>
-        <translation>Zoznam príkazov</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Get help for a command</source>
-        <translation>Získať pomoc pre príkaz</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Options:</source>
         <translation>Možnosti:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Specify configuration file (default: foin.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: foin.conf)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Specify pid file (default: foind.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: foind.pid)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Specify wallet file (within data directory)</source>
-        <translation>Zadajte súbor peňaženky (v rámci dátového adresára)</translation>
-    </message>
-    <message>
-        <location line="-1"/>
         <source>Specify data directory</source>
-        <translation>Zadajte priečinok s dátami</translation>
+        <translation>Určiť priečinok s dátami</translation>
     </message>
     <message>
-        <location line="+163"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=foinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Foin Alert&quot; admin@foo.com
-</source>
-        <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
-%s
-Doporučuje sa použiť nasledovné náhodne heslo:
-rpcuser=foinrpc
-rpcpassword=%s
-(toto heslo si nemusíte pamätať)
-Užívateľské meno a heslo NESMIE byť rovnaké.
-Ak súbor neexistuje, vytvorte ho s právami &quot;môže čítať iba vlastník&quot;.
-Odporúča sa tiež nastaviť &quot;alertnotify&quot;, takže budete upozornení na problémy,
-napríklad: alertnotify=echo %%s | mail -s &quot;Foin upozornenie&quot; admin@foo.com
-</translation>
-    </message>
-    <message>
-        <location line="-161"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Nastaviť veľkosť vyrovnávajúcej pamäte pre databázu v megabytoch (predvolené: 25)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set database disk log size in megabytes (default: 100)</source>
-        <translation>Nastaviť veľkosť databázového denníka na disku v MB (predvolené: 100)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Listen for connections on &lt;port&gt; (default: 19534 or testnet: 29534)</source>
-        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: 19534 alebo testovacia sieť: 29534)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Udržiavať maximálne &lt;n&gt; spojení (predvolené: 125)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Pre načítanie peer adresy sa pripojte k uzlu, a odpojte</translation>
+        <translation>Pripojiť sa k uzlu, získať adresy ďalších počítačov v sieti a odpojiť sa</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Specify your own public address</source>
         <translation>Určite vašu vlastnú verejnú adresu</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Bind to given address. Use [host]:port notation for IPv6</source>
-        <translation>Spojiť do danej adresy. Použite [host]:port zápis pre IPv6</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Dotaz na partnerské adresy pomocou vyhľadávania DNS v prípade nedostatku adries (predvolené: 1, pokiaľ -connect)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Always query for peer addresses via DNS lookup (default: 0)</source>
-        <translation>Vždy sa pýtať na partnerské adresy pomocou vyhľadávania DNS (predvolené: 0)</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Hranica pre odpojenie zle sa správajúcich peerov (predvolené: 100)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Počet sekúnd kedy sa zabráni zle sa správajúcim peerom znovupripojenie (predvolené: 86400)</translation>
-    </message>
-    <message>
-        <location line="+153"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>Pri nastavovaní portu RPC %u pre počúvanie na IPv4 došlo k chybe: %s</translation>
-    </message>
-    <message>
-        <location line="-126"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 19575 or testnet: 29535)</source>
-        <translation>Počúvajte pre JSON-RPC spojenie na &lt;port&gt; (predvolené: 19575 alebo testovacia sieť: 29535)</translation>
-    </message>
-    <message>
-        <location line="-16"/>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Prijímať príkazy z príkazového riadku a JSON-RPC</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
+        <translation>Pokiaľ &lt;category&gt; nie je nastavená, alebo &lt;category&gt; = 1, vypíš všetky informácie pre ladenie.</translation>
+    </message>
+    <message>
+        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
+        <translation>Redukcia nastavená pod minimálnu hodnotu %d MiB. Prosím použite vyššiu hodnotu.</translation>
+    </message>
+    <message>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>Chyba: Vyskytla sa interná chyba, pre viac informácií zobrazte debug.log</translation>
+    </message>
+    <message>
+        <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
+        <translation>Poplatok (za %s/kB) pridaný do transakcie, ktorú posielate (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Pruning blockstore...</source>
+        <translation>Redukovanie blockstore...</translation>
+    </message>
+    <message>
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Bežať na pozadí ako démon a prijímať príkazy</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use the test network</source>
-        <translation>Použiť testovaciu sieť</translation>
+        <source>Unable to start HTTP server. See debug log for details.</source>
+        <translation>Nepodarilo sa spustiť HTTP server. Pre viac detailov zobrazte debug log.</translation>
     </message>
     <message>
-        <location line="-23"/>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Prijímať pripojenie z vonka (predvolené: 1, ak nie -proxy alebo -connect)</translation>
+        <source>Bitcoin Core</source>
+        <translation>Foin More</translation>
     </message>
     <message>
-        <location line="+160"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>Pri nastavovaní portu RPC %u pre počúvanie na IPv6, spadne späť do IPv4 došlo k chybe: %s</translation>
+        <source>The %s developers</source>
+        <translation>Vývojári %s</translation>
     </message>
     <message>
-        <location line="-84"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Upozornenie: -paytxfee je nastavené veľmi vysoko. Toto sú transakčné poplatky ktoré zaplatíte ak odošlete transakciu.</translation>
+        <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
+        <translation>Akceptovať postúpené transakcie od povolených partnerov aj keď normálne nepostupujete transakcie (predvolené: %d)</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Foin will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny Foin nebude pracovať správne.</translation>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <location line="-19"/>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Upozornenie: Chyba pri čítaní wallet.dat! Všetky kľúče načítané správne, ale transakčné dáta alebo položky adresára môže chýbať alebo byť nesprávne.</translation>
+        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
+        <translation>Nemožné uzamknúť zložku %s. %s pravdepodobne už beží.</translation>
     </message>
     <message>
-        <location line="-16"/>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Upozornenie: wallet.dat poškodený, údaje zachránené! Pôvodný wallet.dat bol uložený ako wallet.{timestamp}.bak v %s; ak váš zostatok alebo transakcie nie sú správne, mali by ste obnoviť zo zálohy.</translation>
+        <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
+        <translation>Vymazať všetky transakcie z peňaženky a pri spustení znova získať z reťazca blokov iba tie získané pomocou -rescan</translation>
     </message>
     <message>
-        <location line="-31"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Pokus obnoviť súkromné kľúče z poškodeného wallet.dat</translation>
+        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
+        <translation>Chyba počas načítavania %s: Nemôžete povoliť HD na už existujúcej non-HD peaženke</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Block creation options:</source>
-        <translation>Možnosti vytvorenia bloku:</translation>
-    </message>
-    <message>
-        <location line="-66"/>
-        <source>Connect only to the specified node(s)</source>
-        <translation>Pripojiť sa len k určenému uzlu(om)</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Objavte vlastnú IP adresa (predvolené: 1 pri počúvaní a nie -externalip)</translation>
-    </message>
-    <message>
-        <location line="+97"/>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Nepodarilo sa počúvať žiadnom porte. Použite -listen=0 ak to chcete.</translation>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Neplatná -tor adresa: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
-        <translation>Neplatná suma pre -reservebalance=&lt;množstvo&gt;</translation>
-    </message>
-    <message>
-        <location line="-85"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>Maximum pre-pripojenie prijímacej vyrovnávacej pamäti, &lt;n&gt;*1000 bajtov (predvolené: 5000)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Maximum pre-pripojenie posielacej vyrovnávacej pamäti, &lt;n&gt;*1000 bajtov (predvolené: 1000)</translation>
-    </message>
-    <message>
-        <location line="-16"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Pripojiť len k uzlom siete &lt;net&gt; (IPv4, IPv6 alebo Tor)</translation>
-    </message>
-    <message>
-        <location line="+30"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation>Pred debug výstup s časovou pečiatkou</translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL možnosť: (pozrite Bitcoin Wiki pre návod na nastavenie SSL)</translation>
-    </message>
-    <message>
-        <location line="-34"/>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Odoslať trace/debug informácie na konzolu namiesto debug.info súboru</translation>
-    </message>
-    <message>
-        <location line="+33"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>Nastavte maximálnu veľkosť bloku v bajtoch (predvolené: 250000)</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Nastavte minimálnu veľkosť bloku v bajtoch (predvolené: 0)</translation>
-    </message>
-    <message>
-        <location line="-33"/>
-        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Stlačiť debug.log súbor na spustenie klienta (predvolené: 1, keď nie -debug)</translation>
-    </message>
-    <message>
-        <location line="-41"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Určiť aut spojenia v milisekundách (predvolené: 5000)</translation>
-    </message>
-    <message>
-        <location line="+28"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (default: 0)</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (default: 1 when listening)</translation>
-    </message>
-    <message>
-        <location line="-25"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>Použiť proxy server k získaniu Tor skrytých služieb (predvolené: rovnaká ako -proxy)</translation>
-    </message>
-    <message>
-        <location line="+45"/>
-        <source>Username for JSON-RPC connections</source>
-        <translation>Užívateľské meno pre JSON-RPC spojenia</translation>
-    </message>
-    <message>
-        <location line="+50"/>
-        <source>Verifying database integrity...</source>
-        <translation>Overenie integrity databázy ...</translation>
-    </message>
-    <message>
-        <location line="+43"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Chyba: Peňaženka je zamknutá, nie je možné vytvoriť transakciu!</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Chyba: Táto operácia vyžaduje transakčný poplatok vo výške aspoň %s, kvôli jej množstvu, zložitosti, alebo použitím nedávno prijatých finančných prostriedkov!</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation>Chyba: Vytvorenie transakcie zlyhalo!</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Chyba: Transakcia bola zamietnutá! Toto môže nastať, ak niektoré z mincí vo vašej peňaženke sa už použili, ako napríklad, ak ste použili kópiu wallet.dat a mince boli použité v kópii, ale neboli označené ako použité tu.</translation>
-    </message>
-    <message>
-        <location line="-15"/>
-        <source>Warning</source>
-        <translation>Varovanie</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Information</source>
-        <translation>Informácia</translation>
-    </message>
-    <message>
-        <location line="-7"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Upozornenie: Táto verzia je zastaraná, vyžaduje sa aktualizácia!</translation>
-    </message>
-    <message>
-        <location line="-23"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat je poškodený, záchrana zlyhala</translation>
-    </message>
-    <message>
-        <location line="-55"/>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Heslo pre JSON-rPC spojenia</translation>
-    </message>
-    <message>
-        <location line="-47"/>
-        <source>Connect through SOCKS5 proxy</source>
-        <translation>Pripojenie cez SOCKS5 proxy</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>Sync time with other nodes. Disable if time on your system is precise e.g. syncing with NTP (default: 1)</source>
-        <translation>Synchronizácia času s ostatnými uzlami. Zakázať ak čas na vašom systéme je presný, napr synchronizáciu s NTP (predvolené: 1)</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>When creating transactions, ignore inputs with value less than this (default: 0.01)</source>
-        <translation>Pri vytváraní transakcií, ignorovať vstupy s hodnotou nižšou než táto (predvolené: 0.01)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
-        <translation>Výstupné informácie o ladení. (predvolené: 0, zadanie &lt;category&gt; je nepovinné)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>Ak nie je zadaná &lt;category&gt;, vypíš všetky ladiace informácie</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; môže byť:</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
-        <translation>Vstúpte do režimu testovania regresiou, ktorá používa špeciálny reťazec, v ktorom môžu byť bloky vyriešiť okamžite. Tento je určený pre regresné testovanie nástrojov a vývoja aplikácie.</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Povoliť JSON-RPC spojenia z určenej IP adresy.</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Poslať príkaz nóde bežiacej na &lt;ip&gt; (predvolené: 127.0.0.1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Wait for RPC server to start</source>
-        <translation>Pred spustením počkať na RPC server</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation>Nastavte počet vlákien pre obsluhu RPC volaní (predvolené: 4)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Vykonaj príkaz, ak zmeny v najlepšom bloku (%s v príkaze nahradí blok hash)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Spustiť príkaz ak sa zmení transakcia v peňaženke (%s v cmd sa nahrádza TxID)</translation>
+        <translation>Vykonaj príkaz keď sa zmení transakcia peňaženky (%s v príkaze je nahradená TxID)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Require a confirmations for change (default: 0)</source>
-        <translation>Požadovať potvrdenie pre zmenu (predvolené: 0)</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <translation>Prosím skontrolujte systémový čas a dátum. Keď je váš čas nesprávny, %s nebude fungovať správne.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation>Spustiť príkaz, keď je prijaté príslušné upozornenie (%s v cmd je nahradený správou)</translation>
+        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
+        <translation>Keď si myslíte, že %s je užitočný, podporte nás. Pre viac informácií o software navštívte %s.</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation>Aktualizuj peňaženku na najnovší formát.</translation>
+        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+        <translation>Nastaviť počeť vlákien overujúcich skripty (%u až %d, 0 = auto, &lt;0 = nechať toľkoto jadier voľných, prednastavené: %d)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Nastaviť zásobu adries na &lt;n&gt; (predvolené: 100)</translation>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <translation>Databáza blokov obsahuje blok, ktorý vyzerá byť z budúcnosti. Toto môže byť spôsobené nesprávnym systémovým časom vášho počítača. Obnovujte databázu blokov len keď ste si istý, že systémový čas je nastavený správne.</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Znovu skenovať reťaz blokov pre chýbajúce transakcie</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>How thorough the block verification is (0-6, default: 1)</source>
-        <translation>Ako dôkladné overenie bloku je (0-6, predvolené: 1)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Imports blocks from external blk000?.dat file</source>
-        <translation>Importovať bloky z externého blk000?.dat súbora</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Keep at most &lt;n&gt; MiB of unconnectable blocks in memory (default: %u)</source>
-        <translation>Uchovávať najviac &lt;n&gt; MiB nepripojiteľných blokov v pamäti (predvolené: %u)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Použiť OpenSSL (https) pre JSON-RPC spojenia</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation>Súbor s certifikátom servra (predvolené: server.cert)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation>Súkromný kľúč servra (predvolené: server.pem)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Chyba: Nájdený nepodporovaný argument -socks. Nastavenie SOCKS verzie nie je už možné, podporované sú už iba proxy SOCKS5.</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Initialization sanity check failed. Foin is shutting down.</source>
-        <translation>Úvodné kontrolné testy zlyhali. Foin sa teraz zatvori.</translation>
-    </message>
-    <message>
-        <location line="+20"/>
-        <source>Error loading block database</source>
-        <translation>Chyba pri načítaní databáze blokov</translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Error: Wallet unlocked for staking only, unable to create transaction.</source>
-        <translation>Chyba: Peňaženka je odomknutá len pre stávkovanie, nemožné vytvoriť transakciu.</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Error: Disk space is low!</source>
-        <translation>Chyba: Nedostatok miesta na disku!</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <location line="-135"/>
-        <source>This help message</source>
-        <translation>Táto pomocná správa</translation>
+        <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
+        <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (predvolené: 1 počas počúvania a bez -proxy)</translation>
     </message>
     <message>
-        <location line="+100"/>
-        <source>Wallet %s resides outside data directory %s.</source>
-        <translation>Peňaženka %s je umiestnená mimo dátový adresár %s.</translation>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation>Varovanie: Javí sa že sieť sieť úplne nesúhlasí! Niektorí mineri zjavne majú ťažkosti.</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Nemôžem sa pripojiť k %s na tomto počítači (bind vrátil chybu %d, %s)</translation>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation>Varovanie: Zjavne sa úplne nezhodujeme s našimi peer-mi! Možno potrebujete prejsť na novšiu verziu alebo ostatné uzly potrebujú vyššiu verziu.</translation>
     </message>
     <message>
-        <location line="-136"/>
+        <source>%s corrupt, salvage failed</source>
+        <translation>%s je poškodený, záchrana zlyhala</translation>
+    </message>
+    <message>
+        <source>-maxmempool must be at least %d MB</source>
+        <translation>-maxmempool musí byť najmenej %d MB</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; môže byť:</translation>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation>Voľby vytvorenia bloku:</translation>
+    </message>
+    <message>
+        <source>Change index out of range</source>
+        <translation>Menný index mimo rozsah</translation>
+    </message>
+    <message>
+        <source>Connection options:</source>
+        <translation>Možnosti pripojenia:</translation>
+    </message>
+    <message>
+        <source>Copyright (C) %i-%i</source>
+        <translation>Copyright (C) %i-%i</translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation>Zistená poškodená databáza blokov</translation>
+    </message>
+    <message>
+        <source>Debugging/Testing options:</source>
+        <translation>Možnosti ladenia/testovania:</translation>
+    </message>
+    <message>
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation>Nenahrat peňaženku a zablokovať volania RPC.</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Chcete znovu zostaviť databázu blokov?</translation>
+    </message>
+    <message>
+        <source>Enable publish hash block in &lt;address&gt;</source>
+        <translation>Povoliť zverejneneie hash blokov pre &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish hash transaction in &lt;address&gt;</source>
+        <translation>Povoliť zverejnenie hash transakcií pre &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw block in &lt;address&gt;</source>
+        <translation>Povoliť zverejnenie raw bloku pre &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Enable publish raw transaction in &lt;address&gt;</source>
+        <translation>Povoliť publikovať hrubý prevod v &lt;address&gt;</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation>Chyba inicializácie databázy blokov</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation>Chyba spustenia databázového prostredia peňaženky %s!</translation>
+    </message>
+    <message>
+        <source>Error loading %s</source>
+        <translation>Chyba načítania %s</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet corrupted</source>
+        <translation>Chyba načítania %s: Peňaženka je poškodená</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet requires newer version of %s</source>
+        <translation>Chyba načítania %s: Peňaženka vyžaduje novšiu verziu %s</translation>
+    </message>
+    <message>
+        <source>Error loading block database</source>
+        <translation>Chyba načítania databázy blokov</translation>
+    </message>
+    <message>
+        <source>Error opening block database</source>
+        <translation>Chyba otvárania databázy blokov</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Chyba: Málo miesta na disku!</translation>
+    </message>
+    <message>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation>Chyba počúvania na ktoromkoľvek porte. Použi -listen=0 ak toto chcete.</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>Prebieha import ...</translation>
+    </message>
+    <message>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>Nesprávny alebo žiadny genesis blok nájdený. Nesprávny dátový priečinok alebo sieť?</translation>
+    </message>
+    <message>
+        <source>Initialization sanity check failed. %s is shutting down.</source>
+        <translation>Kontrola čistoty pri inicializácií zlyhala. %s sa vypína.</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Neplatná -onion adresa:  '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
+        <translation>Neplatná suma pre -%s=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
+        <translation>Neplatná suma pre -fallbackfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Loading banlist...</source>
+        <translation>Načítavam banlist...</translation>
+    </message>
+    <message>
+        <source>Location of the auth cookie (default: data dir)</source>
+        <translation>Umiestnenie overovacieho cookie súboru (predvolená: Priečinok s dátami)</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>Nedostatok kľúčových slov súboru.</translation>
+    </message>
+    <message>
+        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
+        <translation>Pripojiť iba k uzlom v sieti &lt;net&gt; (ipv4, ipv6, alebo onion)</translation>
+    </message>
+    <message>
+        <source>Print this help message and exit</source>
+        <translation>Vytlačiť túto pomocnú správu a ukončiť</translation>
+    </message>
+    <message>
+        <source>Print version and exit</source>
+        <translation>Vytlačiť verziu a ukončiť</translation>
+    </message>
+    <message>
+        <source>Prune cannot be configured with a negative value.</source>
+        <translation>Redukovanie nemôže byť nastavené na zápornú hodnotu.</translation>
+    </message>
+    <message>
+        <source>Prune mode is incompatible with -txindex.</source>
+        <translation>Redukovanie je nekompatibilné s -txindex.</translation>
+    </message>
+    <message>
+        <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
+        <translation>Obnoviť stav reťazca a index blokov zo súborov blk*.dat na disku.</translation>
+    </message>
+    <message>
+        <source>Rebuild chain state from the currently indexed blocks</source>
+        <translation>Obnoviť stav reťazca z aktuálne indexovaných blokov.</translation>
+    </message>
+    <message>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation>Nastaviť veľkosť pomocnej pamäti databázy v megabajtoch (%d do %d, prednastavené: %d)</translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>Nastaviť najväčšiu veľkosť bloku v bytoch (predvolené: %d)</translation>
+    </message>
+    <message>
+        <source>Specify wallet file (within data directory)</source>
+        <translation>Označ súbor peňaženky (v priečinku s dátami)</translation>
+    </message>
+    <message>
+        <source>The source code is available from %s.</source>
+        <translation>Zdrojový kód je dostupný z %s</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. %s is probably already running.</source>
+        <translation>Nemožné pripojiť k %s na tomto počíťači. %s už pravdepodobne beží.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
+        <translation>Nepodporovaný parameter -benchmark bol ignorovaný, použite -debug=bench.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
+        <translation>Nepodporovaný argument -debugnet bol ignorovaný, použite -debug=net.</translation>
+    </message>
+    <message>
+        <source>Unsupported argument -tor found, use -onion.</source>
+        <translation>Nepodporovaný argument -tor, použite -onion.</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: %u)</source>
+        <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Overujem bloky...</translation>
+    </message>
+    <message>
+        <source>Verifying wallet...</source>
+        <translation>Overujem peňaženku...</translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>Peňaženka %s sa nachádza mimo dátového priečinka %s </translation>
+    </message>
+    <message>
+        <source>Wallet debugging/testing options:</source>
+        <translation>Ladiace / testovacie možnosti peňaženky.</translation>
+    </message>
+    <message>
+        <source>Wallet needed to be rewritten: restart %s to complete</source>
+        <translation>Peňaženka musí byť prepísaná: pre dokončenie reštartujte %s</translation>
+    </message>
+    <message>
+        <source>Wallet options:</source>
+        <translation>Voľby peňaženky:</translation>
+    </message>
+    <message>
+        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
+        <translation>Povoliť JSON-RPC pripojenia zo zadaného zdroja. Pre &lt;ip&gt; sú platné jednoduché IP (napr. 1.2.3.4), sieť/netmask (napr. 1.2.3.4/255.255.255.0) alebo sieť/CIDR (napr. 1.2.3.4/24). Táto možnosť môže byť zadaná niekoľko krát</translation>
+    </message>
+    <message>
+        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
+        <translation>Spojiť s danou adresou a povolenými partnerskými zariadeniami ktoré sa tam pripájajú. Použite zápis [host]:port pre IPv6</translation>
+    </message>
+    <message>
+        <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
+        <translation>Spojiť s danou adresou pre počúvanie JSON-RPC spojení. Použite zápis [host]:port pre IPv6. Táto možnosť môže byt zadaná niekoľko krát (predvolené: spojiť so všetkými rozhraniami)</translation>
+    </message>
+    <message>
+        <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
+        <translation>Vytvoriť nové súbory z predvolenými systémovými právami, namiesto umask 077 (funguje iba z vypnutou funkcionalitou peňaženky)</translation>
+    </message>
+    <message>
+        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
+        <translation>Zisti vlastnú IP adresu (predvolené: 1 pre listen a -externalip alebo -proxy)</translation>
+    </message>
+    <message>
+        <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
+        <translation>Chyba: Počúvanie prichádzajúcich spojení zlyhalo (vrátená chyba je %s)</translation>
+    </message>
+    <message>
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>Vykonať príkaz po prijatí patričného varovania alebo uvidíme veľmi dlhé rozdvojenie siete (%s v cmd je nahradené správou)</translation>
+    </message>
+    <message>
+        <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
+        <translation>Poplatky (v %s/kB) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
+        <translation>Ak nie je nastavené paytxfee, pridať dostatočný poplatok aby sa transakcia začala potvrdzovať priemerne v rámci bloku (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Neplatná suma pre -maxtxfee=&lt;amount&gt;: '%s' (aby sa transakcia nezasekla, minimálny prenosový poplatok musí byť aspoň %s)</translation>
+    </message>
+    <message>
+        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
+        <translation>Maximálna veľkosť dát v transakciách nosných dát, ktoré prenášame a ťažíme (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>Nastaviť najväčšiu veľkosť vysoká-dôležitosť/nízke-poplatky transakcií v bajtoch (prednastavené: %d)</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to send after the fee has been deducted</source>
+        <translation>Suma je príliš malá pre odoslanie transakcie</translation>
+    </message>
+    <message>
+        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
+        <translation>Uzle na zoznam povolených nemôžu byť DoS zakázané a ich transakcie vždy postúpené ďalej, aj v prípade, ak sú už pamäťovej fronte. Užitočné napr. pre brány</translation>
+    </message>
+    <message>
+        <source>(default: %u)</source>
+        <translation>(predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Accept public REST requests (default: %u)</source>
+        <translation>Akceptovať verejné REST žiadosti (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Automatically create Tor hidden service (default: %d)</source>
+        <translation>Automaticky vytvoriť skrytú službu Tor (predvolené: %d)</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS5 proxy</source>
+        <translation>Pripojiť cez proxy server SOCKS5</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>Chyba pri načítaní z databázy, ukončuje sa.</translation>
+    </message>
+    <message>
+        <source>Imports blocks from external blk000??.dat file on startup</source>
+        <translation>Importovať bloky z externého súboru blk000??.dat pri štarte</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Informácia</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
+        <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: '%s' (musí byť aspoň %s)</translation>
+    </message>
+    <message>
+        <source>Invalid netmask specified in -whitelist: '%s'</source>
+        <translation>Nadaná neplatná netmask vo -whitelist: '%s'</translation>
+    </message>
+    <message>
+        <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
+        <translation>V pamäti udržiavať najviac &lt;n&gt; nepotvrdených transakcií (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Need to specify a port with -whitebind: '%s'</source>
+        <translation>Je potrebné zadať port s -whitebind: '%s'</translation>
+    </message>
+    <message>
+        <source>Node relay options:</source>
+        <translation>Prenosové možnosti uzla:</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>Možnosti servra RPC:</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions on startup</source>
+        <translation>Pri spustení skontrolovať reťaz blokov pre chýbajúce transakcie peňaženky</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Odoslať trace/debug informácie na konzolu namiesto debug.info žurnálu</translation>
+    </message>
+    <message>
+        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
+        <translation>Poslať ako transakcie bez poplatku, ak je to možné (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>Zobraziť všetky možnosti ladenia (použitie: --help --help-debug)</translation>
+    </message>
+    <message>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>Zmenšiť debug.log pri spustení klienta (predvolené: 1 ak bez -debug)</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation>Podpísanie správy zlyhalo</translation>
+    </message>
+    <message>
+        <source>The transaction amount is too small to pay the fee</source>
+        <translation>Suma transakcie je príliš malá na zaplatenie poplatku</translation>
+    </message>
+    <message>
+        <source>This is experimental software.</source>
+        <translation>Toto je experimentálny softvér.</translation>
+    </message>
+    <message>
+        <source>Tor control port password (default: empty)</source>
+        <translation>Heslo na kontrolu portu pre Tor (predvolené: žiadne)</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation>Suma transakcie príliš malá</translation>
+    </message>
+    <message>
+        <source>Transaction too large for fee policy</source>
+        <translation>Transakcia je príliš veľká pre aktuálne podmienky poplatkov</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation>Transakcia príliš veľká</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>Na tomto počítači sa nedá vytvoriť väzba %s (vytvorenie väzby vrátilo chybu %s)</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format on startup</source>
+        <translation>Aktualizovať peňaženku na posledný formát pri štarte</translation>
+    </message>
+    <message>
+        <source>Username for JSON-RPC connections</source>
+        <translation>Užívateľské meno pre JSON-RPC spojenia</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Upozornenie</translation>
+    </message>
+    <message>
+        <source>Zapping all transactions from wallet...</source>
+        <translation>Zmazať všetky transakcie z peňaženky...</translation>
+    </message>
+    <message>
+        <source>ZeroMQ notification options:</source>
+        <translation>Možnosti pripojenia ZeroMQ:</translation>
+    </message>
+    <message>
+        <source>Password for JSON-RPC connections</source>
+        <translation>Heslo pre JSON-rPC spojenia</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Vykonaj príkaz, ak zmeny v najlepšom bloku (%s v príkaze nahradí blok hash)</translation>
+    </message>
+    <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Povoliť vyhľadávania DNS pre -addnode, -seenode a -connect</translation>
+        <translation>Povoliť vyhľadávanie DNS pre pridanie nódy a spojenie</translation>
     </message>
     <message>
-        <location line="+121"/>
         <source>Loading addresses...</source>
-        <translation>Načítavajú sa adresy...</translation>
+        <translation>Načítavanie adries...</translation>
     </message>
     <message>
-        <location line="-10"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Chyba načítania wallet.dat: Peňaženka je poškodená</translation>
+        <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
+        <translation>(1 = zachovať metaúdaje tx napr. vlastníka účtu a informácie o platobných príkazoch, 2 = zahodiť metaúdaje tx)</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Foin</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Foin</translation>
+        <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Poplatky (v %s/kB) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Foin to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte Foin k dokončeniu</translation>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
+        <translation>Ako dôkladné je -checkblocks overenie blokov (0-4, predvolené: %u)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error loading wallet.dat</source>
-        <translation>Chyba načítania wallet.dat</translation>
+        <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
+        <translation>Udržiavať kompletný transakčný index, využíva getrawtransaction rpc volanie (predvolené: %u)</translation>
     </message>
     <message>
-        <location line="-15"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Neplatná adresa proxy: &apos;%s&apos;</translation>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
+        <translation>Počet sekúnd, počas ktorých nepripájať zle správajúce sa uzle (predvolené: %u)</translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Špecifikovaná neznáma sieť v -onlynet: &apos;%s&apos;</translation>
+        <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
+        <translation>Výstupné ladiace informácie (predvolené: %u, dodanie &lt;category&gt; je voliteľné)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Nedá sa vyriešiť -bind adresa: &apos;%s&apos;</translation>
+        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
+        <translation>Toto je poplatok za transakciu keď odhad poplatkov ešte nie je k dispozícii.</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Nemožno vyriešiť -externalip adresu: &apos;%s&apos;</translation>
+        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
+        <translation>Celková dĺžka verzie sieťového reťazca (%i) prekračuje maximálnu dĺžku (%i). Znížte počet a veľkosť komentárov.</translation>
     </message>
     <message>
-        <location line="-22"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
+        <translation>Sa snaží držať odchádzajúce prevádzku v rámci daného cieľa (v MB za 24h), 0 = žiadny limit (predvolený: %d)</translation>
     </message>
     <message>
-        <location line="+59"/>
-        <source>Sending...</source>
-        <translation>Posielam...</translation>
+        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <translation>Nepodporovaný argument -socks nájdený. Nastavenie SOCKS verzie už nie je viac moźné, iba SOCKS5 proxies sú podporované.</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Invalid amount</source>
-        <translation>Neplatná suma</translation>
+        <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
+        <translation>Nepodporovaný argument -whitelistalwaysrelay ignorovaný, použite -whitelistrelay a/alebo -whitelistforcerelay.</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
+        <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
+        <translation>Varovanie: Neznáma verzia blokov sa doluje! Je možné, že neznáme pravidlá majú efekt</translation>
+    </message>
+    <message>
+        <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>Varovanie: Peňaženka poškodená, dáta boli zachránené! Originálna %s ako %s v %s; ak váš zostatok alebo transakcie sú nesprávne, mali by ste obnoviť zálohu.</translation>
+    </message>
+    <message>
+        <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
+        <translation>Povoliť partnerov pripájajúcich sa z danej IP adresy (napr. 1.2.3.4) alebo zo siete vo formáte CIDR (napr. 1.2.3.0/24). Môže byť zadané viackrát.</translation>
+    </message>
+    <message>
+        <source>%s is set very high!</source>
+        <translation>Hodnota %s je nastavená veľmi vysoko!</translation>
+    </message>
+    <message>
+        <source>(default: %s)</source>
+        <translation>(predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
+        <translation>Vždy sa dotazovať adresy partnerských uzlov cez vyhľadávanie DNS (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
+        <translation>Koľko blokov overiť pri spustení (predvolené: %u, 0 = všetky)</translation>
+    </message>
+    <message>
+        <source>Include IP addresses in debug output (default: %u)</source>
+        <translation>Zahrnúť IP adresy v ladiacom výstupe (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Neplatná adresa proxy: '%s'</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Počúvať JSON-RPC pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
+        <translation>Udržiavať najviac &lt;n&gt; spojení s inými počítačmi (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Maximálna prijímajúca medzipamäť pre pripojenie, &lt;n&gt;*1000 bajtov (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
+        <translation>Maximálna odosielajúca medzipamäť pre pripojenie, &lt;n&gt;*1000 bajtov (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Prepend debug output with timestamp (default: %u)</source>
+        <translation>Na začiatok pripojiť časovú známku k ladiacemu výstupu (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Relay and mine data carrier transactions (default: %u)</source>
+        <translation>Prenášať a ťažiť transakcie nosných dát (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Relay non-P2SH multisig (default: %u)</source>
+        <translation>Prenášať non-P2SH multi-podpis (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
+        <translation>Nastaviť veľkosť kľúča fronty na &lt;n&gt; (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Set the number of threads to service RPC calls (default: %d)</source>
+        <translation>Nastaviť počet vlákien na obsluhu RPC volaní (predvolené: %d)</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: %s)</source>
+        <translation>Zadať konfiguračný súbor (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
+        <translation>Zadajte časový limit pripojenia v milisekundách (minimum: 1, predvolené: %d)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: %s)</source>
+        <translation>Zadať pid súbor (predvolené: %s)</translation>
+    </message>
+    <message>
+        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
+        <translation>Minúť nepotvrdené zmenu pri posielaní transakcií (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Starting network threads...</source>
+        <translation>Spúšťajú sa sieťové vlákna...</translation>
+    </message>
+    <message>
+        <source>The wallet will avoid paying less than the minimum relay fee.</source>
+        <translation>Peňaženka zabráni zaplateniu menšej sumy ako je minimálny poplatok.</translation>
+    </message>
+    <message>
+        <source>This is the minimum transaction fee you pay on every transaction.</source>
+        <translation>Toto je minimálny poplatok za transakciu pri každej transakcii.</translation>
+    </message>
+    <message>
+        <source>This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Toto je poplatok za transakciu pri odoslaní transakcie.</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
+        <translation>Hranica pre odpájanie zle sa správajúcim partnerským uzlom (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must not be negative</source>
+        <translation>Sumy transakcií nesmú byť záporné</translation>
+    </message>
+    <message>
+        <source>Transaction must have at least one recipient</source>
+        <translation>Transakcia musí mať aspoň jedného príjemcu</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Neznáma sieť upresnená v -onlynet: '%s'</translation>
+    </message>
+    <message>
         <source>Insufficient funds</source>
         <translation>Nedostatok prostriedkov</translation>
     </message>
     <message>
-        <location line="-41"/>
         <source>Loading block index...</source>
-        <translation>Načítava sa zoznam blokov...</translation>
+        <translation>Načítavanie zoznamu blokov...</translation>
     </message>
     <message>
-        <location line="-105"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Pridať uzol pre pripojenie a pokúsiť sa udržať otvorené pripojenie</translation>
+        <translation>Pridať nód na pripojenie a pokus o udržanie pripojenia otvoreného</translation>
     </message>
     <message>
-        <location line="+131"/>
-        <source>Unable to bind to %s on this computer. Foin is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. Foin je pravdepodobne už beží.</translation>
-    </message>
-    <message>
-        <location line="-108"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation>Poplatok za KB pridať do transakcií, ktoré odosielate</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>How many blocks to check at startup (default: 500, 0 = all)</source>
-        <translation>Koľko blokov skontrolovať pri štarte (predvolené: 2500, 0 = všetky) {500, 0 ?}</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
-        <translation>Akceptovateľné šifry (predvolené: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
-        <translation>Upozornenie: Zastaraný argument -debugnet bol ignorovaný, použite -debug=net</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Invalid amount for -mininput=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Neplatná suma pre -mininput=&lt;amount&gt;: &apos;%s&apos;</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Foin is probably already running.</source>
-        <translation>Nedá sa zamknúť dátová zložka %s. Foin je pravdepodobne už spustený</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation>Chyba pri inicializácii databázového prostredia peňaženky %s!</translation>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>Loading wallet...</source>
         <translation>Načítavam peňaženku...</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Cannot downgrade wallet</source>
         <translation>Nie je možné prejsť na nižšiu verziu peňaženky</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Cannot write default address</source>
-        <translation>Nie je možné zapísať predvolenú adresu</translation>
+        <translation>Nie je možné zapísať predvolenú adresu.</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Rescanning...</source>
         <translation>Nové prehľadávanie...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Done loading</source>
         <translation>Dokončené načítavanie</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <source>To use the %s option</source>
-        <translation>Použiť možnosť %s</translation>
-    </message>
-    <message>
-        <location line="-27"/>
         <source>Error</source>
         <translation>Chyba</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Musíš nastaviť rpcpassword=&lt;heslo&gt; v konfiguračnom súbore:
-%s
-Ak súbor neexistuje, vytvorte ho s oprávnením pre čítanie len vlastníkom (owner-readable-only)</translation>
     </message>
 </context>
 </TS>

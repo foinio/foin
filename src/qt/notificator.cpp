@@ -1,32 +1,39 @@
+// Copyright (c) 2011-2014 The Bitcoin Core developers
+// Distributed under the MIT software license, see the accompanying
+// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
 #include "notificator.h"
 
-#include <QMetaType>
-#include <QVariant>
-#include <QIcon>
 #include <QApplication>
-#include <QStyle>
 #include <QByteArray>
-#include <QSystemTrayIcon>
-#include <QMessageBox>
-#include <QTemporaryFile>
+#include <QIcon>
 #include <QImageWriter>
-
+#include <QMessageBox>
+#include <QMetaType>
+#include <QStyle>
+#include <QSystemTrayIcon>
+#include <QTemporaryFile>
+#include <QVariant>
 #ifdef USE_DBUS
-#include <QtDBus>
 #include <stdint.h>
+#include <QtDBus>
 #endif
-
+// Include ApplicationServices.h after QtDbus to avoid redefinition of check().
+// This affects at least OSX 10.6. See /usr/include/AssertMacros.h for details.
+// Note: This could also be worked around using:
+// #define __ASSERT_MACROS_DEFINE_VERSIONS_WITHOUT_UNDERSCORES 0
 #ifdef Q_OS_MAC
 #include <ApplicationServices/ApplicationServices.h>
 #include "macnotificationhandler.h"
 #endif
+
 
 #ifdef USE_DBUS
 // https://wiki.ubuntu.com/NotificationDevelopmentGuidelines recommends at least 128
 const int FREEDESKTOP_NOTIFICATION_ICON_SIZE = 128;
 #endif
 
-Notificator::Notificator(const QString &programName, QSystemTrayIcon *trayicon, QWidget *parent):
+Notificator::Notificator(const QString &programName, QSystemTrayIcon *trayicon, QWidget *parent) :
     QObject(parent),
     parent(parent),
     programName(programName),
@@ -42,7 +49,7 @@ Notificator::Notificator(const QString &programName, QSystemTrayIcon *trayicon, 
     }
 #ifdef USE_DBUS
     interface = new QDBusInterface("org.freedesktop.Notifications",
-          "/org/freedesktop/Notifications", "org.freedesktop.Notifications");
+        "/org/freedesktop/Notifications", "org.freedesktop.Notifications");
     if(interface->isValid())
     {
         mode = Freedesktop;
@@ -50,24 +57,25 @@ Notificator::Notificator(const QString &programName, QSystemTrayIcon *trayicon, 
 #endif
 #ifdef Q_OS_MAC
     // check if users OS has support for NSUserNotification
-	if( MacNotificationHandler::instance()->hasUserNotificationCenterSupport()) {
-		mode = UserNotificationCenter;
-	}
-	else {
-	    CFURLRef cfurl;
-	    OSStatus status = LSGetApplicationForInfo(kLSUnknownType, kLSUnknownCreator, CFSTR("growlTicket"), kLSRolesAll, 0, &cfurl);
-	    if (status != kLSApplicationNotFoundErr) {
-	        CFBundleRef bundle = CFBundleCreate(0, cfurl);
-	        if (CFStringCompare(CFBundleGetIdentifier(bundle), CFSTR("com.Growl.GrowlHelperApp"), kCFCompareCaseInsensitive | kCFCompareBackwards) == kCFCompareEqualTo) {
-	            if (CFStringHasSuffix(CFURLGetString(cfurl), CFSTR("/Growl.app/")))
-	                mode = Growl13;
-	            else
-	                mode = Growl12;
-	        }
-	        CFRelease(cfurl);
-	        CFRelease(bundle);
-	    }
-	}
+    if( MacNotificationHandler::instance()->hasUserNotificationCenterSupport()) {
+        mode = UserNotificationCenter;
+    }
+    else {
+        // Check if Growl is installed (based on Qt's tray icon implementation)
+        CFURLRef cfurl;
+        OSStatus status = LSGetApplicationForInfo(kLSUnknownType, kLSUnknownCreator, CFSTR("growlTicket"), kLSRolesAll, 0, &cfurl);
+        if (status != kLSApplicationNotFoundErr) {
+            CFBundleRef bundle = CFBundleCreate(0, cfurl);
+            if (CFStringCompare(CFBundleGetIdentifier(bundle), CFSTR("com.Growl.GrowlHelperApp"), kCFCompareCaseInsensitive | kCFCompareBackwards) == kCFCompareEqualTo) {
+                if (CFStringHasSuffix(CFURLGetString(cfurl), CFSTR("/Growl.app/")))
+                    mode = Growl13;
+                else
+                    mode = Growl12;
+            }
+            CFRelease(cfurl);
+            CFRelease(bundle);
+        }
+    }
 #endif
 }
 
@@ -108,7 +116,7 @@ Q_DECLARE_METATYPE(FreedesktopImage);
 // Image configuration settings
 const int CHANNELS = 4;
 const int BYTES_PER_PIXEL = 4;
-const int FOIN_PER_SAMPLE = 8;
+const int BITS_PER_SAMPLE = 8;
 
 FreedesktopImage::FreedesktopImage(const QImage &img):
     width(img.width()),
@@ -116,7 +124,7 @@ FreedesktopImage::FreedesktopImage(const QImage &img):
     stride(img.width() * BYTES_PER_PIXEL),
     hasAlpha(true),
     channels(CHANNELS),
-    bitsPerSample(FOIN_PER_SAMPLE)
+    bitsPerSample(BITS_PER_SAMPLE)
 {
     // Convert 00xAARRGGBB to RGBA bytewise (endian-independent) format
     QImage tmp = img.convertToFormat(QImage::Format_ARGB32);
@@ -283,6 +291,7 @@ void Notificator::notifyMacUserNotificationCenter(Class cls, const QString &titl
     // icon is not supported by the user notification center yet. OSX will use the app icon.
     MacNotificationHandler::instance()->showNotification(title, text);
 }
+
 #endif
 
 void Notificator::notify(Class cls, const QString &title, const QString &text, const QIcon &icon, int millisTimeout)

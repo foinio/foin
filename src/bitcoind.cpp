@@ -1,12 +1,47 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2012 The Bitcoin developers
-// Distributed under the MIT/X11 software license, see the accompanying
+// Copyright (c) 2009-2015 The Bitcoin Core developers
+// Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "rpcserver.h"
-#include "rpcclient.h"
+#if defined(HAVE_CONFIG_H)
+#include "config/bitcoin-config.h"
+#endif
+
+#include "chainparams.h"
+#include "clientversion.h"
+#include "rpc/server.h"
+#include "config.h"
 #include "init.h"
+#include "noui.h"
+#include "scheduler.h"
+#include "util.h"
+#include "httpserver.h"
+#include "httprpc.h"
+#include "utilstrencodings.h"
+
 #include <boost/algorithm/string/predicate.hpp>
+#include <boost/filesystem.hpp>
+#include <boost/thread.hpp>
+
+#include <stdio.h>
+
+/* Introduction text for doxygen: */
+
+/*! \mainpage Developer documentation
+ *
+ * \section intro_sec Introduction
+ *
+ * This is the developer documentation of the reference client for an experimental new digital currency called Bitcoin (https://www.bitcoin.org/),
+ * which enables instant payments to anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate
+ * with no central authority: managing transactions and issuing money are carried out collectively by the network.
+ *
+ * The software is a community-driven open source project, released under the MIT license.
+ *
+ * \section Navigation
+ * Use the buttons <code>Namespaces</code>, <code>Classes</code> or <code>Files</code> at the top of the page to start navigating the code.
+ */
+
+static bool fDaemon;
 
 void WaitForShutdown(boost::thread_group* threadGroup)
 {
@@ -19,7 +54,7 @@ void WaitForShutdown(boost::thread_group* threadGroup)
     }
     if (threadGroup)
     {
-        threadGroup->interrupt_all();
+        Interrupt(*threadGroup);
         threadGroup->join_all();
     }
 }
@@ -31,56 +66,78 @@ void WaitForShutdown(boost::thread_group* threadGroup)
 bool AppInit(int argc, char* argv[])
 {
     boost::thread_group threadGroup;
+    CScheduler scheduler;
+
+    auto &config = const_cast<Config &>(GetConfig());
 
     bool fRet = false;
+
+    //
+    // Parameters
+    //
+    // If Qt is used, parameters/bitcoin.conf are parsed in qt/bitcoin.cpp's main()
+    ParseParameters(argc, argv);
+
+    // Process help and version before taking care about datadir
+    if (mapArgs.count("-?") || mapArgs.count("-h") ||  mapArgs.count("-help") || mapArgs.count("-version"))
+    {
+        std::string strUsage = strprintf(_("%s Daemon"), _(PACKAGE_NAME)) + " " + _("version") + " " + FormatFullVersion() + "\n";
+
+        if (mapArgs.count("-version"))
+        {
+            strUsage += FormatParagraph(LicenseInfo());
+        }
+        else
+        {
+            strUsage += "\n" + _("Usage:") + "\n" +
+                  "  foind [options]                     " + strprintf(_("Start %s Daemon"), _(PACKAGE_NAME)) + "\n";
+
+            strUsage += "\n" + HelpMessage(HMM_BITCOIND);
+        }
+
+        fprintf(stdout, "%s", strUsage.c_str());
+        return true;
+    }
+
     try
     {
-        //
-        // Parameters
-        //
-        // If Qt is used, parameters/bitcoin.conf are parsed in qt/bitcoin.cpp's main()
-        ParseParameters(argc, argv);
         if (!boost::filesystem::is_directory(GetDataDir(false)))
         {
-            fprintf(stderr, "Error: Specified directory does not exist\n");
-            Shutdown();
+            fprintf(stderr, "Error: Specified data directory \"%s\" does not exist.\n", mapArgs["-datadir"].c_str());
+            return false;
         }
-        ReadConfigFile(mapArgs, mapMultiArgs);
-
-        if (mapArgs.count("-?") || mapArgs.count("--help"))
+        try
         {
-            // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("Foin version") + " " + FormatFullVersion() + "\n\n" +
-                _("Usage:") + "\n" +
-                  "  foind [options]                     " + "\n" +
-                  "  foind [options] <command> [params]  " + _("Send command to -server or foind") + "\n" +
-                  "  foind [options] help                " + _("List commands") + "\n" +
-                  "  foind [options] help <command>      " + _("Get help for a command") + "\n";
-
-            strUsage += "\n" + HelpMessage();
-
-            fprintf(stdout, "%s", strUsage.c_str());
+            ReadConfigFile(mapArgs, mapMultiArgs);
+        } catch (const std::exception& e) {
+            fprintf(stderr,"Error reading configuration file: %s\n", e.what());
+            return false;
+        }
+        // Check for -testnet or -regtest parameter (Params() calls are only valid after this clause)
+        try {
+            SelectParams(ChainNameFromCommandLine());
+        } catch (const std::exception& e) {
+            fprintf(stderr, "Error: %s\n", e.what());
             return false;
         }
 
         // Command-line RPC
+        bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
             if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "foin:"))
                 fCommandLine = true;
 
         if (fCommandLine)
         {
-            if (!SelectParamsFromCommandLine()) {
-                fprintf(stderr, "Error: invalid combination of -regtest and -testnet.\n");
-                return false;
-            }
-            int ret = CommandLineRPC(argc, argv);
-            exit(ret);
+            fprintf(stderr, "Error: There is no RPC client functionality in foind anymore. Use the foind-cli utility instead.\n");
+            exit(EXIT_FAILURE);
         }
-#if !defined(WIN32)
+#ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon)
         {
+            fprintf(stdout, "Foin server starting\n");
+
             // Daemonize
             pid_t pid = fork();
             if (pid < 0)
@@ -90,7 +147,6 @@ bool AppInit(int argc, char* argv[])
             }
             if (pid > 0) // Parent process, pid is child process id
             {
-                CreatePidFile(GetPidFile(), pid);
                 return true;
             }
             // Child process falls through to rest of initialization
@@ -100,18 +156,22 @@ bool AppInit(int argc, char* argv[])
                 fprintf(stderr, "Error: setsid() returned %d errno %d\n", sid, errno);
         }
 #endif
+        SoftSetBoolArg("-server", true);
 
-        fRet = AppInit2(threadGroup);
+        // Set this early so that parameter interactions go to console
+        InitLogging();
+        InitParameterInteraction();
+        fRet = AppInit2(config, threadGroup, scheduler);
     }
-    catch (std::exception& e) {
-        PrintException(&e, "AppInit()");
+    catch (const std::exception& e) {
+        PrintExceptionContinue(&e, "AppInit()");
     } catch (...) {
-        PrintException(NULL, "AppInit()");
+        PrintExceptionContinue(NULL, "AppInit()");
     }
 
     if (!fRet)
     {
-        threadGroup.interrupt_all();
+        Interrupt(threadGroup);
         // threadGroup.join_all(); was left out intentionally here, because we didn't re-test all of
         // the startup-failure cases to make sure they don't result in a hang due to some
         // thread-blocking-waiting-for-another-thread-during-startup case
@@ -123,19 +183,12 @@ bool AppInit(int argc, char* argv[])
     return fRet;
 }
 
-extern void noui_connect();
 int main(int argc, char* argv[])
 {
-    bool fRet = false;
-    fHaveGUI = false;
+    SetupEnvironment();
 
     // Connect bitcoind signal handlers
     noui_connect();
 
-    fRet = AppInit(argc, argv);
-
-    if (fRet && fDaemon)
-        return 0;
-
-    return (fRet ? 0 : 1);
+    return (AppInit(argc, argv) ? EXIT_SUCCESS : EXIT_FAILURE);
 }
